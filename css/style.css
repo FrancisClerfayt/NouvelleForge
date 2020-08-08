@@ -13,3 +13,8 @@ header {
 header > img {
   max-height: 300px;
 }
+	footer {
+	width: 360px;
+	height: 80px;
+	background: #493389;
+}

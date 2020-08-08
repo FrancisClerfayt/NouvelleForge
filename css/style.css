@@ -5,13 +5,13 @@
 }
 
 header {
-  height: 18.7rem;
+  height: 9.4rem;
   width: 100%;
   background-color: #493389;
 }
 
 header > img {
-  max-height: 300px;
+  max-height: 150px;
 }
 
 footer {
@@ -23,5 +23,9 @@ footer {
 }
 
 .logo_partenaire {
-  max-height: 100px;
+  max-height: 50px;
+}
+
+#partenaires {
+  text-decoration: none;
 }

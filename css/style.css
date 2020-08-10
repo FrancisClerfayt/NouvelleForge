@@ -1,9 +1,12 @@
+/* Reset */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Maax';
 }
 
+/* Début CSS Header */
 header {
   height: 9.4rem;
   width: 100%;
@@ -13,10 +16,36 @@ header {
 header > img {
   max-height: 150px;
 }
+/* Fin CSS Header */
 
-/* CSS du Carousel page d'accueil */
-/* Début Carousel */
+/* Début CSS NavBar */
+.menu {
+  width: 100%;
+  height: 48px;
 
+}
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.navItem {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 20%;
+  text-align: center;
+}
+.navItem:hover {
+  background-color: #ccc;
+}
+.navItem > a {
+  text-decoration: none;
+  color: #000000;
+}
+/* Fin CSS NavBar */
+
+/* Début CSS du Carousel page d'accueil*/
 .slides {
   display: none;
 }
@@ -71,7 +100,6 @@ header > img {
 .dots {
   text-align: center;
 }
-
 .dot {
   cursor: pointer;
   height: 10px;
@@ -82,7 +110,6 @@ header > img {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-
 .active, .dot:hover {
   background-color: #717171;
 }
@@ -94,19 +121,17 @@ header > img {
   animation-name: fade;
   animation-duration: 1.5s;
 }
-
 @-webkit-keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
 }
-
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
 }
-
 /* Fin CSS Carousel */
 
+/* Début CSS footer */
 .logo_partenaire {
   max-height: 50px;
 }
@@ -122,3 +147,4 @@ footer {
   color: #fff;
   font-size: 1rem;
 }
+/* Fin CSS footer */

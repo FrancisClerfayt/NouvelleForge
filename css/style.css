@@ -7,12 +7,10 @@
 }
 
 h1, h2 {
-  font-family: "Maax";
   font-weight: 900;
 }
 
 h2, h3, h4, h5, h6 {
-  font-family: "Maax";
   font-weight: bold;
 }
 
@@ -27,7 +25,12 @@ header {
   background-color: #493389;
 }
 
-header > img {
+header > a {
+  max-height: 150px;
+  margin: 0;
+  padding: 0;
+}
+header > a > img {
   max-height: 150px;
 }
 /* Fin CSS Header */
@@ -36,13 +39,16 @@ header > img {
 .menu {
   width: 100%;
   height: 48px;
-
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 .navBar {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   list-style-type: none;
+  background-color: white;
 }
 .navItem {
   padding-top: 15px;
@@ -194,5 +200,30 @@ footer {
   background-color: #493389;
   color: #fff;
   font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+.newsletter {
+  width: 50%;
+}
+.buttonNewsletter {
+  padding: 2px 8px;
+  border: 1px solid black;
+  border-radius: 10%;
+}
+.cgu {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.cgu > a {
+  color: white;
+  text-decoration-style: dashed;
+}
+.cgu > a:hover {
+  color: #ccc;
 }
 /* Fin CSS footer */

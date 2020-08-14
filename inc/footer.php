@@ -10,10 +10,14 @@
   </a>
 </div>
 <footer>
-  <p> Notre Newsletter </p>
-  <ul class=footerD>
-    <li>Conditions Générales</li>
-    <li>Mentions Légales</li>
-    <li>FAQ</li>
-  </ul>
+  <div class="newsletter">
+    <p> Notre Newsletter </p>
+    <input type="email" name="mailNewsletter" placeholder="Votre adresse E-mail ici.">
+    <button type="submit" name="buttonNewsletter" class="buttonNewsletter">S'inscrire</button>
+  </div>
+  <div class="cgu">
+      <a href="#">Conditions Générales</a>
+      <a href="#">Mentions Légales</a>
+      <a href="#">FAQ</a>
+  </div>
 </footer>

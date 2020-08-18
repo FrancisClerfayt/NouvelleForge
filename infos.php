@@ -28,30 +28,26 @@
         <p>Le vendredi de 9h à 17h</p>
       </div>
       <!-- Partie formulaire de contact-->
+
       <div class="container">
-        <h3>Formulaire de contact</h3>
-        <div class="form">
-          <form class="contact" action="index.html" method="post">
-            <div>
-              <label for="name">Nom :</label>
-              <input type="text" name="user_name" id="Name">
-            </div>
-            <div>
-              <label for="mail">E-mail :</label>
-              <input type="email" name="user_mail" id="email">
-            </div>
-            <div>
+        <h3 id="titre">Formulaire de contact</h3>
+          <form class="form" action="index.html" method="post">
+              <label for="user_name">Nom :</label>
+              <input type="text" name="user_name" id="user_name">
+              <label for="user_firstname">Prénom :</label>
+              <input type="text" name="user_firstname" id="user_firstname">
+              <label for="user_email">E-mail :</label>
+              <input type="email" name="user_email" id="user_email">
               <label for="msg">Message :</label>
-              <textarea name="user_message" id="msg" rows="8" cols="80"></textarea>
-            </div>
-            <div class="button">
-              <button type="submit" name="button">Envoyer</button>              
-            </div>
+              <textarea name="user_message" rows="8" cols="80"></textarea>
+              <button class="button" type="submit" name="button">Envoyer</button>
+
+
           </form>
 
-        </div>
 
       </div>
+
 
 
 

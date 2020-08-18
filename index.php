@@ -12,7 +12,7 @@
 <body>
   <?php include "inc/header.php" ?>
   <?php include "inc/nav.php" ?>
-  <main>
+  <main class="accueil">
     <section>
       <!-- Contenant du Carousel -->
       <div class="slider-container">
@@ -73,7 +73,7 @@
     <section class="news">
       <div class="article">
         <h3> Titre Actualité 1</h3>
-        <img class="imageactu" src="images/actu1.png" alt="imageactu">
+        <!-- <img class="imageactu" src="images/actu1.png" alt="imageactu"> -->
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Fusce nulla augue, luctus eu ultrices tristique, luctus ut dolor.
@@ -91,7 +91,7 @@
       </div>
       <div class="article">
         <h3> Titre Actualité 2</h3>
-        <img class="imageactu" src="images/actu1.png" alt="imageactu">
+        <!-- <img class="imageactu" src="images/actu1.png" alt="imageactu"> -->
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Fusce nulla augue, luctus eu ultrices tristique, luctus ut dolor.

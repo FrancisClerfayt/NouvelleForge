@@ -5,15 +5,14 @@
   padding: 0;
   font-family: "Maax";
 }
-
-h1, h2 {
-  font-weight: 900;
-}
-
-h3, h4, h5, h6 {
-  font-weight: bold;
-}
-
+h1, h2 { font-weight: 900; }
+h3, h4, h5, h6 { font-weight: bold; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1.1rem; }
 main {
   padding: 1%;
 }
@@ -48,7 +47,7 @@ header > a > img {
   flex-direction: row;
   justify-content: space-around;
   list-style-type: none;
-  background-color: white;
+
 }
 .navItem {
   height: 48px;
@@ -65,10 +64,15 @@ header > a > img {
   width: 100%;
   height: 48px;
   padding-top: 15px;
+  font-size: 1.2rem;
 }
 /* Fin CSS NavBar */
 
 /* Début CSS page d'accueil */
+.accueil {
+  background-color: #f5f5f5;
+  
+}
 /* Début CSS du Carousel*/
 .slides {
   display: none;

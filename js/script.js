@@ -1,17 +1,38 @@
 // Début Carousel page d'accueil
 let slideIndex = 1;
-showSlides(slideIndex);
+let myTimer;
+let sliderContainer;
+
+// Quand la page est chargée
+window.addEventListener("load", function() {
+  // On set le premier slide
+  showSlides(slideIndex);
+  // On met en place l'automatisme
+  myTimer = setInterval(function(){plusSlides(1)}, 4000);
+
+  sliderContainer = document.getElementsByClassName
+});
 
 // Fonction pour passer au slide suivant ou précédant
 function plusSlide(n) {
-  slideIndex += n;
-  showSlides(slideIndex);
+  clearInterval(myTimer);
+  if(n < 0){
+    showSlides(slideIndex -= 1);
+  } else {
+    showSlides(slideIndex += 1);
+  }
+  if(n === -1){
+    myTimer = setInterval( function() { plusSlides(n + 2); }, 4000);
+  } else {
+    myTimer = setInterval( function() { plusSlides(n + 1); }, 4000);
+  }
 }
 
 // Fonction pour allaer direction au Slide n
 function currentSlide(n) {
-  slideIndex = n;
-  showSlides(slideIndex);
+  clearInterval(myTimer);
+  myTimer = setInterval(function() { plusSlides(n + 1) }, 4000);
+  showSlides(slideIndex = n);
 }
 
 

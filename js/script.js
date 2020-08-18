@@ -8,7 +8,7 @@ window.addEventListener("load", function() {
   // On set le premier slide
   showSlides(slideIndex);
   // On met en place l'automatisme
-  myTimer = setInterval(function(){plusSlides(1)}, 4000);
+  myTimer = setInterval(function(){ plusSlide(1) }, 4000);
   // On récupère le contenant du carousel
   sliderContainer = document.getElementsByClassName("slider-container")[0];
   // On lance la fonction pause quand la souris entre sur le carousel
@@ -16,16 +16,6 @@ window.addEventListener("load", function() {
   // On lance la fonction resume quand la souris quitte le carousel
   sliderContainer.addEventListener("mouseleave", resume);
 });
-
-function pause(){
-  // réinitialise le timer du carousel
-  clearInterval(myTimer);
-}
-
-function resume(){
-  clearInterval(myTimer);
-  myTimer = setInterval(function() { plusSlides(slideIndex) }, 4000);
-}
 
 // Fonction pour passer au slide suivant ou précédant
 function plusSlide(n) {
@@ -36,16 +26,26 @@ function plusSlide(n) {
     showSlides(slideIndex += 1);
   }
   if(n === -1){
-    myTimer = setInterval( function() { plusSlides(n + 2); }, 4000);
+    myTimer = setInterval( function() { plusSlide(n + 2); }, 4000);
   } else {
-    myTimer = setInterval( function() { plusSlides(n + 1); }, 4000);
+    myTimer = setInterval( function() { plusSlide(n + 1); }, 4000);
   }
+}
+
+function pause(){
+  // réinitialise le timer du carousel
+  clearInterval(myTimer);
+}
+
+function resume(){
+  clearInterval(myTimer);
+  myTimer = setInterval(function() { plusSlide(slideIndex) }, 4000);
 }
 
 // Fonction pour allaer direction au Slide n
 function currentSlide(n) {
   clearInterval(myTimer);
-  myTimer = setInterval(function() { plusSlides(n + 1) }, 4000);
+  myTimer = setInterval(function() { plusSlide(n + 1) }, 4000);
   showSlides(slideIndex = n);
 }
 

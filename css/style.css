@@ -253,9 +253,19 @@ footer {
   font-size: 2em;
 }
 .form{
-  width: 25%;
+  width: 40%;
   margin-top: 50px;
   margin: 0 auto;
+}
+#user_name{
+  height: 2em;
+}
+#user_firstname{
+  height: 2em;
+}
+#user_email{
+  width: 562px;
+  height: 2em;
 }
 input, textarea{
   width: 350px;

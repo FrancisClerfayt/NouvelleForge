@@ -30,6 +30,7 @@
     </div>
     <div class="moreInfo">
       <h3>Un Lieu idéal pour forger sa Start-Up!</h3>
+      <br>
       <p>
         - travailler sur ses projets
         <br>

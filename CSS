@@ -1,0 +1,279 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Maax"/*, "Montserrat", "Arial"*/;
+}
+h1, h2 { font-weight: 900; }
+h3, h4, h5, h6 { font-weight: bold; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1.1rem; }
+main {
+  padding: 1%;
+}
+
+/* Début CSS Header */
+header {
+  height: 9.4rem;
+  width: 100%;
+  background-color: #493389;
+}
+
+header > a {
+  max-height: 150px;
+  margin: 0;
+  padding: 0;
+}
+header > a > img {
+  max-height: 150px;
+}
+/* Fin CSS Header */
+
+/* Début CSS NavBar */
+.menu {
+  width: 100%;
+  height: 48px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+
+}
+.navItem {
+  height: 48px;
+  width: 20%;
+  text-align: center;
+}
+.navItem:hover {
+  background-color: #ccc;
+}
+.navItem > a {
+  text-decoration: none;
+  color: #000000;
+  display: block;
+  width: 100%;
+  height: 48px;
+  padding-top: 15px;
+  font-size: 1.2rem;
+}
+/* Fin CSS NavBar */
+
+/* Début CSS page d'accueil */
+.accueil {
+  background-color: #f5f5f5;
+  
+}
+/* Début CSS du Carousel*/
+.slides {
+  display: none;
+}
+
+/* Contenant */
+.slider-container {
+  max-height: 700px;
+  max-width: 932px;
+  position: relative;
+  margin: auto;
+}
+
+/* Boutons suivant et précédant */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Positionne de bouton suivant à droite */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Ajoute un fond noir légérement transparent au passage de la souris */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Texte du Carousel */
+.text {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Indicateurs de position */
+.dots {
+  text-align: center;
+}
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* Fin CSS Carousel */
+
+.news {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2% 1%;
+}
+.article {
+  width: 50%;
+  margin: 0 1%;
+}
+/* Fin CSS page d'accueil */
+
+/* Début CSS page de Co-Working */
+.coworking, /*.pepiniere*/ {
+  background-color: #f5f5f5;
+  padding: 1% 5% 2% 5%;
+}
+.titre {
+  text-align: center;
+}
+.description {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 2% 0;
+  /*text-align: justify;*/
+}
+.imgDesc {
+  width: 39%;
+  margin-right: 1%;
+}
+.imgDesc > img {
+  width: 100%;
+}
+.textDesc {
+  width: 60%;
+}
+.textDesc > p {
+  width: 80%;
+  margin: 10% 0 0 10%;
+}
+.moreInfo {
+  margin: 0 10%;
+}
+/* Fin CSS page de Co-Working */
+
+/*Début CSS page de la Pépinière*/
+.element_pepiniere {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 5% 0;
+    text-align: justify;
+}
+.logo_pepiniere {
+    width: 24%;
+    margin-right: 1%; 
+}
+.desc_pepiniere {
+    width: 75%;
+}
+/*Fin CSS page de la Pépinière*/
+
+/* Début CSS footer */
+#partenaires {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.logo_partenaire {
+  max-height: 50px;
+  margin: 0 20px;
+}
+
+footer {
+  width: 100%;
+  height: 80px;
+  background-color: #493389;
+  color: #fff;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+.newsletter {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mailNewsletter {
+  width: 300px;
+  padding: 6px 14px;
+  border-radius: 5px;
+}
+.buttonNewsletter {
+  padding: 6px 8px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+.cgu {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.cgu > a {
+  color: white;
+  text-decoration-style: dashed;
+}
+.cgu > a:hover {
+  color: #ccc;
+}
+/* Fin CSS footer */

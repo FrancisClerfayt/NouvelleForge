@@ -3,7 +3,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Maax";
+  font-family: "Maax", "Montserrat", Arial, sans-serif;
 }
 h1, h2 { font-weight: 900; }
 h3, h4, h5, h6 { font-weight: bold; }
@@ -16,9 +16,21 @@ h6 { font-size: 1.1rem; }
 main {
   padding: 1%;
 }
+h1, h2 { font-weight: 900; }
+h3, h4, h5, h6 { font-weight: bold; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1.1rem; }
+main { padding: 1%; }
 
 /* Début CSS Header */
 header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   height: 9.4rem;
   width: 100%;
   background-color: #493389;
@@ -31,6 +43,19 @@ header > a {
 }
 header > a > img {
   max-height: 150px;
+}
+.sous-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.sous-menu-item {
+  margin: 1% 5%;
+}
+.sous-menu-item > a {
+  color: white;
+  text-decoration-style: dashed;
 }
 /* Fin CSS Header */
 
@@ -106,12 +131,10 @@ header > a > img {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-
 /* Ajoute un fond noir légérement transparent au passage de la souris */
 .prev:hover, .next:hover {
-  background: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
-
 /* Texte du Carousel */
 .text {
   background-color: rgba(0, 0, 0, 0.5);
@@ -122,6 +145,39 @@ header > a > img {
   width: 100%;
   text-align: center;
 }
+/* Indicateurs de position */
+.dots {
+  text-align: center;
+}
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+/* Animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* Fin CSS Carousel */
 
 /* Indicateurs de position */
 .dots {
@@ -204,6 +260,26 @@ header > a > img {
 }
 /* Fin CSS page de Co-Working */
 
+/* Début CSS page de la Pépinière*/
+.pepiniere {
+  background-color: #f5f5f5;
+  padding: 1% 5% 2% 5%;
+}
+.element_pepiniere {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 5% 0;
+}
+.logo_pepiniere {
+  width: 24%;
+  margin-right: 1%;
+}
+.desc_pepiniere {
+  width: 75%;
+}
+/* Fin CSS page de la Pépinière */
+
 /* Début CSS footer */
 #partenaires {
   text-decoration: none;
@@ -264,7 +340,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   background-color: #f5f5f5;
-  
+
 }
 .maps{
   flex-direction: row;
@@ -330,3 +406,4 @@ label, #user_name, #user_firstname, #user_email, #user_message{
   height: 2em;
   margin-left: 275px;;
 }
+/* Fin CSS footer */

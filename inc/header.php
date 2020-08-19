@@ -13,10 +13,10 @@
       <a href="infos.php#formulairedecontact">Contact</a>
     </li>
     <li class="sous-menu-item">
-      <img src="FRENCH_FLAG.png" alt="drapeau français">
+      <img class="flag" src="img/French-flag.svg" alt="drapeau français">
     </li>
     <li class="sous-menu-item">
-      <img src="ENGLISH_FLAG.png" alt="drapeau anglais">
+      <img class="flag" src="img/English-flag.svg" alt="drapeau anglais">
     </li>
   </ul>
 </header>

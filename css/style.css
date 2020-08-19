@@ -30,13 +30,13 @@ main { padding: 1%; }
 header {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   height: 9.4rem;
   width: 100%;
   background-color: #493389;
 }
 
 header > a {
+  width: 70%;
   max-height: 150px;
   margin: 0;
   padding: 0;
@@ -45,10 +45,14 @@ header > a > img {
   max-height: 150px;
 }
 .sous-menu{
+  width: 28%;
+  align-self: flex-start;
+  margin-right: 2%;
+  margin-top: 1%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: flex-start;
+  list-style-type: none;
 }
 .sous-menu-item {
   margin: 1% 5%;
@@ -56,6 +60,13 @@ header > a > img {
 .sous-menu-item > a {
   color: white;
   text-decoration-style: dashed;
+}
+.sous-menu-item > a:hover {
+  color: #ccc;
+}
+.flag {
+  height: 30px;
+  border: 1px solid white;
 }
 /* Fin CSS Header */
 
@@ -274,6 +285,10 @@ header > a > img {
 .logo_pepiniere {
   width: 24%;
   margin-right: 1%;
+  align-self: center;
+}
+.logo_pepiniere > img {
+  max-height: 120px;
 }
 .desc_pepiniere {
   width: 75%;

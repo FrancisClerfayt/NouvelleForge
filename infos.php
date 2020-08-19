@@ -31,7 +31,7 @@
 
       <div class="container">
         <h3 id="titre">Formulaire de contact</h3>
-          <form class="form" action="index.html" method="post">
+          <form class="form" action="traitement_formulaire.php" method="post">
               <label for="user_name">Nom :</label>
               <input type="text" name="user_name" id="user_name">
               <label for="user_firstname">Prénom :</label>
@@ -40,7 +40,7 @@
               <input type="email" name="user_email" id="user_email">
               <label for="msg">Message :</label>
               <textarea id="user_message" name="user_message" rows="8" cols="80"></textarea>
-              <button class="button" type="submit" name="button">Envoyer</button>
+              <button class="button" type="submit" name="envoi">Envoyer</button>
 
 
           </form>

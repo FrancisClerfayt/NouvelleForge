@@ -39,7 +39,7 @@
               <label for="user_email">E-mail :</label>
               <input type="email" name="user_email" id="user_email">
               <label for="msg">Message :</label>
-              <textarea name="user_message" rows="8" cols="80"></textarea>
+              <textarea id="user_message" name="user_message" rows="8" cols="80"></textarea>
               <button class="button" type="submit" name="button">Envoyer</button>
 
 

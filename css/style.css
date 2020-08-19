@@ -253,25 +253,17 @@ footer {
   font-size: 2em;
 }
 .form{
-  width: 40%;
+  width: 33%;
   margin-top: 50px;
   margin: 0 auto;
 }
-#user_name{
-  height: 2em;
-}
-#user_firstname{
-  height: 2em;
-}
-#user_email{
-  width: 562px;
-  height: 2em;
-}
-input, textarea{
-  width: 350px;
+
+#user_name, #user_firstname, #user_email, #user_message{
+  width: 206px;
   box-sizing: border-box;
+  padding: 5px;
 }
-input:focus, textarea:focus {
+#user_name:focus, #user_firstname:focus, #user_email:focus, #user_message:focus {
   border-color: #000;
 }
 
@@ -281,14 +273,27 @@ label{
   text-align: right;
 
 }
-label, input, textarea{
-  margin-top: 1.5em;
+label, #user_name, #user_firstname, #user_email, #user_message{
+  margin-top: 3em;
 }
-textarea{
+#user_message{
   vertical-align: top;
+  width: 480px;
+  height: 12em;
+}
+#user_name{
+  height: 3em;
+}
+#user_firstname{
+  height: 3em;
+}
+#user_email{
+  width: 513px;
+  height: 3em;
 }
 .button {
   margin-top: 1.5em;
   width: 20%;
   height: 2em;
+  margin-left: 275px;;
 }

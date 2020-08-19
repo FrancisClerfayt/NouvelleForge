@@ -11,8 +11,8 @@
 <body>
   <?php include "inc/header.php" ?>
   <?php include "inc/nav.php" ?>
-  <main>
-    <h2>L'Espace Co-Working / Co-Design</h2>
+  <main class="coworking">
+    <h2 class="titre">L'Espace Co-Working / Co-Design</h2>
     <div class="description">
       <div class="imgDesc">
         <img src="img/Espace_Co-working.jpg" alt="Photo de l'espace de co-working de la Nouvelle-Forge">
@@ -30,6 +30,7 @@
     </div>
     <div class="moreInfo">
       <h3>Un Lieu idéal pour forger sa Start-Up!</h3>
+      <br>
       <p>
         - travailler sur ses projets
         <br>

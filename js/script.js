@@ -13,6 +13,7 @@ window.addEventListener("load", function() {
   sliderContainer = document.getElementsByClassName("slider-container")[0];
   // On lance la fonction pause quand la souris entre sur le carousel
   sliderContainer.addEventListener("mouseenter", pause);
+  sliderContainer.addEventListener("mouseover", pause);
   // On lance la fonction resume quand la souris quitte le carousel
   sliderContainer.addEventListener("mouseleave", resume);
 });

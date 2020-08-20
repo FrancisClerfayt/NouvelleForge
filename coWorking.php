@@ -6,9 +6,9 @@
   <link rel="icon" type="image/png" href="img/favicon.png" />
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="fonts/fonts.css">
-  <title>Nouvelle Forge</title>
+  <title>Nouvelle Forge - CoWorking</title>
 </head>
-<body>
+<body onload="position('coworking');">
   <?php include "inc/header.php" ?>
   <?php include "inc/nav.php" ?>
   <main class="coworking">
@@ -29,7 +29,7 @@
       </div>
     </div>
     <div class="moreInfo">
-      <h3>Un Lieu idéal pour forger sa Start-Up!</h3>
+      <h4 class="titre">Un Lieu idéal pour forger sa Start-Up!</h3>
       <br>
       <p>
         - travailler sur ses projets

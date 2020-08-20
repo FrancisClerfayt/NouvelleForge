@@ -7,10 +7,10 @@
   <link rel="icon" type="image/png" href="img/favicon.png" />
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="fonts/fonts.css">
-  <title>Nouvelle Forge</title>
+  <title>Nouvelle Forge - Accueil</title>
 
 </head>
-<body>
+<body onload="position('acceuil');">
   <?php include "inc/header.php" ?>
   <?php include "inc/nav.php" ?>
   <main class="accueil">
@@ -109,10 +109,8 @@
         </p>
       </div>
     </section>
-
   </main>
-
-  <script type="text/javascript" src="js/script.js"></script>
+  <script src="js/carousel.js" charset="utf-8"></script>
   <?php include "inc/footer.php" ?>
 </body>
 </html>

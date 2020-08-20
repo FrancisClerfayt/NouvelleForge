@@ -32,7 +32,7 @@ header > a {
 header > a > img {
   max-height: 150px;
 }
-.sous-menu{
+.sous-menu {
   width: 28%;
   align-self: flex-start;
   margin-right: 2%;
@@ -236,7 +236,7 @@ header > a > img {
 /* Fin CSS page de Co-Working */
 
 /* Début CSS page de la Pépinière*/
-.pepiniere  {
+.pepiniere {
   background-color: #f5f5f5;
   padding: 1% 5% 2% 5%;
 }
@@ -265,7 +265,7 @@ header > a > img {
   flex-wrap: wrap;
   background-color: #f5f5f5;
 }
-.maps{
+.maps {
   flex-direction: row;
   width: 45%;
   margin-left: 300px;
@@ -275,47 +275,48 @@ header > a > img {
   margin-top: 100px;
 }
 /* début CSS formulaire */
-.container{
+.container {
   width: 100%;
 }
-#titre{
+#titre {
   text-align: center;
   margin-top: 50px;
   font-size: 2em;
 }
-.form{
+.form {
   width: 33%;
   margin-top: 50px;
   margin: 0 auto;
 }
-#user_name, #user_firstname, #user_email, #user_message{
+#user_name, #user_firstname, #user_email, #user_message {
   width: 206px;
   box-sizing: border-box;
   padding: 5px;
 }
-#user_name:focus, #user_firstname:focus, #user_email:focus, #user_message:focus {
+#user_name:focus, #user_firstname:focus,
+#user_email:focus, #user_message:focus {
   border-color: #000;
 }
-label{
+label {
   display: inline-block;
   width: 90px;
   text-align: right;
 }
-label, #user_name, #user_firstname, #user_email, #user_message{
+label, #user_name, #user_firstname, #user_email, #user_message {
   margin-top: 3em;
 }
-#user_message{
+#user_message {
   vertical-align: top;
   width: 480px;
   height: 12em;
 }
-#user_name{
+#user_name {
   height: 3em;
 }
-#user_firstname{
+#user_firstname {
   height: 3em;
 }
-#user_email{
+#user_email {
   width: 513px;
   height: 3em;
 }

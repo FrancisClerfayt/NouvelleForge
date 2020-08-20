@@ -29,7 +29,7 @@
       </div>
     </div>
     <div class="moreInfo">
-      <h3>Un Lieu idéal pour forger sa Start-Up!</h3>
+      <h4 class="titre">Un Lieu idéal pour forger sa Start-Up!</h3>
       <br>
       <p>
         - travailler sur ses projets

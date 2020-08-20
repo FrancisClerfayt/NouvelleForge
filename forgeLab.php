@@ -48,10 +48,12 @@
         </div>
         <div class="descMachine">
           <h5>Imprimpantes 3D</h5>
-          <p>Zortrax M200 est une imprimante 3D low cost utilisant une technologie FDM, une impression par dépôt de fil avec extrusion thermoplastique. C'est une machine idéale pour réaliser rapidement des prototypes 3D avec des couleurs différentes.</p>
-          <a href="reserver.html"> Réserver </a>
-          <a href="seformer.html"> Se former </a>
-          <a href="plusd'informations.html"> Plus d'informations </a>
+          <p>La Zortrax M200 est une imprimante 3D low cost utilisant une technologie FDM, une impression par dépôt de fil avec extrusion thermoplastique. C'est une machine idéale pour réaliser rapidement des prototypes 3D avec des couleurs différentes.</p>
+          <div class="liens-machine">
+            <a href="reserver.html"> Réserver </a>
+            <a href="seformer.html"> Se former </a>
+            <a href="plusd'informations.html"> Plus d'informations </a>
+          </div>
         </div>
       </div>
       <div class="machine">
@@ -72,9 +74,11 @@
             Notre machine de gravure laser Speedy est conçue et
             fabriquée à 100% en Autriche.
           </p>
-          <a href="reserver.html"> Réserver </a>
-          <a href="seformer.html"> Se former </a>
-          <a href="plusd'informations.html"> Plus d'informations </a>
+          <div class="liens-machine">
+            <a href="reserver.html"> Réserver </a>
+            <a href="seformer.html"> Se former </a>
+            <a href="plusd'informations.html"> Plus d'informations </a>
+          </div>
         </div>
       </div>
       <div class="machine">
@@ -90,9 +94,11 @@
             Elle permet principalement d'usiner
             Les principaux matériaux usinables comme le bois, plâtre, résine, cire usinable.
           </p>
-          <a href="reserver.html"> Réserver </a>
-          <a href="seformer.html"> Se former </a>
-          <a href="plusd'informations.html"> Plus d'informations </a>
+          <div class="liens-machine">
+            <a href="reserver.html"> Réserver </a>
+            <a href="seformer.html"> Se former </a>
+            <a href="plusd'informations.html"> Plus d'informations </a>
+          </div>
         </div>
       </div>
       <div class="machine">
@@ -112,9 +118,11 @@
             Matériaux utilisés:
             Cette machine permet de découper principalement du vinyle,vinyle réfléchissant, flex.
           </p>
-          <a href="reserver.html"> Réserver </a>
-          <a href="seformer.html"> Se former </a>
-          <a href="plusd'informations.html"> Plus d'informations</a>
+          <div class="liens-machine">
+            <a href="reserver.html"> Réserver </a>
+            <a href="seformer.html"> Se former </a>
+            <a href="plusd'informations.html"> Plus d'informations </a>
+          </div>
         </div>
       </div>
       <div class="machine">
@@ -125,9 +133,11 @@
         <div class="descMachine">
           <h5>Une brodeuse numérique</h5>
           <p>Notre brodeuse numérique permetde broder automatiquement jusqu’à 1050 points à la minute. Avec les différentes aiguilles de l’appareil, on peut travailler différentes 	matiéres comme le tissu, le textile ou le cuir.</p>
-          <a href="reserver.html"> Réserver </a>
-          <a href="seformer.html"> Se former </a>
-          <a href="plusd'informations.html"> Plus d'informations </a>
+          <div class="liens-machine">
+            <a href="reserver.html"> Réserver </a>
+            <a href="seformer.html"> Se former </a>
+            <a href="plusd'informations.html"> Plus d'informations </a>
+          </div>
         </div>
       </div>
     </section>

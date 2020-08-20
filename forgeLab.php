@@ -7,9 +7,9 @@
   <link rel="icon" type="image/png" href="img/favicon.png" />
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="fonts/fonts.css">
-  <title>Nouvelle Forge</title>
+  <title>Nouvelle Forge - ForgeLab</title>
 </head>
-<body>
+<body onload="position('forgelab');">
   <?php include "inc/header.php" ?>
   <?php include "inc/nav.php" ?>
 

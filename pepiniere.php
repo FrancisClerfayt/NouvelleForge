@@ -32,8 +32,9 @@
           <img src="img/BGE-HdF-logo.png" alt="Logo de BGE" />
         </div>
         <div class="desc_pepiniere">
+          <h4>BGE Hauts de France :</h4>
           <p>
-            <h4>BGE Hauts de France</h4> est une association de conseillers professionnels à vos côtés pour la création de votre entreprise et son développement. BGE a négocié avec les collectivités une prise en charge d’une grande majorité de ses services pour vous les rendre accessibles. Nos conseillers professionnels vous apportent une expertise neutre car ils ne dépendent d’aucun réseau commercial. BGE Hauts de France intervient dans le cadre de politiques publiques pour vous aider à réussir.
+            BGE Hauts de France est une association de conseillers professionnels à vos côtés pour la création de votre entreprise et son développement. BGE a négocié avec les collectivités une prise en charge d’une grande majorité de ses services pour vous les rendre accessibles. Nos conseillers professionnels vous apportent une expertise neutre car ils ne dépendent d’aucun réseau commercial. BGE Hauts de France intervient dans le cadre de politiques publiques pour vous aider à réussir.
           </p>
           <p>
             <a href="https://www.bge-hautsdefrance.fr/" target="_blank">www.bge-hautsdefrance.fr</a>
@@ -45,8 +46,9 @@
           <img src="img/bigmoustache-logo.png" alt="Logo de Big Moustache" />
         </div>
         <div class="desc_pepiniere">
+          <h4>Agence Big Moustache :</h4>
           <p>
-            <h4>L’agence Big Moustache</h4> est une agence globale dite 360°, enracinée dans le territoire du Nord et des Hauts de France, tous les jours, nous construisons avec et pour nos clients, des identités visuelles, des sites internet, des applications mobiles, des plans marketing sur mesure et tous les jours nous accompagnons des entreprises, des associations, des start up dans leur transformation digitale et dans leur développement commercial.
+            L'Agence Big Moustache est une agence globale dite 360°, enracinée dans le territoire du Nord et des Hauts de France, tous les jours, nous construisons avec et pour nos clients, des identités visuelles, des sites internet, des applications mobiles, des plans marketing sur mesure et tous les jours nous accompagnons des entreprises, des associations, des start up dans leur transformation digitale et dans leur développement commercial.
             <br>
             Créée en 2016, l’agence de communication Big Moustache c’est également une expérience opérationnelle confirmé dans la création de chartes graphiques packaging pour des distributeurs de la grande distribution française et internationale. L’agence Big Moustache est composée d’une équipe de techniciens, de créatifs et de consultants expérimentées à l’écoute pour une collaboration inscrite dans le temps et la confiance avec des clients fidèles.
           </p>
@@ -60,8 +62,9 @@
           <img src="img/btp-consultants-logo.png" alt="Logo de BTP Consultants" />
         </div>
         <div class="desc_pepiniere">
+          <h4>BTP Consultants :</h4>
           <p>
-            <h4>BTP Consultants</h4> c’est le référent technique au service du bien vivre dans les bâtiments.
+            BTP Consultant c’est le référent technique au service du bien vivre dans les bâtiments.
           </p>
           <p>Nos spécialistes interviennent principalement en Contrôle Technique Construction, Coordination SPS, vérifications périodiques ou plus ponctuellement sur des missions d’assistance technique.</p>
           <p>
@@ -82,11 +85,11 @@
       </div>
       <div class="element_pepiniere">
         <div class="logo_pepiniere">
-          <img src="img/cifea-mkg-logo.png" alt="Logo de Cifea MKG" />
+          <img src="img/cifea-mkg-logo.jpg" alt="Logo de Cifea MKG" />
         </div>
         <div class="desc_pepiniere">
+          <h4>CIFEA MKG :</h4>
           <p>
-            <h4>CIFEA MKG :</h4>
             Garantir la confidentialité et la sécurité de vos données
             <br>
             Placer vos exigences au cœur de nos actions d’amélioration continue
@@ -107,8 +110,8 @@
           <img src="img/creo-ignem-logo.png" alt="Logo de Creo Ignem" />
         </div>
         <div class="desc_pepiniere">
+          <h4>Creo Ignem :</h4>
           <p>
-            <h4>Creo Ignem :</h4>
             Depuis 2004, notre équipe accompagne nos clients dans leur révolution numérique.
             <br>
             E-commerce, Web2store, Digital & Interactive Signage, CRM, SEO, E-marketing, E-retail, Marketplace…
@@ -123,8 +126,9 @@
           <img src="img/hd-webmarketing-logo.png" alt="Logo de HD Webmarketing" />
         </div>
         <div class="desc_pepiniere">
+          <h4>HD Webmarketing :</h4>
           <p>
-            <h4>HD Webmarketing</h4> est une agence e-commerce basée dans le Nord, à Anzin (à cinq minutes de Valenciennes, moins d’une demi-heure de Lille et Maubeuge).
+            HD Webmarketing est une agence e-commerce basée dans le Nord, à Anzin (à cinq minutes de Valenciennes, moins d’une demi-heure de Lille et Maubeuge).
             <br>
             Nous travaillons depuis nos locaux ou nous déplaçons dans votre entreprise, dans toute la région Hauts-de-France ainsi qu’à Paris et en Belgique.
           </p>
@@ -138,8 +142,8 @@
           <img src="img/VSI-Innovation-logo.png" alt="logo de VSI Innovation" />
         </div>
         <div class="desc_pepiniere">
+          <h4>VSI Innovation:</h4>
           <p>
-            <h4>VSI Innovation:</h4>
             Se réinventer tous les jours, bousculer les codes, relever des défis, tel est notre quotidien. Nous sommes spécialisés dans la création et le développement de solutions web innovantes, aussi bien sur l'aspect marketing que sur l'enjeu technologique. Du site sur-mesure au service en ligne, de la vente en ligne au référencement, du design à l'analyse de données bigData, nous considérons chaque nouvelle mission comme une opportunité de réinventer l'existant.
             <br>
             Nous sommes une entreprise à taille humaine et nous privilégions la qualité de nos réalisations à la quantité de nos productions. Bref, nous sommes des passionnés.

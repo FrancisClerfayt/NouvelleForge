@@ -15,7 +15,7 @@ h5 { font-size: 1.2rem; }
 h6 { font-size: 1.1rem; }
 p {
   font-size: 1.1rem;
-  line-height: 1.2rem;
+  line-height: 1.5rem;
 }
 main { padding: 1%; }
 
@@ -239,7 +239,7 @@ header > a > img {
 }
 .textDesc > p, .textDesc > dl {
   width: 80%;
-  margin: 0 10% 0 10%;
+  /* margin: 0 10% 0 10%; */
 }
 .machines {
   display: flex;
@@ -295,6 +295,24 @@ header > a > img {
   margin: 0 10%;
 }
 /* Fin CSS page de Co-Working */
+
+/* Début CSS page de Formations */
+.formation {
+  background-color: #f5f5f5;
+  padding: 1% 5% 2% 5%;
+}
+.logoFormation {
+  width: 20%;
+  margin: auto 10%;
+}
+.logoFormation > img {
+  max-height: 180px;
+}
+.textFormation {
+  width: 50%;
+  margin: auto 3% auto 7%;
+}
+/* Fin CSS page de Formations */
 
 /* Début CSS page de la Pépinière*/
 .pepiniere {

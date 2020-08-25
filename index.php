@@ -72,41 +72,31 @@
     </section>
 
     <section class="news">
-      <div class="article">
-        <h3> Titre Actualité 1</h3>
-        <!-- <img class="imageactu" src="images/actu1.png" alt="imageactu"> -->
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Fusce nulla augue, luctus eu ultrices tristique, luctus ut dolor.
-          Ut interdum nisi nec malesuada commodo.
-          Maecenas at lacus molestie mauris vehicula consectetur sit amet non nisl.
-          Pellentesque porttitor ante in tellus pellentesque, a finibus turpis convallis.
-          Nulla porta nisi sapien, id egestas mi dictum sit amet. In hac habitasse platea dictumst.
-          Vivamus in mi nec eros iaculis blandit. Mauris vehicula vel nibh ut suscipit.
-          Sed dictum augue sed placerat tincidunt. Aliquam et efficitur quam.
-          Pellentesque tellus sem, molestie vel felis id, maximus lacinia lacus.
-          Pellentesque cursus ex et ultricies ultrices.
-          Nullam lobortis malesuada felis vitae placerat.
-          Integer non suscipit felis. Suspendisse vulputate at odio id ornare.
-        </p>
-      </div>
-      <div class="article">
-        <h3> Titre Actualité 2</h3>
-        <!-- <img class="imageactu" src="images/actu1.png" alt="imageactu"> -->
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Fusce nulla augue, luctus eu ultrices tristique, luctus ut dolor.
-          Ut interdum nisi nec malesuada commodo.
-          Maecenas at lacus molestie mauris vehicula consectetur sit amet non nisl.
-          Pellentesque porttitor ante in tellus pellentesque, a finibus turpis convallis.
-          Nulla porta nisi sapien, id egestas mi dictum sit amet. In hac habitasse platea dictumst.
-          Vivamus in mi nec eros iaculis blandit. Mauris vehicula vel nibh ut suscipit.
-          Sed dictum augue sed placerat tincidunt. Aliquam et efficitur quam.
-          Pellentesque tellus sem, molestie vel felis id, maximus lacinia lacus.
-          Pellentesque cursus ex et ultricies ultrices.
-          Nullam lobortis malesuada felis vitae placerat.
-          Integer non suscipit felis. Suspendisse vulputate at odio id ornare.
-        </p>
+      <h2 class="titreSection">Articles & Actualités</h2>
+      <div class="contenuSection">
+        <div class="article">
+          <h3 class="titreArticle">Création d'une enseigne pour Le Phare de Onnaing</h3>
+          <div class="contenuArticle">
+            <img class="imageArticle" src="img/imageArticle.jpg" alt="">
+            <p class="texteArticle">
+              C'est en ce moment à Nouvelle Forge : création d'une enseigne pour l'espace socioculturel
+              Le Phare de Onnaing ! Découverte de l'impression 3D, découpe et gravure laser,
+              dessin et création de fichiers sur logiciel. Un beau projet à découvrir prochainement
+              sur la façade du Phare !
+            </p>
+          </div>
+        </div>
+        <div class="article">
+          <h3 class="titreArticle">Journée super héroïque à Nouvelle Forge</h3>
+          <div class="contenuArticle">
+            <img class="imageArticle" src="img/imageArticle2.jpg" alt="">
+            <p class="texteArticle">
+              Très beau temps d'animation avec les jeunes de la Maison de Quartier du Centre Ville
+              de Valenciennes : découpage au laser de badges, portes cléfs et plateau de jeu et
+              confections 3D de pions ! A très bientôt !!
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   </main>

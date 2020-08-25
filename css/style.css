@@ -164,16 +164,47 @@ header > a > img {
   background-color: #717171;
 }
 /* Fin CSS Carousel */
+.descrip {
+
+}
 .news {
+  width: 98%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
   padding: 2% 1%;
 }
+.titreSection {
+  width: 100%;
+  text-align: center;
+}
+.contenuSection {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
 .article {
-  width: 50%;
-  margin: 0 1%;
+  width: 48%;
+  margin: 2% 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.titreArticle {
+  width: 100%;
+}
+.contenuArticle {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.imageArticle {
+  width: 30%;
+}
+.texteArticle {
+  width: 68%;
+  margin: 2% 1%;
 }
 /* Fin CSS page d'accueil */
 

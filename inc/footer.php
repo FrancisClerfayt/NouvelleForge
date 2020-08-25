@@ -14,7 +14,9 @@
     <div class="">
       <p> Notre Newsletter </p>
       <input type="email" name="mailNewsletter" class="mailNewsletter" placeholder="Votre adresse E-mail ici.">
-      <button type="submit" name="buttonNewsletter" class="buttonNewsletter">S'inscrire</button>
+      <button type="submit" name="buttonNewsletter" class="buttonNewsletter">
+        S'inscrire
+      </button>
     </div>
   </div>
   <div class="cgu">

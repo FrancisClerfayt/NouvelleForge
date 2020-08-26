@@ -19,4 +19,21 @@
       <img class="flag" src="img/English-flag.svg" alt="drapeau anglais">
     </li>
   </ul>
+
+
+
+  <div class="header">
+    <input type="checkbox" id="chk">
+    <label for="chk" class="show-menu-btn">
+<i class="fa fa-bars"></i>
+    </label>
+
+    <ul class="menu">
+      <a class="navLink" href="forgeLab.php">ForgeLab</a>
+      <a class="navLink" href="coWorking.php">Co-Working</a>
+      <a class="navLink" href="formations.php">Nos Formations</a>
+      <a class="navLink" href="pepiniere.php">La Pepinière</a>
+      <a class="navLink" href="infos.php">Infos pratiques</a>
+    </ul>
+  </div>
 </header>

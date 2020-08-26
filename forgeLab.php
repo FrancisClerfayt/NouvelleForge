@@ -50,9 +50,9 @@
           <h5>Imprimpantes 3D</h5>
           <p>La Zortrax M200 est une imprimante 3D low cost utilisant une technologie FDM, une impression par dépôt de fil avec extrusion thermoplastique. C'est une machine idéale pour réaliser rapidement des prototypes 3D avec des couleurs différentes.</p>
           <div class="liens-machine">
-            <a href="reserver.html"> Réserver </a>
-            <a href="seformer.html"> Se former </a>
-            <a href="plusd'informations.html"> Plus d'informations </a>
+            <a  class="btn1"href="reserver.html"> Réserver </a>
+            <a  class="btn1"href="seformer.html"> Se former </a>
+            <a  class="btn1"href="plusd'informations.html"> Plus d'informations </a>
           </div>
         </div>
       </div>
@@ -75,9 +75,9 @@
             fabriquée à 100% en Autriche.
           </p>
           <div class="liens-machine">
-            <a href="reserver.html"> Réserver </a>
-            <a href="seformer.html"> Se former </a>
-            <a href="plusd'informations.html"> Plus d'informations </a>
+            <a  class="btn2"href="reserver.html"> Réserver </a>
+            <a  class="btn2"href="seformer.html"> Se former </a>
+            <a  class="btn2"href="plusd'informations.html"> Plus d'informations </a>
           </div>
         </div>
       </div>
@@ -95,9 +95,9 @@
             Les principaux matériaux usinables comme le bois, plâtre, résine, cire usinable.
           </p>
           <div class="liens-machine">
-            <a href="reserver.html"> Réserver </a>
-            <a href="seformer.html"> Se former </a>
-            <a href="plusd'informations.html"> Plus d'informations </a>
+            <a class="btn3" href="reserver.html"> Réserver </a>
+            <a class="btn3" href="seformer.html"> Se former </a>
+            <a class="btn3" href="plusd'informations.html"> Plus d'informations </a>
           </div>
         </div>
       </div>
@@ -119,9 +119,9 @@
             Cette machine permet de découper principalement du vinyle,vinyle réfléchissant, flex.
           </p>
           <div class="liens-machine">
-            <a href="reserver.html"> Réserver </a>
-            <a href="seformer.html"> Se former </a>
-            <a href="plusd'informations.html"> Plus d'informations </a>
+            <a class="btn1" href="reserver.html"> Réserver </a>
+            <a class="btn1" href="seformer.html"> Se former </a>
+            <a class="btn1" href="plusd'informations.html"> Plus d'informations </a>
           </div>
         </div>
       </div>
@@ -134,9 +134,9 @@
           <h5>Une brodeuse numérique</h5>
           <p>Notre brodeuse numérique permetde broder automatiquement jusqu’à 1050 points à la minute. Avec les différentes aiguilles de l’appareil, on peut travailler différentes 	matiéres comme le tissu, le textile ou le cuir.</p>
           <div class="liens-machine">
-            <a href="reserver.html"> Réserver </a>
-            <a href="seformer.html"> Se former </a>
-            <a href="plusd'informations.html"> Plus d'informations </a>
+            <a class="btn2" href="reserver.html"> Réserver </a>
+            <a class="btn2" href="seformer.html"> Se former </a>
+            <a class="btn2" href="plusd'informations.html"> Plus d'informations </a>
           </div>
         </div>
       </div>

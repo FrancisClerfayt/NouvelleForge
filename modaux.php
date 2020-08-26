@@ -14,11 +14,11 @@
     <div class="modal-reservation">
       <h1 id="titlemodal">Réserver une machine</h1>
       <p id="presentation">Pour utiliser l'imprimante 3D, veuillez réserver votre créneau en séléctionnant une date et un horaire disponible.</p>
-      <label for="start" class="start">Séléctionnez une date:</label>
-      <input type="date" name="start" id="calendar" value="2020-08-20" min="2020-01-01" max="2020-31-12">
 
       <form>
 
+        <label for="start">Séléctionnez une date:</label>
+        <input type="date" name="start" id="calendar" value="2020-08-20" min="2020-01-01" max="2020-31-12">
           <label for="appt-time">Veuillez choisir une heure: </label>
           <input id="appt-time" type="time" name="appt-time"
           min="12:00" max="18:00" required
@@ -26,7 +26,7 @@
           <span class="validity"></span>
 
 
-          <input type="submit" value="Envoyer">
+          <input class="btn1" type="submit" value="Envoyer">
 
       </form>
 

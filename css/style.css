@@ -27,6 +27,7 @@ header {
   background-color: #493389;
 }
 header > a {
+  width: 65%;
   max-height: 150px;
   margin: 0;
   padding: 0;
@@ -35,14 +36,12 @@ header > a > img {
   max-height: 150px;
 }
 .sous-menu {
-  width: 28%;
-  align-self: flex-start;
-  margin-right: 2%;
-  margin-top: 1%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  list-style-type: none;
+    width: 35%;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
 }
 .sous-menu-item {
   margin: 1% 5%;
@@ -109,10 +108,12 @@ header > a > img {
 }
 /* Contenant */
 .slider-container {
-  max-height: 700px;
   max-width: 932px;
   position: relative;
   margin: auto;
+}
+.slider-container > div > img{
+  width: 100%;
 }
 /* Boutons suivant et précédant */
 .prev, .next {
@@ -269,7 +270,7 @@ header > a > img {
   flex-direction: row;
   justify-content: space-around;
 }
-.liens-machine > a {
+/* .liens-machine > a {
   padding: 5px 12px;
   margin-top: 2%;
   border: 1px solid black;
@@ -278,7 +279,7 @@ header > a > img {
   box-shadow: 1px 2px rgba(0, 0, 0, 0.5);
   text-decoration: none;
   color: black;
-}
+} */
 .liens-machine > a:hover {
   background-color: #ccc;
 }
@@ -367,9 +368,14 @@ header > a > img {
   font-size: 2em;
 }
 .form {
-  width: 33%;
+  width: 100%;
   margin-top: 50px;
   margin: 0 auto;
+  text-align: center;
+}
+.flex-form{
+  display: flex;
+  justify-content: center;
 }
 #user_name, #user_firstname, #user_email, #user_message {
   width: 206px;
@@ -383,14 +389,12 @@ header > a > img {
 label {
   display: inline-block;
   width: 90px;
-  text-align: right;
 }
 label, #user_name, #user_firstname, #user_email, #user_message {
   margin-top: 3em;
 }
 #user_message {
   vertical-align: top;
-  width: 480px;
   height: 12em;
 }
 #user_name {
@@ -400,21 +404,54 @@ label, #user_name, #user_firstname, #user_email, #user_message {
   height: 3em;
 }
 #user_email {
-  width: 513px;
   height: 3em;
 }
-.button {
-  margin-top: 1.5em;
-  width: 20%;
-  height: 2em;
-  margin-left: 275px;;
+.btn1, .btn2, .btn3 {
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 25px;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  color: #493389;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn1{
+  width: 15em;
+  height: 40px;
+  background: #ffd444;
+}
+.btn2{
+  width: 15em;
+  height: 40px;
+  background: #59bba4;
+}
+.btn3{
+  width: 15em;
+  height: 40px;
+  background: #E72586;
 }
 /* Fin CSS formulaire */
 /* fin CSS infos pratiques */
 
 /* Début CSS footer */
+
+#partenaires {
+  width:calc(100%/3);
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo_partenaire {
+  max-height: 50px;
+}
 footer {
   width: 100%;
+  padding: 30px;
   background-color: #493389;
   color: #fff;
   font-size: 1rem;
@@ -422,38 +459,26 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
 }
-#partenaires {
-  width: 100%;
-  text-decoration: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-}
-.logo_partenaire {
-  max-height: 50px;
-  margin: 0 20px;
-}
 .newsletter {
-  width: 50%;
+  width:calc(100%/3);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .mailNewsletter {
-  width: 300px;
+  /* width: 300px; */
   padding: 6px 14px;
   border-radius: 5px;
 }
 .buttonNewsletter {
   padding: 6px 8px;
-  border: 1px solid black;
+  background: #59bba4;
   border-radius: 15px;
 }
 .cgu {
-  width: 50%;
+  width:calc(100%/3);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
@@ -466,3 +491,41 @@ footer {
   color: #ccc;
 }
 /* Fin CSS footer */
+ /* début css Modaux*/
+ .modal{
+   position: fixed;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: rgba(0, 0, 0, 0.8);
+ }
+ .modal-reservation{
+   overflow: auto;
+   width: 600px;
+   max-width: calc(100vw - 20px);
+   max-height: calc(100vh - 20px);
+   padding: 20px;
+   background-color: #fff;
+ }
+.start{
+  width: 31%;
+  display: block;
+  font: 1rem;
+  text-align: inherit;
+}
+
+@media screen and (max-width: 640px) {
+  #partenaires, .cgu, .newsletter {
+    width: 100%;
+  }
+  .cgu{
+    padding: 30px 0;
+  }
+  .flex-form{
+    flex-direction: column;
+  }
+}

@@ -35,15 +35,30 @@
     <div class="container">
       <h3 id="titre">Formulaire de contact</h3>
       <form class="form" action="traitement_formulaire.php" method="post">
-        <label for="user_name">Nom :</label>
-        <input type="text" name="user_name" id="user_name">
-        <label for="user_firstname">Prénom :</label>
-        <input type="text" name="user_firstname" id="user_firstname">
-        <label for="user_email">E-mail :</label>
-        <input type="email" name="user_email" id="user_email">
-        <label for="msg">Message :</label>
-        <textarea id="user_message" name="user_message" rows="8" cols="80"></textarea>
-        <button class="button" type="submit" name="envoi">Envoyer</button>
+        <div class="flex-form">
+          <div class="row">
+            <label for="user_name">Nom :</label>
+            <input type="text" name="user_name" id="user_name">
+          </div>
+          <div class="row">
+            <label for="user_firstname">Prénom :</label>
+            <input type="text" name="user_firstname" id="user_firstname">
+          </div>
+        </div>
+        <div class="flex-form">
+          <div class="row">
+            <label for="user_email">E-mail :</label>
+            <input type="email" name="user_email" id="user_email">
+          </div>
+          <div class="row">
+            <label for="msg">Message :</label>
+            <textarea id="user_message" name="user_message" rows="8" cols="80"></textarea>
+          </div>
+        </div>
+
+        <button class="btn1" type="submit" name="envoi">Envoyer</button>
+
+
       </form>
     </div>
   </main>

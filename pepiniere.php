@@ -14,7 +14,7 @@
   <?php include "inc/nav.php" ?>
   <main class="pepiniere">
     <section>
-      <h2 class="titre">La Pépinière.</h2>
+      <h2 class="titreRose">La Pépinière.</h2>
       <div  class="description">
         <div class="imgDesc">
           <img src="img/Locations.jpg" alt="Une des salles de réunion de la Nouvelle Forge" />
@@ -26,13 +26,13 @@
       </div>
     </section>
     <section>
-      <h3 class="titre">Les entreprises de la pépinière.</h3>
+      <h3 class="titreRose">Les entreprises de la pépinière.</h3>
       <div class="element_pepiniere">
         <div class="logo_pepiniere">
           <img src="img/BGE-HdF-logo.png" alt="Logo de BGE" />
         </div>
         <div class="desc_pepiniere">
-          <h4>BGE Hauts de France :</h4>
+          <h4 class="titreRose">BGE Hauts de France :</h4>
           <p>
             BGE Hauts de France est une association de conseillers professionnels à vos côtés pour la création de votre entreprise et son développement. BGE a négocié avec les collectivités une prise en charge d’une grande majorité de ses services pour vous les rendre accessibles. Nos conseillers professionnels vous apportent une expertise neutre car ils ne dépendent d’aucun réseau commercial. BGE Hauts de France intervient dans le cadre de politiques publiques pour vous aider à réussir.
           </p>
@@ -46,7 +46,7 @@
           <img src="img/bigmoustache-logo.png" alt="Logo de Big Moustache" />
         </div>
         <div class="desc_pepiniere">
-          <h4>Agence Big Moustache :</h4>
+          <h4 class="titreRose">Agence Big Moustache :</h4>
           <p>
             L'Agence Big Moustache est une agence globale dite 360°, enracinée dans le territoire du Nord et des Hauts de France, tous les jours, nous construisons avec et pour nos clients, des identités visuelles, des sites internet, des applications mobiles, des plans marketing sur mesure et tous les jours nous accompagnons des entreprises, des associations, des start up dans leur transformation digitale et dans leur développement commercial.
             <br>
@@ -62,7 +62,7 @@
           <img src="img/btp-consultants-logo.png" alt="Logo de BTP Consultants" />
         </div>
         <div class="desc_pepiniere">
-          <h4>BTP Consultants :</h4>
+          <h4 class="titreRose">BTP Consultants :</h4>
           <p>
             BTP Consultant c’est le référent technique au service du bien vivre dans les bâtiments.
           </p>
@@ -88,7 +88,7 @@
           <img src="img/cifea-mkg-logo.jpg" alt="Logo de Cifea MKG" />
         </div>
         <div class="desc_pepiniere">
-          <h4>CIFEA MKG :</h4>
+          <h4 class="titreRose">CIFEA MKG :</h4>
           <p>
             Garantir la confidentialité et la sécurité de vos données
             <br>
@@ -110,7 +110,7 @@
           <img src="img/creo-ignem-logo.png" alt="Logo de Creo Ignem" />
         </div>
         <div class="desc_pepiniere">
-          <h4>Creo Ignem :</h4>
+          <h4 class="titreRose">Creo Ignem :</h4>
           <p>
             Depuis 2004, notre équipe accompagne nos clients dans leur révolution numérique.
             <br>
@@ -126,7 +126,7 @@
           <img src="img/hd-webmarketing-logo.png" alt="Logo de HD Webmarketing" />
         </div>
         <div class="desc_pepiniere">
-          <h4>HD Webmarketing :</h4>
+          <h4 class="titreRose">HD Webmarketing :</h4>
           <p>
             HD Webmarketing est une agence e-commerce basée dans le Nord, à Anzin (à cinq minutes de Valenciennes, moins d’une demi-heure de Lille et Maubeuge).
             <br>
@@ -142,7 +142,7 @@
           <img src="img/VSI-Innovation-logo.png" alt="logo de VSI Innovation" />
         </div>
         <div class="desc_pepiniere">
-          <h4>VSI Innovation:</h4>
+          <h4 class="titreRose">VSI Innovation:</h4>
           <p>
             Se réinventer tous les jours, bousculer les codes, relever des défis, tel est notre quotidien. Nous sommes spécialisés dans la création et le développement de solutions web innovantes, aussi bien sur l'aspect marketing que sur l'enjeu technologique. Du site sur-mesure au service en ligne, de la vente en ligne au référencement, du design à l'analyse de données bigData, nous considérons chaque nouvelle mission comme une opportunité de réinventer l'existant.
             <br>

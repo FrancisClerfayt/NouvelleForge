@@ -14,14 +14,14 @@
   <?php include "inc/nav.php" ?>
 
   <main class="formation">
-    <h2 class="titre">Les Formations.</h2>
+    <h2 class="titreAqua">Les Formations.</h2>
     <section>
       <div class="description">
         <div class="logoFormation">
           <img src="img/BGE-HdF-logo.png" alt="Photo du logo BGE">
         </div>
         <div class="textFormation">
-          <h4>BGE Haut-de-France.</h4>
+          <h4 class="titreAqua">BGE Haut-de-France.</h4>
           <p>
             Gagnez en autonomie et montez en compétences avec l’offre conseil-formation pour les entrepreneurs proposée par BGE.
             Quel que soit votre projet et votre profil nous avons la solution adaptée à votre besoin.
@@ -87,7 +87,7 @@
     <section>
       <div class="description">
         <div class="textFormation">
-          <h4>POP School Valenciennes</h4>
+          <h4 class="titreAqua">POP School Valenciennes</h4>
           <p>
             Les métiers du numérique sont accessibles à tous. Installée à Nouvelle Forge, l’école PopSCHOOL propose des formations gratuites et sans pré requis de diplôme aux métiers du numérique.
             Parmi ces formations, on retrouve :

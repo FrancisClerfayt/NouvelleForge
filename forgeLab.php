@@ -15,39 +15,39 @@
 
   <main class="forgeLab">
     <section>
-      <h2 class="titre">Le ForgeLab.</h2>
+      <h2 class="titreSable">Le ForgeLab.</h2>
       <div class="description">
         <div class="imgDesc">
           <img src="img/ForgeLab.jpg" alt="Photo du ForgeLab de la Nouvelle Forge">
         </div>
         <div class="textDesc">
           <p>
-            L'équipe de la Nouvelle forge est heureuse de vous voir acceuillir dans son Fablab.
+            L'équipe de la Nouvelle Forge est heureuse de vous voir acceuillir dans son Fablab.
           </p>
           <p>
-            Le "Forge Lab", atelier de fabrication numérique, est notamment équipéde :
+            Le "Forge Lab", atelier de fabrication numérique, est notamment équipé de :
           </p>
           <dl>
-            <dt>&rarr; plusieurs imprimantes 3D,</dt>
-            <dt>&rarr; d'une découpeuse laser,</dt>
-            <dt>&rarr; d'une découpeuse vinyle,</dt>
-            <dt>&rarr; d'une fraiseuse numérique, </dt>
-            <dt>&rarr; d'une brodeuse numérique, </dt>
+            <dt>&rarr; plusieurs <a class="lienFablab" href="#impr3D">imprimantes 3D</a>,</dt>
+            <dt>&rarr; d'une <a class="lienFablab" href="#laser">découpeuse laser</a>,</dt>
+            <dt>&rarr; d'une <a class="lienFablab" href="#vinyle">découpeuse vinyle</a>,</dt>
+            <dt>&rarr; d'une <a class="lienFablab" href="#fraiseuse">fraiseuse numérique</a>, </dt>
+            <dt>&rarr; d'une <a class="lienFablab" href="#brodeuse">brodeuse numérique</a>, </dt>
             <dt>&rarr; et de modules Arduino et Raspbery Pi.</dt>
           </dl>
         </div>
       </div>
     </section>
 
-    <h3 class="titre"> Nos Machines </h3>
+    <h3 class="titreSable"> Nos Machines </h3>
     <section class="machines">
-      <div class="machine">
+      <div id="impr3D" class="machine">
         <!-- Description imprimante 3D Zortrax M200 -->
         <div class="imgMachine">
           <img src="img/imprimante-3d.jpg" alt="Photo de l'imprimante 3D Zortrax M200">
         </div>
         <div class="descMachine">
-          <h5>Imprimpantes 3D</h5>
+          <h5 class="titreSable">Imprimantes 3D</h5>
           <p>La Zortrax M200 est une imprimante 3D low cost utilisant une technologie FDM, une impression par dépôt de fil avec extrusion thermoplastique. C'est une machine idéale pour réaliser rapidement des prototypes 3D avec des couleurs différentes.</p>
           <div class="liens-machine">
             <a href="reserver.html"> Réserver </a>
@@ -56,13 +56,13 @@
           </div>
         </div>
       </div>
-      <div class="machine">
+      <div id="laser" class="machine">
         <!-- Description graveuse Speedy -->
         <div class="imgMachine">
           <img src="img/decoupeuse-laser.jpg" alt="Photo de la graveuse Speedy">
         </div>
         <div class="descMachine">
-          <h5>Une découpeuse laser</h5>
+          <h5 class="titreSable">Une découpeuse laser</h5>
           <p>
             La Speedy est la machine de gravure laser idéale,
             soit pour démarrer une activité, ou bien afin d'améliorer et
@@ -81,33 +81,13 @@
           </div>
         </div>
       </div>
-      <div class="machine">
-        <!-- Description fraiseuse Shopbot -->
-        <div class="imgMachine">
-          <img src="img/fraiseuse-numerique.jpg" alt="Photo de la fraiseuse numérique Shopbot">
-        </div>
-        <div class="descMachine">
-          <h5>Une Fraiseuse Numérique</h5>
-          <p>
-            La fraiseuse numérique Shopbot desktop Informations générales
-            Cette machine est utilisée pour l'usinage de précision.
-            Elle permet principalement d'usiner
-            Les principaux matériaux usinables comme le bois, plâtre, résine, cire usinable.
-          </p>
-          <div class="liens-machine">
-            <a href="reserver.html"> Réserver </a>
-            <a href="seformer.html"> Se former </a>
-            <a href="plusd'informations.html"> Plus d'informations </a>
-          </div>
-        </div>
-      </div>
-      <div class="machine">
+      <div id="vinyle" class="machine">
         <div class="imgMachine">
           <!-- Description découpeuse Vinyle Graphtex CR6000-60 -->
           <img src="img/decoupeuse-vinyle.jpg" alt="Photo de la découpeuse Vinyle Graphtex CR6000-60">
         </div>
         <div class="descMachine">
-          <h5>Une Découpeuse Vinyle</h5>
+          <h5 class="titreSable">Une Découpeuse Vinyle</h5>
           <p>
             Préparation à l'utilisation de la Graphtec CE6000-60 Informations générales
             Envie de réaliser un tee shirt personnalisé ?
@@ -125,13 +105,33 @@
           </div>
         </div>
       </div>
-      <div class="machine">
+      <div id="fraiseuse" class="machine">
+        <!-- Description fraiseuse Shopbot -->
+        <div class="imgMachine">
+          <img src="img/fraiseuse-numerique.jpg" alt="Photo de la fraiseuse numérique Shopbot">
+        </div>
+        <div class="descMachine">
+          <h5 class="titreSable">Une Fraiseuse Numérique</h5>
+          <p>
+            La fraiseuse numérique Shopbot desktop Informations générales
+            Cette machine est utilisée pour l'usinage de précision.
+            Elle permet principalement d'usiner
+            Les principaux matériaux usinables comme le bois, plâtre, résine, cire usinable.
+          </p>
+          <div class="liens-machine">
+            <a href="reserver.html"> Réserver </a>
+            <a href="seformer.html"> Se former </a>
+            <a href="plusd'informations.html"> Plus d'informations </a>
+          </div>
+        </div>
+      </div>
+      <div id="brodeuse" class="machine">
         <!-- Description brodeuse numérique -->
         <div class="imgMachine">
           <img src="img/brodeuse-numerique.jpg" alt="Photo de la brodeuse numérique">
         </div>
         <div class="descMachine">
-          <h5>Une brodeuse numérique</h5>
+          <h5 class="titreSable">Une brodeuse numérique</h5>
           <p>Notre brodeuse numérique permetde broder automatiquement jusqu’à 1050 points à la minute. Avec les différentes aiguilles de l’appareil, on peut travailler différentes 	matiéres comme le tissu, le textile ou le cuir.</p>
           <div class="liens-machine">
             <a href="reserver.html"> Réserver </a>

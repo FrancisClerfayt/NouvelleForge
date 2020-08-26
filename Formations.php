@@ -79,7 +79,7 @@
             </li>
           </ol>
           <p>
-            <a href="https://www.bge-hautsdefrance.fr/">Plus d'informations ici</a>
+            <a href="https://www.bge-hautsdefrance.fr/" class="lienFormation">Plus d'informations ici</a>
           </p>
         </div>
       </div>
@@ -112,7 +112,7 @@
             Elle bénéficie de financements du Fonds social européen dans le cadre du dispositif Initiative pour l’Emploi des Jeunes (IEJ).
           </p>
           <p>
-            <a href="https://popschool.fr/">Plus d'informations ici</a>
+            <a href="https://popschool.fr/" class="lienFormation">Plus d'informations ici</a>
           </p>
         </div>
       </div>

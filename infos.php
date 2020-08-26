@@ -32,7 +32,7 @@
     </div>
     <!-- Partie formulaire de contact-->
 
-    <div class="container">
+    <div id="formulairedecontact" class="container">
       <h3 id="titre">Formulaire de contact</h3>
       <form class="form" action="traitement_formulaire.php" method="post">
         <div class="flex-form">

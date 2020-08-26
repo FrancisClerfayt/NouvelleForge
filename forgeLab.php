@@ -39,28 +39,33 @@
       </div>
     </section>
 
-    <h3 class="titreSable"> Nos Machines </h3>
     <section class="machines">
+      <h3 class="titreSable"> Nos Machines </h3>
       <div id="impr3D" class="machine">
-        <!-- Description imprimante 3D Zortrax M200 -->
         <div class="imgMachine">
           <img src="img/imprimante-3d.jpg" alt="Photo de l'imprimante 3D Zortrax M200">
         </div>
+        <!-- Description imprimante 3D Zortrax M200 -->
         <div class="descMachine">
-          <h5 class="titreSable">Imprimantes 3D</h5>
-          <p>La Zortrax M200 est une imprimante 3D low cost utilisant une technologie FDM, une impression par dépôt de fil avec extrusion thermoplastique. C'est une machine idéale pour réaliser rapidement des prototypes 3D avec des couleurs différentes.</p>
+          <h5 class="titreSable">Des imprimantes 3D</h5>
+          <p>
+            La Zortrax M200 est une imprimante 3D low cost utilisant une technologie FDM,
+            une impression par dépôt de fil avec extrusion thermoplastique.
+            C'est une machine idéale pour réaliser rapidement des prototypes 3D avec des
+            couleurs différentes.
+          </p>
           <div class="liens-machine">
-            <a  class="btn1"href="reserver.html"> Réserver </a>
-            <a  class="btn1"href="seformer.html"> Se former </a>
-            <a  class="btn1"href="plusd'informations.html"> Plus d'informations </a>
+            <a  class="btn1" href="reserver.html"> Réserver </a>
+            <a  class="btn2" href="seformer.html"> Se former </a>
+            <a  class="btn3" href="plusd'informations.html"> Plus d'informations </a>
           </div>
         </div>
       </div>
       <div id="laser" class="machine">
-        <!-- Description graveuse Speedy -->
         <div class="imgMachine">
           <img src="img/decoupeuse-laser.jpg" alt="Photo de la graveuse Speedy">
         </div>
+        <!-- Description graveuse Speedy -->
         <div class="descMachine">
           <h5 class="titreSable">Une découpeuse laser</h5>
           <p>
@@ -75,17 +80,17 @@
             fabriquée à 100% en Autriche.
           </p>
           <div class="liens-machine">
-            <a  class="btn2"href="reserver.html"> Réserver </a>
-            <a  class="btn2"href="seformer.html"> Se former </a>
-            <a  class="btn2"href="plusd'informations.html"> Plus d'informations </a>
+            <a  class="btn1" href="reserver.html"> Réserver </a>
+            <a  class="btn1" href="seformer.html"> Se former </a>
+            <a  class="btn1" href="plusd'informations.html"> Plus d'informations </a>
           </div>
         </div>
       </div>
       <div id="vinyle" class="machine">
         <div class="imgMachine">
-          <!-- Description découpeuse Vinyle Graphtex CR6000-60 -->
           <img src="img/decoupeuse-vinyle.jpg" alt="Photo de la découpeuse Vinyle Graphtex CR6000-60">
         </div>
+        <!-- Description découpeuse Vinyle Graphtex CR6000-60 -->
         <div class="descMachine">
           <h5 class="titreSable">Une Découpeuse Vinyle</h5>
           <p>
@@ -99,17 +104,17 @@
             Cette machine permet de découper principalement du vinyle,vinyle réfléchissant, flex.
           </p>
           <div class="liens-machine">
-            <a class="btn3" href="reserver.html"> Réserver </a>
-            <a class="btn3" href="seformer.html"> Se former </a>
-            <a class="btn3" href="plusd'informations.html"> Plus d'informations </a>
+            <a class="btn1" href="reserver.html"> Réserver </a>
+            <a class="btn1" href="seformer.html"> Se former </a>
+            <a class="btn1" href="plusd'informations.html"> Plus d'informations </a>
           </div>
         </div>
       </div>
       <div id="fraiseuse" class="machine">
-        <!-- Description fraiseuse Shopbot -->
         <div class="imgMachine">
           <img src="img/fraiseuse-numerique.jpg" alt="Photo de la fraiseuse numérique Shopbot">
         </div>
+        <!-- Description fraiseuse Shopbot -->
         <div class="descMachine">
           <h5 class="titreSable">Une Fraiseuse Numérique</h5>
           <p>
@@ -126,17 +131,21 @@
         </div>
       </div>
       <div id="brodeuse" class="machine">
-        <!-- Description brodeuse numérique -->
         <div class="imgMachine">
           <img src="img/brodeuse-numerique.jpg" alt="Photo de la brodeuse numérique">
         </div>
+        <!-- Description brodeuse numérique -->
         <div class="descMachine">
           <h5 class="titreSable">Une brodeuse numérique</h5>
-          <p>Notre brodeuse numérique permetde broder automatiquement jusqu’à 1050 points à la minute. Avec les différentes aiguilles de l’appareil, on peut travailler différentes 	matiéres comme le tissu, le textile ou le cuir.</p>
+          <p>
+            Notre brodeuse numérique permet de broder automatiquement jusqu’à 1050 points à la minute.
+            Avec les différentes aiguilles de l’appareil, on peut travailler différentes 	matiéres comme
+            le tissu, le textile ou le cuir.
+          </p>
           <div class="liens-machine">
-            <a class="btn2" href="reserver.html"> Réserver </a>
-            <a class="btn2" href="seformer.html"> Se former </a>
-            <a class="btn2" href="plusd'informations.html"> Plus d'informations </a>
+            <a class="btn1" href="reserver.html"> Réserver </a>
+            <a class="btn1" href="seformer.html"> Se former </a>
+            <a class="btn1" href="plusd'informations.html"> Plus d'informations </a>
           </div>
         </div>
       </div>

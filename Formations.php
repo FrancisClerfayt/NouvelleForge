@@ -86,6 +86,9 @@
     </section>
     <section>
       <div class="description">
+        <div class="logoFormation">
+          <img src="img/popschool-logo.png" alt="Logo de POP School">
+        </div>
         <div class="textFormation">
           <h4 class="titreAqua">POP School Valenciennes</h4>
           <p>
@@ -111,9 +114,6 @@
           <p>
             <a href="https://popschool.fr/">Plus d'informations ici</a>
           </p>
-        </div>
-        <div class="logoFormation">
-          <img src="img/popschool-logo.png" alt="Logo de POP School">
         </div>
       </div>
     </section>

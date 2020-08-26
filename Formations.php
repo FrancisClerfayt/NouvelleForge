@@ -14,8 +14,8 @@
   <?php include "inc/nav.php" ?>
 
   <main class="formation">
-    <h2 class="titreAqua">Les Formations.</h2>
     <section>
+      <h2 class="titreAqua">Les Formations.</h2>
       <div class="description">
         <div class="logoFormation">
           <img src="img/BGE-HdF-logo.png" alt="Photo du logo BGE">

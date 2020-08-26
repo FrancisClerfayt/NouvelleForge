@@ -117,6 +117,7 @@ header > a > img {
 /* Début CSS page d'accueil */
 .accueil {
   background-color: #f5f5f5;
+  width: 100%;
 }
 /* Début CSS du Carousel*/
 .slides {
@@ -231,6 +232,8 @@ header > a > img {
 .forgeLab {
   background-color: #f5f5f5;
   padding: 1% 5% 2% 5%;
+  width: 100%;
+
 }
 .titreSable, .lienFablab {
   color: #FFD444;
@@ -264,7 +267,7 @@ header > a > img {
   align-items: center;
 }
 .machine {
-  width: 90%;
+  width: 100%;
   margin: 2% 5%;
   display: flex;
   flex-direction: row;
@@ -297,6 +300,8 @@ header > a > img {
 .coworking {
   background-color: #f5f5f5;
   padding: 1% 5% 2% 5%;
+  width: 100%;
+
 }
 .moreInfo {
   margin: 0 10%;
@@ -307,20 +312,22 @@ header > a > img {
 .formation {
   background-color: #f5f5f5;
   padding: 1% 5% 2% 5%;
+  width: 100%;
+
 }
 .titreAqua {
   color: #59BBA4;
 }
 .logoFormation {
   width: 20%;
-  margin: auto 10%;
+  margin: auto 5%;
 }
 .logoFormation > img {
   max-height: 180px;
 }
 .textFormation {
-  width: 50%;
-  margin: auto 3% auto 7%;
+  width: 60%;
+  margin: auto 7% auto 3%;
 }
 /* Fin CSS page de Formations */
 
@@ -328,6 +335,7 @@ header > a > img {
 .pepiniere {
   background-color: #f5f5f5;
   padding: 1% 5% 2% 5%;
+  width: 100%;
 }
 .titreRose {
   color: #E72586;
@@ -356,6 +364,8 @@ header > a > img {
   display: flex;
   flex-wrap: wrap;
   background-color: #f5f5f5;
+  width: 100%;
+
 }
 .maps {
   flex-direction: row;
@@ -543,16 +553,21 @@ footer {
   }
   .article, .imageArticle, .texteArticle, .imgDesc,.textDesc, .textDesc > p,
   .textDesc > dl, .imgMachine, .descMachine, #partenaires, .cgu, .newsletter,
-  .logoFormation, .textFormation, .logo_pepiniere, .desc_pepiniere {
+  .logoFormation, .textFormation, .logo_pepiniere, .desc_pepiniere, .description,
+  section {
     width: 100%;
   }
-  .logo_pepiniere {
+  .logo_pepiniere, .logoFormation {
     display: flex;
     flex-direction: row;
     justify-content: center;
   }
+  .textFormation > p {
+    text-align: justify;
+  }
   .description, .element_pepiniere, section {
     margin-top: 10%;
+    margin-bottom: 5%;
   }
   .cgu {
     padding: 30px 0;

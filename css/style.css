@@ -740,8 +740,10 @@ footer {
   .textFormation > ol > li{
     font-size: 1rem;
   }
-
-  ol{
+  .traitSable {
+    width: 80%;
+  }
+  ol {
     width: 97%;
     padding: 0 0 0 30px;
   }

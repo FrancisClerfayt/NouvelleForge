@@ -42,5 +42,7 @@
   </div>
 </header>
 <div id="toTop">
-  <a href="#hautDePage">&#8593;</a>
+  <a href="#hautDePage">
+    <img id="btnHautDePage" src="img/fleche-haut.svg" alt="Flèche pointant vers le haut">
+  </a>
 </div>

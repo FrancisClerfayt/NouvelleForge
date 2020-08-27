@@ -15,7 +15,7 @@
 
   <main class="formation">
     <section>
-      <h2 class="titreAqua gros_titre">Les Formations.</h2>
+      <h2 class="titreAqua">Les Formations.</h2>
       <div class="description">
         <div class="logoFormation">
           <img src="img/BGE-HdF-logo.png" alt="Photo du logo BGE">
@@ -80,7 +80,9 @@
             </li>
           </ol>
           <p>
-            <a href="https://www.bge-hautsdefrance.fr/" class="btn2">Plus d'informations ici</a>
+            <a href="https://www.bge-hautsdefrance.fr/" target="_blank" class="btn2">
+              Plus d'informations ici
+            </a>
           </p>
         </div>
       </div>
@@ -119,7 +121,7 @@
             européen dans le cadre du dispositif Initiative pour l’Emploi des Jeunes (IEJ).
           </p>
           <p>
-            <a href="https://popschool.fr/" class="btn2">Plus d'informations ici</a>
+            <a href="https://popschool.fr/" target="_blank" class="btn2">Plus d'informations ici</a>
           </p>
         </div>
       </div>

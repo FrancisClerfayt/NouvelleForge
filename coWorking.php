@@ -19,7 +19,9 @@
         <img src="img/Espace_Co-working.jpg" alt="Photo de l'espace de co-working de la Nouvelle-Forge">
       </div>
       <div class="textDesc">
+        <div class="traitSable"></div>
         <h2 class="titreSable gros_titre">L'Espace Co-Working / Co-Design</h2>
+        <div class="traitSable"></div>
         <p>
           L’équipe de la Nouvelle Forge est heureuse de vous accueillir dans son espace
           de co-working d’une superficie de 180m2. Sont mis à votre disposition un espace
@@ -27,25 +29,31 @@
           haut débit. Il est possible de souscrire à un forfait mensuel ou acheter un carnet
           de 10 entrées.
         </p>
-        <p>À la carte, sont aussi proposés es tarifs pour aacéder à la reprographie
-        et à la location de salles de réunions. L’espace co-woring est ouvert du lundi au jeudi
-        de 9 heures à 19 heures, et le vendredi de 9 heures à 17 heures.
-        Pour plus d’informations, n’hésitez pas à nous contacter.</p>
+        <p>
+          À la carte, sont aussi proposés es tarifs pour aacéder à la reprographie
+          et à la location de salles de réunions. L’espace co-woring est ouvert du lundi au jeudi
+          de 9 heures à 19 heures, et le vendredi de 9 heures à 17 heures.
+          Pour plus d’informations, n’hésitez pas à nous contacter.
+        </p>
       </div>
     </div>
     <div class="moreInfo">
-
-
       <h3 class="titreSable citation">" Un Lieu idéal pour forger sa Start-Up! "</h3>
       <br>
       <p>
-        Premier pas pour le travailleur indépendant, l’étudiant, le chercheur, l’artiste ou le porteur de projet, l’espace de coworking de Nouvelle Forge propose bureaux, salles de réunion, outils de design, accès wifi gratuit, connectivité fibre optique…
+        Premier pas pour le travailleur indépendant, l’étudiant, le chercheur, l’artiste
+        ou le porteur de projet, l’espace de coworking de Nouvelle Forge propose bureaux,
+        salles de réunion, outils de design, accès wifi gratuit, connectivité fibre optique…
       </p>
       <p>
-        Au milieu d’autres coworkers du numérique, l’entrepreneur dispose d’un environnement propice afin de travailler sur ses projets, accueillir des clients et fournisseurs ou encore co-concevoir ses produits ou services.
+        Au milieu d’autres coworkers du numérique, l’entrepreneur dispose d’un
+        environnement propice afin de travailler sur ses projets, accueillir des clients
+        et fournisseurs ou encore co-concevoir ses produits ou services.
       </p>
       <p>
-        L’espace de coworking est une bonne solution pour éviter l’isolement, confronter son idée, être accompagné sur différents aspects : business plan, marketing … et développer son réseau.
+        L’espace de coworking est une bonne solution pour éviter l’isolement,
+        confronter son idée, être accompagné sur différents aspects : business plan,
+        marketing … et développer son réseau.
       </p>
 
     </div>

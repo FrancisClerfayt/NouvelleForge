@@ -2,7 +2,7 @@
 /*configuration*/
 $nom_expediteur ='contact NouvelleForge.com';
 $email_expediteur = 'test.formulaire@laposte.net';
-$destinataire = 'pierrealexrobert21@gmail.com';
+$destinataire = 'vdeljehier@ageval.net';
 
 $copie = 'oui';
 

@@ -14,8 +14,8 @@
   <?php include "inc/nav.php" ?>
 
   <main class="formation">
-    <h2 class="titreAqua">Les Formations.</h2>
     <section>
+      <h2 class="titreAqua">Les Formations.</h2>
       <div class="description">
         <div class="logoFormation">
           <img src="img/BGE-HdF-logo.png" alt="Photo du logo BGE">
@@ -79,13 +79,16 @@
             </li>
           </ol>
           <p>
-            <a href="https://www.bge-hautsdefrance.fr/">Plus d'informations ici</a>
+            <a href="https://www.bge-hautsdefrance.fr/" class="lienFormation">Plus d'informations ici</a>
           </p>
         </div>
       </div>
     </section>
     <section>
       <div class="description">
+        <div class="logoFormation">
+          <img src="img/popschool-logo.png" alt="Logo de POP School">
+        </div>
         <div class="textFormation">
           <h4 class="titreAqua">POP School Valenciennes</h4>
           <p>
@@ -109,11 +112,8 @@
             Elle bénéficie de financements du Fonds social européen dans le cadre du dispositif Initiative pour l’Emploi des Jeunes (IEJ).
           </p>
           <p>
-            <a href="https://popschool.fr/">Plus d'informations ici</a>
+            <a href="https://popschool.fr/" class="lienFormation">Plus d'informations ici</a>
           </p>
-        </div>
-        <div class="logoFormation">
-          <img src="img/popschool-logo.png" alt="Logo de POP School">
         </div>
       </div>
     </section>

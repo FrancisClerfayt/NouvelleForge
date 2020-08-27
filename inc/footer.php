@@ -23,4 +23,5 @@
     </a>
   </div>
 </footer>
+<script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" integrity="sha384-3Nqiqht3ZZEO8FKj7GR1upiI385J92VwWNLj+FqHxtLYxd9l+WYpeqSOrLh0T12c" crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/script.js"></script>

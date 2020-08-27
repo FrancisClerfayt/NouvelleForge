@@ -12,7 +12,7 @@ h3, h4, h5, h6 { font-weight: bold; }
 h1 { font-size: 2rem; }
 h2 { font-size: 1.8rem; }
 h3 { font-size: 1.6rem; }
-h4 { font-size: 1.4rem; }
+h4 { font-size: 1.4rem; padding: 25px;}
 h5 { font-size: 1.2rem; }
 h6 { font-size: 1.1rem; }
 main { padding: 1%; }
@@ -27,6 +27,7 @@ header {
   background-color: #493389;
 }
 header > a {
+  width: 65%;
   max-height: 150px;
   margin: 0;
   padding: 0;
@@ -191,6 +192,15 @@ header > a > img {
   background-color: #493389;
 }
 /* Fin CSS Carousel */
+.descrip{
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+}
+.descrip > p {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
 .descrip > h3 {
   color: #493389;
 }
@@ -201,6 +211,7 @@ header > a > img {
   justify-content: flex-start;
   align-items: center;
   padding: 2% 1%;
+  margin-top: 40px;
 }
 .titreSection {
   width: 100%;
@@ -211,6 +222,7 @@ header > a > img {
   width: 100%;
   display: flex;
   flex-direction: row;
+  margin-top: 30px;
 }
 .article {
   width: 48%;
@@ -218,6 +230,7 @@ header > a > img {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  padding: 5px;
 }
 .titreArticle {
   width: 100%;
@@ -227,14 +240,16 @@ header > a > img {
   width: 100%;
   display: flex;
   flex-direction: row;
+  margin-top: 30px;
 }
 .imageArticle {
   width: 30%;
 }
 .texteArticle {
-  width: 68%;
+  width: 55%;
   margin: 2% 1%;
 }
+.
 /* Fin CSS page d'accueil */
 
 /* Début CSS page ForgeLab */
@@ -244,9 +259,12 @@ header > a > img {
   width: 100%;
 
 }
+
 .titreSable, .lienFablab {
   color: #FFD444;
+  width: 100%;
 }
+
 .description {
   width: 100%;
   display: flex;
@@ -263,17 +281,24 @@ header > a > img {
 }
 .textDesc {
   width: 60%;
-  margin-top: 10%;
+  margin-top: 3%;
 }
 .textDesc > p, .textDesc > dl {
-  width: 80%;
+  width: 66%;
+  margin: auto;
+  margin-top: 50px;
+  font-size: 1.2rem;
   /* margin: 0 10% 0 10%; */
+}
+.textDesc > dl{
+  margin-top: 5px;
 }
 .machines {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  margin-top: 50px;
 }
 .machine {
   width: 100%;
@@ -289,7 +314,7 @@ header > a > img {
 }
 .descMachine {
   width: 55%;
-  margin: 5%;
+  margin: auto;
 }
 .descMachine > h5 {
   margin-bottom: 1%;
@@ -312,8 +337,21 @@ header > a > img {
   width: 100%;
 
 }
+.citation{
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-style: italic;
+  margin-top: 60px;
+}
+
 .moreInfo {
   margin: 0 10%;
+}
+.moreInfo > p{
+  padding: 20px 0;
+  width: 65%;
+  margin: auto;
 }
 /* Fin CSS page de Co-Working */
 
@@ -341,6 +379,22 @@ header > a > img {
   color: #59BBA4;
 
 }
+ol{
+  margin-top: 30px;
+  list-style-position: inside;
+}
+.textFormation > ol > li{
+  margin-bottom: 10px;
+}
+.textFormation> ol > li > u{
+  font-size: 1.3rem;
+}
+.textFormation > dl > dt{
+  margin-top: 15px;
+}
+.textFormation > p {
+  margin-top: 20px;
+}
 /* Fin CSS page de Formations */
 
 /* Début CSS page de la Pépinière*/
@@ -351,6 +405,11 @@ header > a > img {
 }
 .titreRose {
   color: #E72586;
+  width: 100%;
+  margin: auto;
+}
+.gros_titre{
+  text-align: center;
 }
 .element_pepiniere {
   width: 100%;
@@ -619,4 +678,28 @@ footer {
   .maps {
     width: 100%;
   }
-}
+  .descrip{
+    width: 90%;
+  }
+  .desccrip > p{
+    font-size: 1rem;
+  }
+  .textDesc > p{
+    margin-top: 15px;
+    font-size: 1rem;
+  }
+  .descMachine > p{
+    font-size: 1rem;
+  }
+  .moreInfo > p {
+    width: 100%;
+  }
+  .textFormation > p {
+    font-size: 1rem;
+  }
+  .textFormation > dl > dt {
+    font-size: 1rem;
+  }
+  .textFormation > ol > li{
+    font-size: 1rem;
+  }

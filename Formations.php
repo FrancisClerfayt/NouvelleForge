@@ -17,7 +17,7 @@
 
   <main class="formation">
     <section>
-      <h2 class="titreAqua">Les Formations.</h2>
+      <h2 class="titreAqua gros_titre">Les Formations.</h2>
       <div class="description">
         <div class="logoFormation">
           <img src="img/BGE-HdF-logo.png" alt="Photo du logo BGE">

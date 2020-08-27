@@ -50,14 +50,14 @@
           </div>
           <div class="row">
             <label for="user_firstname">Prénom :</label>
-            <input type="text" name="user_firstname" id="user_firstname">
+            <input type="text" class="error" name="user_firstname" id="user_firstname">
           </div>
         </div>
         <div class="flex-form">
           <div class="row">
             <label for="user_email">E-mail :</label>
             <input type="email" name="user_email" id="user_email">
-            <label id="user_email-error" class="error" for="user_email"></label>
+            <label id="user_email-error"  for="user_email"></label>
           </div>
           <div class="row">
             <label for="msg">Message :</label>

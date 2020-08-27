@@ -22,7 +22,7 @@
         </div>
         <div class="textDesc">
           <h2 class="titreRose gros_titre">La Pépinière.</h2>
-          <p>A la fois pépinière et hôtel d’entreprises, Nouvelle Forge accueille les entrepreneurs du numérique dans un espace dédié de 800 m² découpé en 18 bureaux et 3 salles de réunion.</p>
+          <p>A la fois <strong>pépinière et hôtel d’entreprises,</strong> Nouvelle Forge accueille les entrepreneurs du numérique dans un espace dédié de 800 m² découpé en <strong>18 bureaux et 3 salles de réunion.</strong></p>
           <p>Outre l’accompagnement personnalisé apporté aux créateurs et développeurs d’entreprises, Nouvelle Forge propose toute une gamme de services : conciergerie, reprographie, gestion du courrier, accueil des visiteurs, accès à la fibre optique…</p>
         </div>
       </div>

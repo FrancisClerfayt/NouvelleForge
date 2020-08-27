@@ -384,25 +384,39 @@ header > a > img {
 }
 .titreAqua {
   color: #59BBA4;
+  width: 100%;
 }
 .logoFormation {
   width: 20%;
   margin: auto 5%;
 }
 .logoFormation > img {
-  max-height: 180px;
+  /*max-height: 180px;*/
+  width: 100%;
 }
 .textFormation {
   width: 60%;
   margin: auto 7% auto 3%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
 }
 .lienFormation {
   color: #59BBA4;
 
 }
-ol {
+
+.trait_vertical{
+  border: 3px solid #59BBA4;
+  border-radius: 10px;
   margin-top: 30px;
+}
+ol{
+  margin-top: 30px;
+  width: 48%;
+  padding: 0 30px 0 30px;
   list-style-position: inside;
+  list-style: none;
 }
 .textFormation > ol > li {
   margin-bottom: 10px;
@@ -415,6 +429,16 @@ ol {
 }
 .textFormation > p {
   margin-top: 20px;
+}
+.popschool{
+  width: 97%;
+  margin-top: 30px;
+    padding: 0 0 0 30px;
+    list-style: none;
+}
+.popschool > ul > li{
+  list-style: none;
+  padding: 10px 0 10px 2%;
 }
 /* Fin CSS page de Formations */
 
@@ -719,5 +743,8 @@ footer {
   .traitSable {
     width: 80%;
   }
+  ol {
+    width: 97%;
+    padding: 0 0 0 30px;
+  }
 }
-/* Fin Media Queries */

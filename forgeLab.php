@@ -17,12 +17,12 @@
 
   <main class="forgeLab">
     <section>
-      <h2 class="titreSable">Le ForgeLab.</h2>
       <div class="description">
         <div class="imgDesc">
           <img src="img/ForgeLab.jpg" alt="Photo du ForgeLab de la Nouvelle Forge">
         </div>
         <div class="textDesc">
+          <h2 class="titreSable gros_titre">Le ForgeLab.</h2>
           <p>
             L'équipe de la Nouvelle Forge est heureuse de vous voir acceuillir dans son Fablab.
           </p>

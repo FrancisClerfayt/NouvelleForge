@@ -16,12 +16,12 @@
   <?php include "inc/nav.php" ?>
   <main class="pepiniere">
     <section>
-      <h2 class="titreRose">La Pépinière.</h2>
       <div  class="description">
         <div class="imgDesc">
           <img src="img/Locations.jpg" alt="Une des salles de réunion de la Nouvelle Forge" />
         </div>
         <div class="textDesc">
+          <h2 class="titreRose gros_titre">La Pépinière.</h2>
           <p>A la fois pépinière et hôtel d’entreprises, Nouvelle Forge accueille les entrepreneurs du numérique dans un espace dédié de 800 m² découpé en 18 bureaux et 3 salles de réunion.</p>
           <p>Outre l’accompagnement personnalisé apporté aux créateurs et développeurs d’entreprises, Nouvelle Forge propose toute une gamme de services : conciergerie, reprographie, gestion du courrier, accueil des visiteurs, accès à la fibre optique…</p>
         </div>

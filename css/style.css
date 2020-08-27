@@ -716,5 +716,8 @@ footer {
   .textFormation > ol > li{
     font-size: 1rem;
   }
+  .traitSable {
+    width: 80%;
+  }
 }
 /* Fin Media Queries */

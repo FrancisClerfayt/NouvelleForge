@@ -489,7 +489,6 @@ form label, form input, form textarea{
 /* fin CSS infos pratiques */
 
 /* Début CSS footer */
-
 #partenaires {
   width:calc(100%/3);
   text-decoration: none;
@@ -544,7 +543,7 @@ footer {
 }
 /* Fin CSS footer */
 /* début css Modaux*/
-.modal{
+.modal {
   position: fixed;
   display: flex;
   align-items: center;
@@ -555,7 +554,7 @@ footer {
   height: 100%;
   background: rgba(0, 0, 0, 0.8);
 }
-.modal-reservation{
+.modal-reservation {
   overflow: auto;
   width: 600px;
   max-width: calc(100vw - 20px);
@@ -563,7 +562,7 @@ footer {
   padding: 20px;
   background-color: #fff;
 }
-.start{
+.start {
   width: 31%;
   display: block;
   font: 1rem;

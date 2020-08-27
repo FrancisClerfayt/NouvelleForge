@@ -42,11 +42,11 @@
 
     <div id="formulairedecontact" class="container">
       <h3 id="titre">Formulaire de contact</h3>
-      <form class="form" action="traitement_formulaire.php" method="post">
+      <form class="form" id="contactForm"  method="post">
         <div class="flex-form">
           <div class="row">
             <label for="user_name">Nom :</label>
-            <input type="text" name="user_name" id="user_name">
+            <input type="text" class="error"  name="user_name" id="user_name">
           </div>
           <div class="row">
             <label for="user_firstname">Prénom :</label>
@@ -57,6 +57,7 @@
           <div class="row">
             <label for="user_email">E-mail :</label>
             <input type="email" name="user_email" id="user_email">
+            <label id="user_email-error" class="error" for="user_email"></label>
           </div>
           <div class="row">
             <label for="msg">Message :</label>
@@ -65,11 +66,12 @@
         </div>
 
         <button class="btn1" type="submit" name="envoi">Envoyer</button>
-
-
       </form>
     </div>
   </main>
   <?php include "inc/footer.php" ?>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.js" charset="utf-8"></script>
+  <script src="js/controlForm.js" charset="utf-8"></script>
 </body>
 </html>

@@ -1,41 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   display: none;
   padding: 0 20px;
   color: #fff;
 }
+
 .logo {
   line-height: 100px;
   float: left;
   text-transform: uppercase;
 }
+
+
 .menu a {
   text-decoration: none;
 }
+
 .show-menu-btn, .hide-menu-btn {
   transition: 0.4s;
   font-size: 30px;
   cursor: pointer;
   display: none;
 }
+
 .show-menu-btn {
   float: right;
 }
+
 .show-menu-btn i {
   line-height: 100px
 }
+
+
 #chk {
   position: absolute;
   visibility: hidden;
   z-index: 1;
 }
+
 .content {
   padding: 0 20px;
 }
+
 .content img {
   width: 100%;
   max-width: 700px;
   margin: 20px 0;
 }
+
 .content p {
   text-align: justify;
 }
@@ -50,19 +66,20 @@
     display: flex;
     align-items: center;
     width: 35%;
-    justify-content: center;
+justify-content: center;
   }
   .show-menu-btn, .hide-menu-btn {
     display: flex;
     justify-content: center;
   }
+
   .menu {
     position: fixed;
     width: 100%;
     height: 100vh;
     background: #493389;
     right: -100%;
-    top:150px;
+    top: 149px;
     text-align: center;
     padding: 80px 0;
     line-height: normal;
@@ -71,16 +88,39 @@
   .sous-menu{
     display: none;
   }
+
   .menu a {
     display: block;
     padding: 20px;
   }
+
   .hide-menu-btn {
     position: absolute;
     top: 40px;
     right: 40px;
   }
+
   #chk:checked ~ .menu {
     right: 0;
+  }
+}
+@media screen and (max-width: 458px) {
+  .menu {
+    top: 140px;
+  }
+}
+@media screen and (max-width: 428px) {
+  .menu {
+    top: 130px;
+  }
+}
+@media screen and (max-width: 395px) {
+  .menu {
+    top: 120px;
+  }
+}
+@media screen and (max-width: 364px) {
+  .menu {
+    top: 100px;
   }
 }

@@ -26,12 +26,10 @@
     </li>
   </ul>
 
-
-
   <div class="header">
     <input type="checkbox" id="chk">
     <label for="chk" class="show-menu-btn">
-<i class="fa fa-bars"></i>
+      <i class="fa fa-bars"></i>
     </label>
 
     <ul class="menu">
@@ -44,5 +42,7 @@
   </div>
 </header>
 <div id="toTop">
-  <a href="#hautDePage">&#8593;</a>
+  <a href="#hautDePage">
+    <img id="btnHautDePage" src="img/fleche-haut.svg" alt="Flèche pointant vers le haut">
+  </a>
 </div>

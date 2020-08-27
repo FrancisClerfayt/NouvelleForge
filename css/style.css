@@ -9,12 +9,31 @@
 }
 h1, h2 { font-weight: 900; }
 h3, h4, h5, h6 { font-weight: bold; }
-h1 { font-size: 2rem; }
-h2 { font-size: 1.8rem; }
-h3 { font-size: 1.6rem; }
-h4 { font-size: 1.4rem; }
-h5 { font-size: 1.2rem; }
-h6 { font-size: 1.1rem; }
+h1 {
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+h2 {
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+}
+h3 {
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+h4 {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  padding: 25px;
+}
+h5 {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+h6 {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+ }
 main { padding: 1%; }
 
 /* Début CSS Header */
@@ -27,15 +46,17 @@ header {
   background-color: #493389;
 }
 header > a {
+  width: 65%;
   max-height: 150px;
   margin: 0;
   padding: 0;
 }
 header > a > img {
   max-height: 150px;
+  max-width: 100%;
 }
 .sous-menu {
-  width: 35%;
+  width: 50%;
   align-items: center;
   display: flex;
   flex-wrap: wrap;
@@ -66,18 +87,19 @@ header > a > img {
   right: 30px;
 }
 #toTop > a {
-  font-size: 3rem;
   text-decoration: none;
   border: 1px solid #E72586;
   border-radius: 10px;
-  padding: 2px 16px;
   background-color: white;
-  color: #493389;
+  padding: 20px 15px 10px 15px;
+}
+#btnHautDePage {
+  max-height: 26px;
 }
 /* Fin CSS Header */
 
 /* Début CSS NavBar */
-.menu_mobile{
+.menu_mobile {
   display: none;
 }
 .menu {
@@ -116,7 +138,7 @@ header > a > img {
   font-weight: bold !important;
   background-color: #f5f5f5;
 }
-.In{
+.In {
   display: none;
 }
 /* Fin CSS NavBar */
@@ -136,7 +158,7 @@ header > a > img {
   position: relative;
   margin: auto;
 }
-.slider-container > div > img{
+.slider-container > div > img {
   width: 100%;
 }
 /* Boutons suivant et précédant */
@@ -191,6 +213,15 @@ header > a > img {
   background-color: #493389;
 }
 /* Fin CSS Carousel */
+.descrip {
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+}
+.descrip > p {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
 .descrip > h3 {
   color: #493389;
 }
@@ -201,6 +232,7 @@ header > a > img {
   justify-content: flex-start;
   align-items: center;
   padding: 2% 1%;
+  margin-top: 40px;
 }
 .titreSection {
   width: 100%;
@@ -211,6 +243,7 @@ header > a > img {
   width: 100%;
   display: flex;
   flex-direction: row;
+  margin-top: 30px;
 }
 .article {
   width: 48%;
@@ -218,6 +251,7 @@ header > a > img {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  padding: 5px;
 }
 .titreArticle {
   width: 100%;
@@ -227,12 +261,13 @@ header > a > img {
   width: 100%;
   display: flex;
   flex-direction: row;
+  margin-top: 30px;
 }
 .imageArticle {
   width: 30%;
 }
 .texteArticle {
-  width: 68%;
+  width: 55%;
   margin: 2% 1%;
 }
 /* Fin CSS page d'accueil */
@@ -242,15 +277,16 @@ header > a > img {
   background-color: #f5f5f5;
   padding: 1% 5% 2% 5%;
   width: 100%;
-
 }
 .titreSable, .lienFablab {
   color: #FFD444;
+  margin: 1% 0;
 }
 .description {
   width: 100%;
   display: flex;
   flex-direction: row;
+  align-items: stretch;
   flex-wrap: wrap;
   margin: 2% 0;
 }
@@ -263,17 +299,23 @@ header > a > img {
 }
 .textDesc {
   width: 60%;
-  margin-top: 10%;
+  margin-top: 3%;
 }
 .textDesc > p, .textDesc > dl {
-  width: 80%;
-  /* margin: 0 10% 0 10%; */
+  width: 67%;
+  margin: auto;
+  margin-top: 50px;
+  font-size: 1.2rem;
+}
+.textDesc > dl {
+  margin-top: 5px;
 }
 .machines {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  margin-top: 50px;
 }
 .machine {
   width: 100%;
@@ -289,7 +331,7 @@ header > a > img {
 }
 .descMachine {
   width: 55%;
-  margin: 5%;
+  margin: auto;
 }
 .descMachine > h5 {
   margin-bottom: 1%;
@@ -310,10 +352,27 @@ header > a > img {
   background-color: #f5f5f5;
   padding: 1% 5% 2% 5%;
   width: 100%;
-
+}
+.citation {
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-style: italic;
+  margin-top: 60px;
+}
+.traitSable {
+  border-radius: 3px;
+  border: 3px solid #FFD444;
+  width: 50%;
+  margin: 0 auto;
 }
 .moreInfo {
   margin: 0 10%;
+}
+.moreInfo > p{
+  padding: 20px 0;
+  width: 65%;
+  margin: auto;
 }
 /* Fin CSS page de Co-Working */
 
@@ -325,21 +384,61 @@ header > a > img {
 }
 .titreAqua {
   color: #59BBA4;
+  width: 100%;
 }
 .logoFormation {
   width: 20%;
   margin: auto 5%;
 }
 .logoFormation > img {
-  max-height: 180px;
+  /*max-height: 180px;*/
+  width: 100%;
 }
 .textFormation {
   width: 60%;
   margin: auto 7% auto 3%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
 }
 .lienFormation {
   color: #59BBA4;
 
+}
+
+.trait_vertical{
+  border: 3px solid #59BBA4;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+ol{
+  margin-top: 30px;
+  width: 48%;
+  padding: 0 30px 0 30px;
+  list-style-position: inside;
+  list-style: none;
+}
+.textFormation > ol > li {
+  margin-bottom: 10px;
+}
+.textFormation> ol > li > u {
+  font-size: 1.3rem;
+}
+.textFormation > dl > dt {
+  margin-top: 15px;
+}
+.textFormation > p {
+  margin-top: 20px;
+}
+.popschool{
+  width: 97%;
+  margin-top: 30px;
+    padding: 0 0 0 30px;
+    list-style: none;
+}
+.popschool > ul > li{
+  list-style: none;
+  padding: 10px 0 10px 2%;
 }
 /* Fin CSS page de Formations */
 
@@ -351,6 +450,11 @@ header > a > img {
 }
 .titreRose {
   color: #E72586;
+  width: 100%;
+  margin: auto;
+}
+.gros_titre {
+  text-align: center;
 }
 .element_pepiniere {
   width: 100%;
@@ -377,22 +481,18 @@ header > a > img {
   flex-wrap: wrap;
   background-color: #f5f5f5;
   width: 100%;
-
 }
-#contact{
+#contact {
   display: flex;
   width: 100%;
   justify-content: space-around;
   flex-wrap: wrap;
 }
-.maps
-{
+.maps {
   position: relative;
   width: 50%;
 }
-
-.maps iframe
-{
+.maps iframe {
   top: 0;
   left: 0;
   width: 100%;
@@ -417,11 +517,11 @@ header > a > img {
   margin: 0 auto;
   text-align: center;
 }
-.flex-form{
+.flex-form {
   display: flex;
   justify-content: center;
 }
-.row{
+.row {
   margin: 0 25px;
 }
 #user_name, #user_firstname, #user_email, #user_message {
@@ -437,11 +537,9 @@ label {
   display: inline-block;
   width: 90px;
 }
-
-form label, form input, form textarea{
+form label, form input, form textarea {
   margin-top: 3em;
 }
-
 #user_message {
   vertical-align: top;
   height: 12em;
@@ -466,20 +564,19 @@ form label, form input, form textarea{
   align-items: center;
   justify-content: center;
 }
-.btn1{
+.btn1 {
   width: 13em;
   height: 40px;
   background: #ffd444; /* Sable */
   color: #E72586; /* Rose */
-
 }
-.btn2{
+.btn2 {
   width: 13em;
   height: 40px;
   background: #59bba4; /* Aquamarine */
   color: #493389; /* Bleu */
 }
-.btn3{
+.btn3 {
   width: 13em;
   height: 40px;
   background: #E72586; /* Rose */
@@ -517,7 +614,6 @@ footer {
   align-items: center;
 }
 .mailNewsletter {
-  /* width: 300px; */
   padding: 6px 14px;
   border-radius: 5px;
 }
@@ -542,6 +638,7 @@ footer {
   color: #ccc;
 }
 /* Fin CSS footer */
+
 /* début css Modaux*/
 .modal {
   position: fixed;
@@ -568,17 +665,16 @@ footer {
   font: 1rem;
   text-align: inherit;
 }
-/* Pour l'instant */
-.container{
+.container {
   width: 100%;
 }
-.error{
+.error {
   color:red;
-
-     display: table-footer-group;
+  display: table-footer-group;
 }
+/* Fin CSS Modaux */
 
-
+/* Début Media Queries */
 @media screen and (max-width: 768px) {
   #toTop, .sous-menu {
     display: none;
@@ -618,5 +714,37 @@ footer {
   }
   .maps {
     width: 100%;
+  }
+  .descrip{
+    width: 90%;
+  }
+  .desccrip > p{
+    font-size: 1rem;
+  }
+  .textDesc > p{
+    margin-top: 15px;
+    font-size: 1rem;
+  }
+  .descMachine > p{
+    font-size: 1rem;
+  }
+  .moreInfo > p {
+    width: 100%;
+  }
+  .textFormation > p {
+    font-size: 1rem;
+  }
+  .textFormation > dl > dt {
+    font-size: 1rem;
+  }
+  .textFormation > ol > li{
+    font-size: 1rem;
+  }
+  .traitSable {
+    width: 80%;
+  }
+  ol {
+    width: 97%;
+    padding: 0 0 0 30px;
   }
 }

@@ -517,6 +517,16 @@ footer {
   font: 1rem;
   text-align: inherit;
 }
+/* Pour l'instant */
+.container{
+  width: 100%;
+}
+.error{
+  color:red;
+
+     display: table-footer-group;
+}
+
 
 @media screen and (max-width: 640px) {
   #partenaires, .cgu, .newsletter {

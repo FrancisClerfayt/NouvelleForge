@@ -79,7 +79,7 @@ justify-content: center;
     height: 100vh;
     background: #493389;
     right: -100%;
-    top:150px;
+    top: 149px;
     text-align: center;
     padding: 80px 0;
     line-height: normal;
@@ -102,5 +102,25 @@ justify-content: center;
 
   #chk:checked ~ .menu {
     right: 0;
+  }
+}
+@media screen and (max-width: 458px) {
+  .menu {
+    top: 140px;
+  }
+}
+@media screen and (max-width: 428px) {
+  .menu {
+    top: 130px;
+  }
+}
+@media screen and (max-width: 395px) {
+  .menu {
+    top: 120px;
+  }
+}
+@media screen and (max-width: 364px) {
+  .menu {
+    top: 100px;
   }
 }

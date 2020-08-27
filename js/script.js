@@ -30,5 +30,6 @@ function position(page) {
   }
   if(link != -1){
     navLinks[link].className += " navActive";
+    navLinks[link+5].className += " navActive";
   }
 }

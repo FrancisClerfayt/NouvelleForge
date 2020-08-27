@@ -38,25 +38,16 @@
 
       <h3 class="titreSable citation">" Un Lieu idéal pour forger sa Start-Up! "</h3>
       <br>
-      <p>Premier pas pour le travailleur indépendant, l’étudiant, le chercheur, l’artiste ou le porteur de projet, l’espace de coworking de Nouvelle Forge propose bureaux, salles de réunion, outils de design, accès wifi gratuit, connectivité fibre optique…
+      <p>
+        Premier pas pour le travailleur indépendant, l’étudiant, le chercheur, l’artiste ou le porteur de projet, l’espace de coworking de Nouvelle Forge propose bureaux, salles de réunion, outils de design, accès wifi gratuit, connectivité fibre optique…
       </p>
-      <p>Au milieu d’autres coworkers du numérique, l’entrepreneur dispose d’un environnement propice afin de travailler sur ses projets, accueillir des clients et fournisseurs ou encore co-concevoir ses produits ou services.
+      <p>
+        Au milieu d’autres coworkers du numérique, l’entrepreneur dispose d’un environnement propice afin de travailler sur ses projets, accueillir des clients et fournisseurs ou encore co-concevoir ses produits ou services.
       </p>
-      <p>L’espace de coworking est une bonne solution pour éviter l’isolement, confronter son idée, être accompagné sur différents aspects : business plan, marketing … et développer son réseau.
+      <p>
+        L’espace de coworking est une bonne solution pour éviter l’isolement, confronter son idée, être accompagné sur différents aspects : business plan, marketing … et développer son réseau.
       </p>
 
-
-      <!-- <p>
-        - travailler sur ses projets
-        <br>
-        - acueillir des clients et fournisseurs
-        <br>
-        - concevoir ses produits ou services
-        <br>
-        - une bonne solution pour éviter l’isolement, confronter son idée,
-        être accompagné sur différents aspects: business plan, marketing...
-        et développer son réseau!
-      </p> -->
     </div>
   </main>
   <?php include "inc/footer.php" ?>

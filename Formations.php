@@ -7,8 +7,6 @@
   <link rel="icon" type="image/png" href="img/favicon.png" />
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="fonts/fonts.css">
-  <link rel="stylesheet" href="/css/stylehamburger.css">
-
   <title>Nouvelle Forge - Les Formations</title>
 </head>
 <body onload="position('formation');">
@@ -25,8 +23,9 @@
         <div class="textFormation">
           <h4 class="titreAqua">BGE Haut-de-France.</h4>
           <p>
-            Gagnez en autonomie et montez en compétences avec l’offre conseil-formation pour les entrepreneurs proposée par BGE.
-            Quel que soit votre projet et votre profil nous avons la solution adaptée à votre besoin.
+            Gagnez en autonomie et montez en compétences avec l’offre conseil-formation,
+            pour les entrepreneurs, proposée par BGE. Quel que soit votre projet et votre
+            profil nous avons la solution adaptée à votre besoin.
           </p>
           <ol>
             <li>
@@ -52,7 +51,7 @@
             <li>
               <u>Proximité.</u>
               <br>
-              550 lieux d’accueil vous sont proposés pour vous faciliter l’accès à la formation.
+              550 lieux d’accueils, vous sont proposés, pour vous faciliter l’accès à la formation.
             </li>
             <li>
               <u>Compétences reconnues.</u>
@@ -81,7 +80,7 @@
             </li>
           </ol>
           <p>
-            <a href="https://www.bge-hautsdefrance.fr/" class="lienFormation">Plus d'informations ici</a>
+            <a href="https://www.bge-hautsdefrance.fr/" class="btn2">Plus d'informations ici</a>
           </p>
         </div>
       </div>
@@ -94,27 +93,33 @@
         <div class="textFormation">
           <h4 class="titreAqua">POP School Valenciennes</h4>
           <p>
-            Les métiers du numérique sont accessibles à tous. Installée à Nouvelle Forge, l’école PopSCHOOL propose des formations gratuites et sans pré requis de diplôme aux métiers du numérique.
+            Les métiers du numérique sont accessibles à tous. Installée à Nouvelle Forge,
+            l’école POP School propose des formations gratuites et sans pré requis de
+            diplôme aux métiers du numérique.
             Parmi ces formations, on retrouve :
           </p>
           <dl>
             <dt>
-              &ndash; Développeur(se) web et mobile dédiée aux jeunes de 18 à 30 ans, sans emploi et hors formation, et d’une durée de 6 mois,
+              &ndash; Développeur(se) web et mobile dédiée aux jeunes de 18 à 30 ans,
+              sans emploi et hors formation, et d’une durée de 6 mois,
             </dt>
             <dt>
-              &ndash; Développeur(se) JAVA EE réalisée en partenariat fort avec le groupe LYRECO, d’une durée de 7 mois et sans condition d’âge,
+              &ndash; Développeur(se) JAVA EE réalisée en partenariat fort avec le
+              groupe LYRECO, d’une durée de 7 mois et sans condition d’âge,
             </dt>
             <dt>
-              &ndash; Data Security Helper (DSH) élaborée avec des experts et professionnels de la Cyber sécurité, d’une durée de 7 mois,
+              &ndash; Data Security Helper (DSH) élaborée avec des experts et
+              professionnels de la Cyber sécurité, d’une durée de 7 mois,
               pour tous publics et sans condition d’âge.
             </dt>
           </dl>
           <p>
-            POP School est labellisée « Fabrique de la Grande Ecole du Numérique » sur le territoire Hauts-de-France,
-            Elle bénéficie de financements du Fonds social européen dans le cadre du dispositif Initiative pour l’Emploi des Jeunes (IEJ).
+            POP School est labellisée « Fabrique de la Grande Ecole du Numérique » sur
+            le territoire Hauts-de-France, elle bénéficie de financements du Fonds social
+            européen dans le cadre du dispositif Initiative pour l’Emploi des Jeunes (IEJ).
           </p>
           <p>
-            <a href="https://popschool.fr/" class="lienFormation">Plus d'informations ici</a>
+            <a href="https://popschool.fr/" class="btn2">Plus d'informations ici</a>
           </p>
         </div>
       </div>

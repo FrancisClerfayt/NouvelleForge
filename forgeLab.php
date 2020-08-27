@@ -17,14 +17,14 @@
 
   <main class="forgeLab">
     <section>
-      <h2 class="titreSable">Le ForgeLab.</h2>
       <div class="description">
         <div class="imgDesc">
           <img src="img/ForgeLab.jpg" alt="Photo du ForgeLab de la Nouvelle Forge">
         </div>
         <div class="textDesc">
+          <h2 class="titreSable">Le ForgeLab.</h2>
           <p>
-            L'équipe de la Nouvelle Forge est heureuse de vous voir acceuillir dans son Fablab.
+            L'équipe de la Nouvelle Forge est heureuse de vous voir accueillir dans son FabLab.
           </p>
           <p>
             Le "Forge Lab", atelier de fabrication numérique, est notamment équipé de :
@@ -51,7 +51,7 @@
         <div class="descMachine">
           <h5 class="titreSable">Des imprimantes 3D</h5>
           <p>
-            La Zortrax M200 est une imprimante 3D low cost utilisant une technologie FDM,
+            La Zortrax M200 est une imprimante 3D low-cost utilisant une technologie FDM,
             une impression par dépôt de fil avec extrusion thermoplastique.
             C'est une machine idéale pour réaliser rapidement des prototypes 3D avec des
             couleurs différentes.

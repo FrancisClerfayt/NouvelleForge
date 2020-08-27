@@ -16,19 +16,19 @@
   <?php include "inc/nav.php" ?>
   <main class="pepiniere">
     <section>
-      <h2 class="titreRose">La Pépinière.</h2>
       <div  class="description">
         <div class="imgDesc">
           <img src="img/Locations.jpg" alt="Une des salles de réunion de la Nouvelle Forge" />
         </div>
         <div class="textDesc">
+          <h2 class="titreRose">La Pépinière.</h2>
           <p>A la fois pépinière et hôtel d’entreprises, Nouvelle Forge accueille les entrepreneurs du numérique dans un espace dédié de 800 m² découpé en 18 bureaux et 3 salles de réunion.</p>
           <p>Outre l’accompagnement personnalisé apporté aux créateurs et développeurs d’entreprises, Nouvelle Forge propose toute une gamme de services : conciergerie, reprographie, gestion du courrier, accueil des visiteurs, accès à la fibre optique…</p>
         </div>
       </div>
     </section>
     <section>
-      <h3 class="titreRose">Les entreprises de la pépinière.</h3>
+      <h2 class="titreRose">Les entreprises de la pépinière.</h2>
       <div class="element_pepiniere">
         <div class="logo_pepiniere">
           <img src="img/BGE-HdF-logo.png" alt="Logo de BGE" />
@@ -50,9 +50,19 @@
         <div class="desc_pepiniere">
           <h4 class="titreRose">Agence Big Moustache :</h4>
           <p>
-            L'Agence Big Moustache est une agence globale dite 360°, enracinée dans le territoire du Nord et des Hauts de France, tous les jours, nous construisons avec et pour nos clients, des identités visuelles, des sites internet, des applications mobiles, des plans marketing sur mesure et tous les jours nous accompagnons des entreprises, des associations, des start up dans leur transformation digitale et dans leur développement commercial.
+            L'Agence Big Moustache est une agence globale dite 360°, enracinée dans le
+            territoire du Nord et des Hauts-de-France, tous les jours, nous construisons
+            avec et pour nos clients, des identités visuelles, des sites internet, des
+            applications mobiles, des plans marketing sur mesure et tous les jours nous
+            accompagnons des entreprises, des associations, des start-up dans leur
+            transformation digitale et dans leur développement commercial.
             <br>
-            Créée en 2016, l’agence de communication Big Moustache c’est également une expérience opérationnelle confirmé dans la création de chartes graphiques packaging pour des distributeurs de la grande distribution française et internationale. L’agence Big Moustache est composée d’une équipe de techniciens, de créatifs et de consultants expérimentées à l’écoute pour une collaboration inscrite dans le temps et la confiance avec des clients fidèles.
+            Créée en 2016, l’agence de communication Big Moustache c’est également une
+            expérience opérationnelle confirmé dans la création de chartes graphiques
+            packaging pour des distributeurs de la grande distribution française et
+            internationale. L’agence Big Moustache est composée d’une équipe de
+            techniciens, de créatifs et de consultants expérimentées à l’écoute pour une
+            collaboration inscrite dans le temps et la confiance avec des clients fidèles.
           </p>
           <p>
             <a href="https://www.agence-bigmoustache.com/" target="_blank">Plus d'informations ici.</a>
@@ -72,13 +82,13 @@
           <p>
             Mais BTP Consultants, c’est également…
             <br>
-            > Une société en pleine expansion où s’épanouissent plus de 500 collaborateurs
+            > Une société en pleine expansion où s’épanouissent plus de 500 collaborateurs.
             <br>
-            > Une couverture nationale avec 26 agences partout en France
+            > Une couverture nationale avec 26 agences partout en France.
             <br>
-            > Des investissements massifs dans le BIM et la formation des collaborateurs à cette méthode de travail
+            > Des investissements massifs dans le BIM et la formation des collaborateurs à cette méthode de travail.
             <br>
-            > Une équipe dynamique qui innove au quotidien et explore les nouvelles technologies pour mieux penser les bâtiments de demain
+            > Une équipe dynamique qui innove au quotidien et explore les nouvelles technologies pour mieux penser les bâtiments de demain.
           </p>
           <p>
             <a href="https://www.btp-consultants.fr/" target="_blank">Plus d'informations ici.</a>

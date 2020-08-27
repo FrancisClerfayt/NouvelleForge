@@ -64,11 +64,13 @@
       <div class="descrip">
         <h3> Nouvelle forge : </h3>
         <p>
-          Espace dédié à l’emergence et au développement de start-ups numériques,
-          installé aux portes du Parc des Rives Créatives de l’Escaut, Nouvelle Forge propose aux innovateurs,
-          entrepreneurs et coworkers de tous horizons 1300 m2 de bureaux ainsi que tous les services et programmes utiles
-          à la création et au développement de projets numériques innovants. La Nouvelle Forge est un fablab adossé à un espace de coworking,
-          une pépinière d’entreprises, un organisme de formation centré sur les métiers du numérique.
+          Espace dédié à l’émergence et au développement de start-ups numérique,
+          installé aux portes du Parc des Rives Créatives de l’Escaut, Nouvelle Forge
+          propose aux innovateurs, entrepreneurs et co-workers de tous horizons 1300 m2
+          de bureaux ainsi que tous les services et programmes utiles à la création
+          et au développement de projets numériques innovants. La Nouvelle Forge est
+          un FabLab adossé à un espace de co-working, une pépinière d’entreprises,
+          un organisme de formation centré sur les métiers du numérique.
         </p>
       </div>
     </section>

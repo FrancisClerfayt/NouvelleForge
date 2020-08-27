@@ -15,10 +15,8 @@
   <?php include "inc/header.php" ?>
   <?php include "inc/nav.php" ?>
   <main class="InfoPrat">
+
     <!-- Partie maps et infos-->
-    <!-- <div class="maps">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4279.339138672386!2d3.5122859208790516!3d50.37568555896995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2edd9c1442b63%3A0x12d19ed85c800b25!2s80%20Avenue%20Roland%20Moreno%2C%2059410%20Anzin!5e0!3m2!1sfr!2sfr!4v1597737009786!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-    </div> -->
     <div id="contact" class="">
       <div class="maps">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4279.339138672386!2d3.5122859208790516!3d50.37568555896995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2edd9c1442b63%3A0x12d19ed85c800b25!2s80%20Avenue%20Roland%20Moreno%2C%2059410%20Anzin!5e0!3m2!1sfr!2sfr!4v1597737009786!5m2!1sfr!2sfr" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
@@ -65,7 +63,6 @@
         </div>
 
         <button class="btn1" type="submit" name="envoi">Envoyer</button>
-
 
       </form>
     </div>

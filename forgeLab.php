@@ -58,8 +58,8 @@
           </p>
           <div class="liens-machine">
             <a  class="btn1" href="reserver.html"> Réserver </a>
-            <a  class="btn2" href="seformer.html"> Se former </a>
-            <a  class="btn3" href="plusd'informations.html"> Plus d'informations </a>
+            <a  class="btn1" href="seformer.html"> Se former </a>
+            <a  class="btn1" href="plusd'informations.html"> Plus d'informations </a>
           </div>
         </div>
       </div>

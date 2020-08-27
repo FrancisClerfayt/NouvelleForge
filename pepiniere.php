@@ -39,7 +39,7 @@
             BGE Hauts de France est une association de conseillers professionnels à vos côtés pour la création de votre entreprise et son développement. BGE a négocié avec les collectivités une prise en charge d’une grande majorité de ses services pour vous les rendre accessibles. Nos conseillers professionnels vous apportent une expertise neutre car ils ne dépendent d’aucun réseau commercial. BGE Hauts de France intervient dans le cadre de politiques publiques pour vous aider à réussir.
           </p>
           <p>
-            <a href="https://www.bge-hautsdefrance.fr/" target="_blank">Plus d'informations ici.</a>
+            <a href="https://www.bge-hautsdefrance.fr/" target="_blank" class="btn3">Plus d'informations ici.</a>
           </p>
         </div>
       </div>
@@ -65,7 +65,7 @@
             collaboration inscrite dans le temps et la confiance avec des clients fidèles.
           </p>
           <p>
-            <a href="https://www.agence-bigmoustache.com/" target="_blank">Plus d'informations ici.</a>
+            <a href="https://www.agence-bigmoustache.com/" target="_blank" class="btn3">Plus d'informations ici.</a>
           </p>
         </div>
       </div>
@@ -91,7 +91,7 @@
             > Une équipe dynamique qui innove au quotidien et explore les nouvelles technologies pour mieux penser les bâtiments de demain.
           </p>
           <p>
-            <a href="https://www.btp-consultants.fr/" target="_blank">Plus d'informations ici.</a>
+            <a href="https://www.btp-consultants.fr/" target="_blank" class="btn3">Plus d'informations ici.</a>
           </p>
         </div>
       </div>
@@ -113,7 +113,7 @@
             Etre réactif et respecter les délais pour vous proposer des plannings conformes à l’urgence de vos opérations
           </p>
           <p>
-            <a href="https://cifea-mkg.com/" target="_blank">Plus d'informations ici.</a>
+            <a href="https://cifea-mkg.com/" target="_blank" class="btn3">Plus d'informations ici.</a>
           </p>
         </div>
       </div>
@@ -129,7 +129,7 @@
             E-commerce, Web2store, Digital & Interactive Signage, CRM, SEO, E-marketing, E-retail, Marketplace…
           </p>
           <p>
-            <a href="https://www.creo-ignem.fr/" target="_blank">Plus d'informations ici.</a>
+            <a href="https://www.creo-ignem.fr/" target="_blank" class="btn3">Plus d'informations ici.</a>
           </p>
         </div>
       </div>
@@ -145,7 +145,7 @@
             Nous travaillons depuis nos locaux ou nous déplaçons dans votre entreprise, dans toute la région Hauts-de-France ainsi qu’à Paris et en Belgique.
           </p>
           <p>
-            <a href="https://www.hdwebmarketing.fr/">Plus d'informations ici.</a>
+            <a href="https://www.hdwebmarketing.fr/" target="_blank" class="btn3">Plus d'informations ici.</a>
           </p>
         </div>
       </div>
@@ -161,7 +161,7 @@
             Nous sommes une entreprise à taille humaine et nous privilégions la qualité de nos réalisations à la quantité de nos productions. Bref, nous sommes des passionnés.
           </p>
           <p>
-            <a href="http://vsi-innovation.com/">Plus d'informations ici.</a>
+            <a href="http://vsi-innovation.com/" target="_blank" class="btn3">Plus d'informations ici.</a>
           </p>
         </div>
       </div>

@@ -7,6 +7,8 @@
   <link rel="icon" type="image/png" href="img/favicon.png" />
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="fonts/fonts.css">
+  <link rel="stylesheet" href="/css/stylehamburger.css">
+
   <title>Nouvelle Forge - Pépinière</title>
 </head>
 <body onload="position('pepiniere');">

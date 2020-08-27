@@ -6,6 +6,8 @@
   <meta http-equiv="X-VA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="fonts/fonts.css">
+  <link rel="stylesheet" href="/css/stylehamburger.css">
+
   <title>Modal</title>
 </head>
 <body>

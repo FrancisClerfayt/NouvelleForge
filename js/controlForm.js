@@ -56,7 +56,7 @@ $().ready(function() {
 
   jQuery.validator.addMethod("letter", function(value, element) {
     // allow any non-whitespace characters as the host part
-    return this.optional( element ) || /^[A-Za-zÀÁÂÃÄÅàáâãäåÒÓÔÕÖØòóôõöøÈÉÊËèéêëÇçÌÍÎÏìíîïÙÚÛÜùúûüÿÑñ]/$.test( value );
+    return this.optional( element ) || /^[A-Za-zÀÁÂÃÄÅàáâãäåÒÓÔÕÖØòóôõöøÈÉÊËèéêëÇçÌÍÎÏìíîïÙÚÛÜùúûüÿÑñ]+[^0+9]$/.test( value );
   }, 'Veuillez ne pas mettre de nombre.');
 
 });

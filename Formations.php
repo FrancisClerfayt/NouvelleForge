@@ -7,6 +7,8 @@
   <link rel="icon" type="image/png" href="img/favicon.png" />
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="fonts/fonts.css">
+  <link rel="stylesheet" href="/css/stylehamburger.css">
+
   <title>Nouvelle Forge - Les Formations</title>
 </head>
 <body onload="position('formation');">
@@ -22,7 +24,7 @@
         </div>
         <div class="textFormation">
           <h4 class="titreAqua">BGE Haut-de-France.</h4>
-          <p>
+          <p class="">
             Gagnez en autonomie et montez en compétences avec l’offre conseil-formation,
             pour les entrepreneurs, proposée par BGE. Quel que soit votre projet et votre
             profil nous avons la solution adaptée à votre besoin.

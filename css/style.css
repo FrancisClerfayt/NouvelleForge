@@ -33,7 +33,7 @@ h5 {
 h6 {
   font-size: 1.1rem;
   line-height: 1.5rem;
- }
+}
 main { padding: 1%; }
 
 /* Début CSS Header */
@@ -403,9 +403,7 @@ header > a > img {
 }
 .lienFormation {
   color: #59BBA4;
-
 }
-
 .trait_vertical{
   border: 3px solid #59BBA4;
   border-radius: 10px;
@@ -433,8 +431,8 @@ ol{
 .popschool{
   width: 97%;
   margin-top: 30px;
-    padding: 0 0 0 30px;
-    list-style: none;
+  padding: 0 0 0 30px;
+  list-style: none;
 }
 .popschool > ul > li{
   list-style: none;
@@ -555,8 +553,7 @@ form label, form input, form textarea {
 }
 .btn1, .btn2, .btn3 {
   border-radius: 15px;
-  margin: auto;
-  margin-top: 25px;
+  margin: 25px 10px 25px 0;
   border: none;
   text-decoration: none;
   text-align: center;

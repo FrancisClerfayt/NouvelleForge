@@ -74,7 +74,7 @@
         </p>
       </div>
     </section>
-
+    
     <section class="news">
       <h2 class="titreSection">Articles & Actualités</h2>
       <div class="contenuSection">

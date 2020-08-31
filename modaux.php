@@ -26,15 +26,9 @@
           min="12:00" max="18:00" required
           pattern="[0-9]{2}:[0-9]{2}">
           <span class="validity"></span>
-
-
           <input class="btn1" type="submit" value="Envoyer">
-
       </form>
-
-
     </div>
-
   </aside>
 
   <script type="text/javascript" src="js/script.js"></script>

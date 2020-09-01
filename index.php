@@ -12,7 +12,7 @@
   <title>Nouvelle Forge - Accueil</title>
 
 </head>
-<body onload="position('acceuil');">
+<body onload="position('accueil');">
   <?php include "inc/header.php" ?>
   <?php include "inc/nav.php" ?>
   <main class="accueil">
@@ -74,7 +74,7 @@
         </p>
       </div>
     </section>
-    
+
     <section class="news">
       <h2 class="titreSection">Articles & Actualités</h2>
       <div class="contenuSection">

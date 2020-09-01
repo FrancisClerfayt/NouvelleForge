@@ -44,7 +44,11 @@
     </section>
 
     <section class="machines">
-      <h3 class="titreSable"> Nos Machines </h3>
+      <div class="machinesTitre">
+        <div class="traitSable tier"></div>
+        <h3 class="tier"> Nos Machines </h3>
+        <div class="traitSable tier"></div>
+      </div>
       <div id="impr3D" class="machine">
         <div class="imgMachine">
           <img src="img/imprimante-3d.jpg" alt="Photo de l'imprimante 3D Zortrax M200">

@@ -10,26 +10,24 @@ function position(page) {
   let link = -1;
   switch (page) {
     case "accueil":
-    link = -1;
-    break;
-    case "forgelab":
     link = 0;
     break;
-    case "coworking":
+    case "forgelab":
     link = 1;
     break;
-    case "formation":
+    case "coworking":
     link = 2;
     break;
-    case "pepiniere":
+    case "formation":
     link = 3;
     break;
-    case "infosprat":
+    case "pepiniere":
     link = 4;
     break;
+    case "infosprat":
+    link = 5;
+    break;
   }
-  if(link != -1){
-    navLinks[link].className += " navActive";
-    navLinks[link+5].className += " navActive";
-  }
+  navLinks[link].className += " navActive";
+  navLinks[link+6].className += " navActive";
 }

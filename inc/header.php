@@ -33,6 +33,7 @@
     </label>
 
     <ul class="menu">
+      <a class="navLink" href="index.php">Accueil</a>
       <a class="navLink" href="forgeLab.php">ForgeLab</a>
       <a class="navLink" href="coWorking.php">Co-Working</a>
       <a class="navLink" href="formations.php">Nos Formations</a>

@@ -22,7 +22,9 @@
           <img src="img/ForgeLab.jpg" alt="Photo du ForgeLab de la Nouvelle Forge">
         </div>
         <div class="textDesc">
-          <h2 class="titreSable gros_titre">Le ForgeLab.</h2>
+          <div class="traitSable"></div>
+          <h2 class="gros_titre">Le ForgeLab.</h2>
+          <div class="traitSable"></div>
           <p>
             L'équipe de la Nouvelle Forge est heureuse de vous voir accueillir dans son FabLab.
           </p>
@@ -49,20 +51,23 @@
         </div>
         <!-- Description imprimante 3D Zortrax M200 -->
         <div class="descMachine">
-          <h5 class="titreSable">Des imprimantes 3D</h5>
-          <p>
-            La Zortrax M200 est une imprimante 3D low-cost utilisant une technologie FDM,
-            une impression par dépôt de fil avec extrusion thermoplastique.
-            C'est une machine idéale pour réaliser rapidement des prototypes 3D avec des
-            couleurs différentes.
-          </p>
-          <div class="liens-machine">
-            <a  class="btn1" href="reserver.html"> Réserver </a>
-            <a  class="btn1" href="seformer.html"> Se former </a>
-            <a  class="btn1" href="plusd'informations.html"> Plus d'informations </a>
+          <div class="texteInfo">
+            <h5 class="titreSable titreMachine">Des imprimantes 3D</h5>
+            <p>
+              La Zortrax M200 est une imprimante 3D low-cost utilisant une technologie FDM,
+              une impression par dépôt de fil avec extrusion thermoplastique.
+              C'est une machine idéale pour réaliser rapidement des prototypes 3D avec des
+              couleurs différentes.
+            </p>
+            <div class="liens-machine">
+              <a  class="btn1" href="reserver.html"> Réserver </a>
+              <a  class="btn1" href="seformer.html"> Se former </a>
+              <a  class="btn1" href="plusd'informations.html"> Plus d'informations </a>
+            </div>
           </div>
         </div>
       </div>
+      <div class="traitSable"></div>
       <div id="laser" class="machine">
         <div class="imgMachine">
           <img src="img/decoupeuse-laser.jpg" alt="Photo de la graveuse Speedy">
@@ -88,6 +93,8 @@
           </div>
         </div>
       </div>
+      <div class="traitSable"></div>
+
       <div id="vinyle" class="machine">
         <div class="imgMachine">
           <img src="img/decoupeuse-vinyle.jpg" alt="Photo de la découpeuse Vinyle Graphtex CR6000-60">
@@ -112,6 +119,8 @@
           </div>
         </div>
       </div>
+      <div class="traitSable"></div>
+
       <div id="fraiseuse" class="machine">
         <div class="imgMachine">
           <img src="img/fraiseuse-numerique.jpg" alt="Photo de la fraiseuse numérique Shopbot">
@@ -132,6 +141,8 @@
           </div>
         </div>
       </div>
+      <div class="traitSable"></div>
+
       <div id="brodeuse" class="machine">
         <div class="imgMachine">
           <img src="img/brodeuse-numerique.jpg" alt="Photo de la brodeuse numérique">

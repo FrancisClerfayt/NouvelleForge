@@ -21,16 +21,16 @@
           <img src="img/Locations.jpg" alt="Une des salles de réunion de la Nouvelle Forge" />
         </div>
         <div class="textDesc">
-          <div class="TraitViolet"></div>
-          <h2 class="titreRose gros_titre">La Pépinière d'entreprises</h2>
-          <div class="TraitViolet"></div>
+          <div class="TraitRose"></div>
+          <h2 class="gros_titre">La Pépinière d'entreprises</h2>
+          <div class="TraitRose"></div>
           <p>A la fois <strong>pépinière et hôtel d’entreprises,</strong> Nouvelle Forge accueille les entrepreneurs du numérique dans un espace dédié de 800 m² découpé en <strong>18 bureaux et 3 salles de réunion.</strong></p>
           <p>Outre l’accompagnement personnalisé apporté aux créateurs et développeurs d’entreprises, Nouvelle Forge propose toute une gamme de services : conciergerie, reprographie, gestion du courrier, accueil des visiteurs, accès à la fibre optique…</p>
         </div>
       </div>
     </section>
     <section>
-      <h2 class="titreRose">Les entreprises de la pépinière.</h2>
+      <h2 class="">Les entreprises de la pépinière.</h2>
       <div class="element_pepiniere">
         <div class="logo_pepiniere">
           <img src="img/BGE-HdF-logo.png" alt="Logo de BGE" />
@@ -45,6 +45,7 @@
           </p>
         </div>
       </div>
+      <div class="TraitRose"></div>
       <div class="element_pepiniere">
         <div class="logo_pepiniere">
           <img src="img/bigmoustache-logo.png" alt="Logo de Big Moustache" />
@@ -71,6 +72,7 @@
           </p>
         </div>
       </div>
+      <div class="TraitRose"></div>
       <div class="element_pepiniere">
         <div class="logo_pepiniere">
           <img src="img/btp-consultants-logo.png" alt="Logo de BTP Consultants" />
@@ -97,6 +99,7 @@
           </p>
         </div>
       </div>
+      <div class="TraitRose"></div>
       <div class="element_pepiniere">
         <div class="logo_pepiniere">
           <img src="img/cifea-mkg-logo.jpg" alt="Logo de Cifea MKG" />
@@ -119,6 +122,7 @@
           </p>
         </div>
       </div>
+      <div class="TraitRose"></div>
       <div class="element_pepiniere">
         <div class="logo_pepiniere">
           <img src="img/creo-ignem-logo.png" alt="Logo de Creo Ignem" />
@@ -135,6 +139,7 @@
           </p>
         </div>
       </div>
+      <div class="TraitRose"></div>
       <div class="element_pepiniere">
         <div class="logo_pepiniere">
           <img src="img/hd-webmarketing-logo.png" alt="Logo de HD Webmarketing" />
@@ -151,6 +156,7 @@
           </p>
         </div>
       </div>
+      <div class="TraitRose"></div>
       <div class="element_pepiniere">
         <div class="logo_pepiniere">
           <img src="img/VSI-Innovation-logo.png" alt="logo de VSI Innovation" />

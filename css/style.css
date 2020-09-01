@@ -449,7 +449,6 @@ ol{
   width: 100%;
 }
 .titreRose {
-  color: #E72586;
   width: 100%;
   margin: auto;
 }
@@ -472,6 +471,12 @@ ol{
 }
 .desc_pepiniere {
   width: 75%;
+}
+.TraitViolet{
+  border-radius: 3px;
+  border: 2px solid #E72586;
+  width: 50%;
+  margin: 5px auto;
 }
 /* Fin CSS page de la Pépinière */
 

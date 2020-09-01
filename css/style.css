@@ -263,10 +263,10 @@ header > a > img {
   margin-top: 30px;
 }
 .imageArticle {
-  width: 30%;
+  width: 33%;
 }
 .texteArticle {
-  width: 55%;
+  width: 65%;
   margin: 2% 1%;
 }
 /* Fin CSS page d'accueil */
@@ -459,6 +459,30 @@ ol{
   margin: auto;
 }
 .gros_titre {
+  text-align: center;
+}
+.listeAncrePepiniere {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  list-style-type: none;
+  width: 100%;
+}
+.listeAncreItem {
+  width: 75px;
+  height: 75px;
+  margin: 1% 2%;
+  border: 2px solid #E72586;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.logoIcon {
+  height: 60px;
   text-align: center;
 }
 .element_pepiniere {

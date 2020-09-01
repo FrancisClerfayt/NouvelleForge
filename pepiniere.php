@@ -26,12 +26,49 @@
           <div class="TraitRose"></div>
           <p>A la fois <strong>pépinière et hôtel d’entreprises,</strong> Nouvelle Forge accueille les entrepreneurs du numérique dans un espace dédié de 800 m² découpé en <strong>18 bureaux et 3 salles de réunion.</strong></p>
           <p>Outre l’accompagnement personnalisé apporté aux créateurs et développeurs d’entreprises, Nouvelle Forge propose toute une gamme de services : conciergerie, reprographie, gestion du courrier, accueil des visiteurs, accès à la fibre optique…</p>
+          <ul class="listeAncrePepiniere">
+            <li class="listeAncreItem">
+              <a href="#BGE" title="BGE Haut-de-France">
+                <img class="logoIcon" src="img/BGE-HdF-logo.png" alt="mini logo BGE">
+              </a>
+            </li>
+            <li class="listeAncreItem">
+              <a href="#BigMoustache" title="Agence Big Moustache">
+                <img class="logoIcon" src="img/bigmoustache-logo.png" alt="mini logo Big Moustache">
+              </a>
+            </li>
+            <li class="listeAncreItem">
+              <a href="#BTP" title="BTP Consultants">
+                <img class="logoIcon" src="img/btp-consultants-icon.jpg" alt="mini logo BTP consultants">
+              </a>
+            </li>
+            <li class="listeAncreItem">
+              <a href="#Cifea" title="CIFEA MKG">
+                <img class="logoIcon" src="img/cifea-mkg-logo.png" alt="mini logo Cifea mkg">
+              </a>
+            </li>
+            <li class="listeAncreItem">
+              <a href="#CreoIgnem" title="CreoIgnem">
+                <img class="logoIcon" src="img/creo-ignem-icon.jpg" alt="mini logo Creoignem">
+              </a>
+            </li>
+            <li class="listeAncreItem">
+              <a href="#HDWeb" title="HD Webmarketing">
+                <img class="logoIcon" src="img/hd-webmarketing-logo.png" alt="mini logo HD webmarketing">
+              </a>
+            </li>
+            <li class="listeAncreItem">
+              <a href="#VSI" title="VSI Innovation">
+                <img class="logoIcon" src="img/VSI-icon.png" alt="mini logo BGE">
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
     <section>
       <h2 class="">Les entreprises de la pépinière.</h2>
-      <div class="element_pepiniere">
+      <div id="BGE" class="element_pepiniere">
         <div class="logo_pepiniere">
           <img src="img/BGE-HdF-logo.png" alt="Logo de BGE" />
         </div>
@@ -46,7 +83,7 @@
         </div>
       </div>
       <div class="TraitRose"></div>
-      <div class="element_pepiniere">
+      <div id="BigMoustache" class="element_pepiniere">
         <div class="logo_pepiniere">
           <img src="img/bigmoustache-logo.png" alt="Logo de Big Moustache" />
         </div>
@@ -73,7 +110,7 @@
         </div>
       </div>
       <div class="TraitRose"></div>
-      <div class="element_pepiniere">
+      <div id="BTP" class="element_pepiniere">
         <div class="logo_pepiniere">
           <img src="img/btp-consultants-logo.png" alt="Logo de BTP Consultants" />
         </div>
@@ -100,7 +137,7 @@
         </div>
       </div>
       <div class="TraitRose"></div>
-      <div class="element_pepiniere">
+      <div id="Cifea" class="element_pepiniere">
         <div class="logo_pepiniere">
           <img src="img/cifea-mkg-logo.jpg" alt="Logo de Cifea MKG" />
         </div>
@@ -123,7 +160,7 @@
         </div>
       </div>
       <div class="TraitRose"></div>
-      <div class="element_pepiniere">
+      <div id="CreoIgnem" class="element_pepiniere">
         <div class="logo_pepiniere">
           <img src="img/creo-ignem-logo.png" alt="Logo de Creo Ignem" />
         </div>
@@ -140,7 +177,7 @@
         </div>
       </div>
       <div class="TraitRose"></div>
-      <div class="element_pepiniere">
+      <div id="HDWeb" class="element_pepiniere">
         <div class="logo_pepiniere">
           <img src="img/hd-webmarketing-logo.png" alt="Logo de HD Webmarketing" />
         </div>
@@ -157,7 +194,7 @@
         </div>
       </div>
       <div class="TraitRose"></div>
-      <div class="element_pepiniere">
+      <div id="VSI" class="element_pepiniere">
         <div class="logo_pepiniere">
           <img src="img/VSI-Innovation-logo.png" alt="logo de VSI Innovation" />
         </div>

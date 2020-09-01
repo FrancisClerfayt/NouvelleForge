@@ -24,15 +24,15 @@
         <div class="traitSable"></div>
         <p>
           L’équipe de la Nouvelle Forge est heureuse de vous accueillir dans son espace
-          de co-working d’une superficie de 180m2. Sont mis à votre disposition un espace
+          de co-working d’une <strong>superficie de 180m2.</strong> Sont mis à votre disposition <strong>un espace
           de bureaux, un espace détente, une cafétéria ainsi qu’une connexion Wi-Fi très
-          haut débit. Il est possible de souscrire à un forfait mensuel ou acheter un carnet
+          haut débit.</strong> Il est possible de souscrire à un forfait mensuel ou acheter un carnet
           de 10 entrées.
         </p>
         <p>
-          À la carte, sont aussi proposés es tarifs pour aacéder à la reprographie
-          et à la location de salles de réunions. L’espace co-woring est ouvert du lundi au jeudi
-          de 9 heures à 19 heures, et le vendredi de 9 heures à 17 heures.
+          À la carte, sont aussi proposés les tarifs pour accéder à la reprographie
+          et à la location de salles de réunions. L’espace co-working est ouvert du <strong>lundi au jeudi
+          de 9 heures à 19 heures, et le vendredi de 9 heures à 17 heures.</strong>
           Pour plus d’informations, n’hésitez pas à nous contacter.
         </p>
       </div>

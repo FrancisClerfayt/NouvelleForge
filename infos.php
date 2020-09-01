@@ -40,7 +40,7 @@
 
     <div id="formulairedecontact" class="container">
       <h3 id="titre">Formulaire de contact</h3>
-      <form class="form" id="contactForm"  method="post">
+      <form class="form" id="contactForm" action="traitement_formulaire.php"  method="post">
         <div class="flex-form">
           <div class="row">
             <label for="user_name">Nom :</label>

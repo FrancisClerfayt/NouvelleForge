@@ -32,7 +32,7 @@
         <div class="slides fade">
           <img src="img/ForgeLab.jpg" alt="Photo de l'espace de Fabrication Numérique de la Nouvelle-Forge">
           <div class="text">
-            <h3>Un FabLab (Le ForgeLab)</h3>
+            <h3>Un espace de fabrication numérique : Le ForgeLab</h3>
           </div>
         </div>
 

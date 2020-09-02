@@ -63,7 +63,7 @@
           </div>
         </div>
 
-        <button class="btn1" type="submit" name="envoi">Envoyer</button>
+        <button class="Envoi btn3" type="submit" name="envoi">Envoyer</button>
       </form>
     </div>
   </main>

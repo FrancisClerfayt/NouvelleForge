@@ -650,6 +650,9 @@ form label, form input, form textarea {
   background-color: #E72586;
   color: #fff;
 }
+.Envoi{
+  margin: auto;
+}
 /* Fin CSS formulaire */
 /* fin CSS infos pratiques */
 

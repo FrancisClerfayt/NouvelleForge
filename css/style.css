@@ -33,7 +33,7 @@ h5 {
 h6 {
   font-size: 1.1rem;
   line-height: 1.5rem;
- }
+}
 main { padding: 1%; }
 
 /* Début CSS Header */
@@ -302,9 +302,8 @@ header > a > img {
   margin-top: 3%;
 }
 .textDesc > p, .textDesc > dl {
-  width: 67%;
-  margin: auto;
-  margin-top: 50px;
+  width: 100%;
+  margin: 30px;
   font-size: 1.2rem;
 }
 .textDesc > dl {
@@ -363,11 +362,18 @@ header > a > img {
 .traitSable {
   border-radius: 3px;
   border: 3px solid #FFD444;
+  margin: 1% auto;
   width: 50%;
-  margin: 0 auto;
+}
+.traitSableVertical {
+  border-radius: 3px;
+  border: 3px solid #FFD444;
 }
 .moreInfo {
   margin: 0 10%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
 }
 .moreInfo > p{
   padding: 20px 0;
@@ -402,9 +408,7 @@ header > a > img {
 }
 .lienFormation {
   color: #59BBA4;
-
 }
-
 .trait_vertical{
   border: 3px solid #59BBA4;
   border-radius: 10px;
@@ -432,8 +436,8 @@ ol{
 .popschool{
   width: 97%;
   margin-top: 30px;
-    padding: 0 0 0 30px;
-    list-style: none;
+  padding: 0 0 0 30px;
+  list-style: none;
 }
 .popschool > ul > li{
   list-style: none;
@@ -559,8 +563,7 @@ form label, form input, form textarea {
 }
 .btn1, .btn2, .btn3 {
   border-radius: 15px;
-  margin: auto;
-  margin-top: 25px;
+  margin: 25px 10px 25px 0;
   border: none;
   text-decoration: none;
   text-align: center;

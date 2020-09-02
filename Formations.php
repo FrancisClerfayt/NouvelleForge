@@ -17,74 +17,80 @@
 
   <main class="formation">
     <section>
-      <h2 class="titreAqua">Les Formations.</h2>
+      <h2 class="titreAqua gros_titre">Les Formations.</h2>
       <div class="description">
         <div class="logoFormation">
           <img src="img/BGE-HdF-logo.png" alt="Photo du logo BGE">
         </div>
         <div class="textFormation">
           <h4 class="titreAqua">BGE Haut-de-France.</h4>
-          <p class="">
+          <p>
             Gagnez en autonomie et montez en compétences avec l’offre conseil-formation,
             pour les entrepreneurs, proposée par BGE. Quel que soit votre projet et votre
             profil nous avons la solution adaptée à votre besoin.
           </p>
+          <div class="trait_vertical">
+
+          </div>
           <ol>
             <li>
-              <u>Investissement durable.</u>
+              <strong>Investissement durable.</strong>
               <br>
               Acquérir des compétences entrepreneuriales transversales est un facteur clé pour créer une entreprise et réussir.
             </li>
             <li>
-              <u>Qualité & Expertise.</u>
+              <strong>Qualité & Expertise.</strong>
               <br>
               BGE est un organisme de formation spécialisé en création d’entreprise depuis 40 ans.
             </li>
             <li>
-              <u>Expérience.</u>
+              <strong>Expérience.</strong>
               <br>
               Des formateurs spécialisés et rigoureusement sélectionnés
             </li>
             <li>
-              <u>Sur Mesure.</u>
+              <strong>Sur Mesure.</strong>
               <br>
               L’accompagnement et la formation sont personnalisés
             </li>
             <li>
-              <u>Proximité.</u>
+              <strong>Proximité.</strong>
               <br>
               550 lieux d’accueils, vous sont proposés, pour vous faciliter l’accès à la formation.
             </li>
+          </ol>
+          <div class="trait_vertical">
+
+          </div>
+          <ol>
             <li>
-              <u>Compétences reconnues.</u>
+              <strong>Compétences reconnues.</strong>
               <br>
               BGE propose une gamme de certifications couvrant l’ensemble du chemin entrepreneurial.
             </li>
             <li>
-              <u>Accompagnement dans la durée.</u>
+              <strong>Accompagnement dans la durée.</strong>
               <br>
               Les conseillers-formateurs de BGE sont à vos côtés tout au long de votre parcours.
             </li>
             <li>
-              <u>Accès à des réseaux.</u>
+              <strong>Accès à des réseaux.</strong>
               <br>
               BGE vous fait bénéficier de ses réseaux d’entrepreneurs et de partenaires
             </li>
             <li>
-              <u>Finnancement attractif.</u>
+              <strong>Finnancement attractif.</strong>
               <br>
               L’ensemble des prestations de service de BGE est éligible au CPF.
             </li>
             <li>
-              <u>Résultats.</u>
+              <strong>Résultats.</strong>
               <br>
               Être accompagné par un professionnel favorise la pérennité de son entreprise
             </li>
           </ol>
           <p>
-            <a href="https://www.bge-hautsdefrance.fr/" target="_blank" class="btn2">
-              Plus d'informations ici
-            </a>
+            <a href="https://www.bge-hautsdefrance.fr/" class="btn2">Plus d'informations ici</a>
           </p>
         </div>
       </div>
@@ -95,36 +101,39 @@
           <img src="img/popschool-logo.png" alt="Logo de POP School">
         </div>
         <div class="textFormation">
-          <h4 class="titreAqua">POP School Valenciennes</h4>
-          <p>
-            Les métiers du numérique sont accessibles à tous. Installée à Nouvelle Forge,
-            l’école POP School propose des formations gratuites et sans pré requis de
-            diplôme aux métiers du numérique.
-            Parmi ces formations, on retrouve :
-          </p>
-          <dl>
-            <dt>
-              &ndash; Développeur(se) web et mobile dédiée aux jeunes de 18 à 30 ans,
-              sans emploi et hors formation, et d’une durée de 6 mois,
-            </dt>
-            <dt>
-              &ndash; Développeur(se) JAVA EE réalisée en partenariat fort avec le
-              groupe LYRECO, d’une durée de 7 mois et sans condition d’âge,
-            </dt>
-            <dt>
-              &ndash; Data Security Helper (DSH) élaborée avec des experts et
-              professionnels de la Cyber sécurité, d’une durée de 7 mois,
-              pour tous publics et sans condition d’âge.
-            </dt>
-          </dl>
-          <p>
-            POP School est labellisée « Fabrique de la Grande Ecole du Numérique » sur
-            le territoire Hauts-de-France, elle bénéficie de financements du Fonds social
-            européen dans le cadre du dispositif Initiative pour l’Emploi des Jeunes (IEJ).
-          </p>
-          <p>
-            <a href="https://popschool.fr/" target="_blank" class="btn2">Plus d'informations ici</a>
-          </p>
+          <h4 class="titreAqua">POP School : tous développeurs !</h4>
+          <div class="trait_vertical">
+
+          </div>
+          <div class="popschool">
+            <p>
+              Les métiers du numérique sont accessibles à tous. Installée à Nouvelle Forge,
+              l’école POP School propose <strong>des formations gratuites et sans pré requis de
+              diplôme aux métiers du numérique.</strong>
+              Parmi ces formations, on retrouve :
+            </p>
+            <br>
+            <ul>
+              <li>Développeur(se) web et mobile dédiée aux jeunes de 18 à 30 ans,
+                sans emploi et hors formation, et d’une durée de 6 mois.
+              </li>
+              <li>Développeur(se) JAVA EE réalisée en partenariat fort avec le
+                groupe LYRECO, d’une durée de 7 mois et sans condition d’âge.</li>
+              <li>
+                Data Security Helper (DSH) élaborée avec des experts et
+                professionnels de la Cyber sécurité, d’une durée de 7 mois,
+                pour tous publics et sans condition d’âge.
+              </li>
+            </ul>
+            <br>
+            <p>
+              POP School est labellisée « Fabrique de la Grande Ecole du Numérique » sur
+              le territoire Hauts-de-France, elle bénéficie de financements du Fonds social
+              européen dans le cadre du dispositif Initiative pour l’Emploi des Jeunes (IEJ).
+            </p>
+          </div>
+
+          <a href="https://popschool.fr/" class="btn2">Plus d'informations ici</a>
         </div>
       </div>
     </section>

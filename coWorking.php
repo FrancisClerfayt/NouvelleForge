@@ -20,7 +20,7 @@
       </div>
       <div class="textDesc">
         <div class="traitSable"></div>
-        <h2 class="titreSable gros_titre">L'Espace Co-Working / Co-Design</h2>
+        <h2 class="gros_titre">L'Espace Co-Working / Co-Design</h2>
         <div class="traitSable"></div>
         <p>
           L’équipe de la Nouvelle Forge est heureuse de vous accueillir dans son espace
@@ -38,6 +38,8 @@
       </div>
     </div>
     <div class="moreInfo">
+      <div class="traitSableVertical">
+      </div>
       <h3 class="titreSable citation">" Un Lieu idéal pour forger sa Start-Up! "</h3>
       <br>
       <p>
@@ -51,7 +53,6 @@
       <p>
         L’espace de coworking est une bonne solution pour éviter l’isolement, confronter son idée, être accompagné sur différents aspects : business plan, marketing … et <strong>développer son réseau.</strong>
       </p>
-
     </div>
   </main>
   <?php include "inc/footer.php" ?>

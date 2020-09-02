@@ -57,16 +57,16 @@
 }
 
 @media screen and (max-width: 800px) {
-  header{
+  header {
     position: sticky;
     top: 0;
     z-index: 99;
   }
   .header{
+    width: 35%;
     display: flex;
     align-items: center;
-    width: 35%;
-justify-content: center;
+    justify-content: center;
   }
   .show-menu-btn, .hide-menu-btn {
     display: flex;

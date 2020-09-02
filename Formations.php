@@ -29,9 +29,9 @@
             pour les entrepreneurs, proposée par BGE. Quel que soit votre projet et votre
             profil nous avons la solution adaptée à votre besoin.
           </p>
-          <div class="trait_vertical">
 
-          </div>
+          <div class="trait_vertical"></div>
+
           <ol>
             <li>
               <strong>Investissement durable.</strong>
@@ -59,9 +59,9 @@
               550 lieux d’accueils, vous sont proposés, pour vous faciliter l’accès à la formation.
             </li>
           </ol>
-          <div class="trait_vertical">
 
-          </div>
+          <div class="trait_vertical"></div>
+
           <ol>
             <li>
               <strong>Compétences reconnues.</strong>
@@ -95,6 +95,7 @@
         </div>
       </div>
     </section>
+
     <section>
       <div class="description">
         <div class="logoFormation">
@@ -102,9 +103,9 @@
         </div>
         <div class="textFormation">
           <h4 class="titreAqua">POP School : tous développeurs !</h4>
-          <div class="trait_vertical">
 
-          </div>
+          <div class="trait_vertical"></div>
+
           <div class="popschool">
             <p>
               Les métiers du numérique sont accessibles à tous. Installée à Nouvelle Forge,

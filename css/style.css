@@ -273,10 +273,12 @@ header > a > img {
   width: 100%;
   display: flex;
   flex-direction: row;
+  align-items: center;
   margin-top: 30px;
 }
 .imageArticle {
   width: 33%;
+  max-height: 100%;
 }
 .texteArticle {
   width: 65%;
@@ -344,7 +346,6 @@ header > a > img {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-
   width: 100%;
 }
 .tier {
@@ -436,12 +437,12 @@ header > a > img {
 .lienFormation {
   color: #59BBA4;
 }
-.trait_vertical{
+.trait_vertical {
   border: 2px solid #59BBA4;
   border-radius: 10px;
   margin-top: 30px;
 }
-ol{
+ol {
   margin-top: 30px;
   width: 48%;
   padding: 0 30px 0 30px;
@@ -460,13 +461,13 @@ ol{
 .textFormation > p {
   margin-top: 20px;
 }
-.popschool{
+.popschool {
   width: 97%;
   margin-top: 30px;
   padding: 0 0 0 30px;
   list-style: none;
 }
-.popschool > ul > li{
+.popschool > ul > li {
   list-style: none;
   padding: 10px 0 10px 2%;
 }
@@ -527,7 +528,7 @@ ol{
 .desc_pepiniere {
   width: 75%;
 }
-.TraitRose{
+.TraitRose {
   border-radius: 3px;
   border: 2px solid #E72586;
   width: 50%;
@@ -790,7 +791,7 @@ footer {
   .textFormation > ol {
     list-style-position: inside;
   }
-  .textFormation > ol > li{
+  .textFormation > ol > li {
     font-size: 1rem;
   }
   .textFormation > dl > dt {
@@ -806,17 +807,17 @@ footer {
   .maps {
     width: 100%;
   }
-  .descrip{
+  .descrip {
     width: 90%;
   }
-  .desccrip > p{
+  .desccrip > p {
     font-size: 1rem;
   }
-  .textDesc > p{
+  .textDesc > p {
     margin-top: 15px;
     font-size: 1rem;
   }
-  .descMachine > p{
+  .descMachine > p {
     font-size: 1rem;
   }
   .moreInfo {

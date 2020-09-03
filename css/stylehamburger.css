@@ -35,7 +35,6 @@
   line-height: 100px
 }
 
-
 #chk {
   position: absolute;
   visibility: hidden;
@@ -85,7 +84,7 @@
     line-height: normal;
     transition: 0.7s
   }
-  .sous-menu{
+  .sous-menu {
     display: none;
   }
 

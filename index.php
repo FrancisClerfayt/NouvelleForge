@@ -25,7 +25,6 @@
           <img src="img/Espace_Co-working.jpg" alt="Photo de l'espace de co-working de la Nouvelle-Forge">
           <div class="text">
             <h3>Un espace de Co-Working</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
         </div>
 
@@ -33,8 +32,7 @@
         <div class="slides fade">
           <img src="img/ForgeLab.jpg" alt="Photo de l'espace de Fabrication Numérique de la Nouvelle-Forge">
           <div class="text">
-            <h3>Un FabLab (Le ForgeLab)</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>Un espace de fabrication numérique : Le ForgeLab</h3>
           </div>
         </div>
 
@@ -43,7 +41,6 @@
           <img src="img/Locations.jpg" alt="Photo d'une des salle de réunion disponible à la location à la Nouvelle-Forge">
           <div class="text">
             <h3>Des locations de bureaux et/ou de salles de réunion.</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
         </div>
 

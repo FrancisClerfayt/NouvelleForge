@@ -123,7 +123,8 @@ header > a > img {
 .navItem:nth-child(1):hover {
   background-color: #493389;
 }
-.navItem:nth-child(2):hover, .navItem:nth-child(3):hover {
+.navItem:nth-child(2):hover,
+.navItem:nth-child(3):hover {
   background-color: #FFD444;
 }
 .navItem:nth-child(4):hover {
@@ -638,7 +639,7 @@ form label, form input, form textarea {
   color: #000;
 }
 .btn2:hover {
-  background-color: #59bba4;
+  background-color: #59bba4; /* Aquamarine */
 }
 .btn3 {
   width: 13em;
@@ -647,7 +648,7 @@ form label, form input, form textarea {
   color: #000;
 }
 .btn3:hover {
-  background-color: #E72586;
+  background-color: #E72586; /* Rose */
   color: #fff;
 }
 .Envoi{
@@ -750,13 +751,25 @@ footer {
   #toTop, .sous-menu {
     display: none;
   }
+  .navBar {
+    display: none;
+  }
+  .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(73, 51, 137, 1);
+    position: relative;
+    height: 75px;
+  }
   .titreAqua, .titreRose, .titreSable, .titreArticle, .titreSection {
     text-align: center;
   }
   .contenuSection, .flex-form, .contenuArticle, .machine, .liens-machine, .description,
-  .element_pepiniere {
+  .element_pepiniere, .descMachine {
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
   .article, .imageArticle, .texteArticle, .imgDesc,.textDesc, .textDesc > p,
   .textDesc > dl, .imgMachine, .descMachine, #partenaires, .cgu, .newsletter,
@@ -772,9 +785,16 @@ footer {
   }
   .textFormation > p {
     text-align: justify;
+    font-size: 1rem;
   }
   .textFormation > ol {
     list-style-position: inside;
+  }
+  .textFormation > ol > li{
+    font-size: 1rem;
+  }
+  .textFormation > dl > dt {
+    font-size: 1rem;
   }
   .description, .element_pepiniere, section {
     margin-top: 10%;
@@ -799,23 +819,23 @@ footer {
   .descMachine > p{
     font-size: 1rem;
   }
+  .moreInfo {
+    margin: 0 2%;
+  }
   .moreInfo > p {
     width: 100%;
-  }
-  .textFormation > p {
-    font-size: 1rem;
-  }
-  .textFormation > dl > dt {
-    font-size: 1rem;
-  }
-  .textFormation > ol > li{
-    font-size: 1rem;
   }
   .traitSable {
     width: 80%;
   }
+  .trait_vertical {
+    margin-left: 1%;
+  }
   ol {
     width: 97%;
     padding: 0 0 0 30px;
+  }
+  .tier {
+    width: 100%;
   }
 }

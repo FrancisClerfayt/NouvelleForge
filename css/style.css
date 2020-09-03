@@ -712,18 +712,77 @@ footer {
 }
 /* Fin CSS footer */
 
-/* début css Modaux*/
+/* Début CSS des Fenêtres Modales */
+/* The Modal (background) */
 .modal {
-  position: fixed;
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 100; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+}
+/* Modal Content/Box */
+.modal-content {
+  position: relative;
+  background-color: #f5f5f5;
+  margin: 10% auto;
+  padding: 0;
+  border: 1px solid #493389;
+  border-radius: 34px;
+  width: 80%;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+/* Add Animation */
+@keyframes animatetop {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
+}
+/* Modal Header */
+.modal-header {
+  padding: 2px 16px;
+  background-color: #493389;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  color: white;
+}
+/* Modal Body */
+.modal-body {
   display: flex;
   align-items: center;
-  justify-content: center;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.8);
+  padding: 2px 16px;
 }
+/* Modal Footer */
+.modal-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 16px;
+  background-color: #493389;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  color: white;
+}
+/* The Close Button */
+.close {
+  color: red;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
 .modal-reservation {
   overflow: auto;
   width: 600px;

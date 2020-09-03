@@ -14,6 +14,7 @@
 <body onload="position('forgelab');">
   <?php include "inc/header.php" ?>
   <?php include "inc/nav.php" ?>
+  <?php include "inc/modaux.php" ?>
 
   <main class="forgeLab">
     <section>
@@ -66,7 +67,7 @@
             <div class="liens-machine">
               <a  class="btn1" href="reserver.html"> Réserver </a>
               <a  class="btn1" href="seformer.html"> Se former </a>
-              <a  class="btn1" href="plusd'informations.html"> Plus d'informations </a>
+              <button type="button" id="btnInfoImpr3D" class="btn1" data-toggle="modal" data-target="#infoImpr3d">Plus d'informations</button>
             </div>
           </div>
         </div>

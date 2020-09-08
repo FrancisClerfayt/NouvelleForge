@@ -15,22 +15,22 @@
   <?php include "inc/header.php" ?>
   <?php include "inc/nav.php" ?>
 
-  <main class="formation">
+  <main class="training">
     <section>
-      <h2 class="gros_titre">Les Formations.</h2>
+      <h2 class="big-title">Les Formations.</h2>
       <div class="description">
-        <div class="logoFormation">
+        <div class="training-logo">
           <img src="img/BGE-HdF-logo.png" alt="Photo du logo BGE">
         </div>
-        <div class="textFormation">
-          <h4 class="titreAqua">BGE Haut-de-France.</h4>
+        <div class="training-text">
+          <h4 class="aqua-title">BGE Haut-de-France.</h4>
           <p>
             Gagnez en autonomie et montez en compétences avec l’offre conseil-formation,
             pour les entrepreneurs, proposée par BGE. Quel que soit votre projet et votre
             profil nous avons la solution adaptée à votre besoin.
           </p>
 
-          <div class="trait_vertical"></div>
+          <div class="vertical-line"></div>
 
           <ol>
             <li>
@@ -60,7 +60,7 @@
             </li>
           </ol>
 
-          <div class="trait_vertical"></div>
+          <div class="vertical-line"></div>
 
           <ol>
             <li>
@@ -98,13 +98,13 @@
 
     <section>
       <div class="description">
-        <div class="logoFormation">
+        <div class="training-logo">
           <img src="img/popschool-logo.png" alt="Logo de POP School">
         </div>
-        <div class="textFormation">
-          <h4 class="titreAqua">POP School : tous développeurs !</h4>
+        <div class="training-text">
+          <h4 class="aqua-title">POP School : tous développeurs !</h4>
 
-          <div class="trait_vertical"></div>
+          <div class="vertical-line"></div>
 
           <div class="popschool">
             <p>

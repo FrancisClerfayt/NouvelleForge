@@ -54,7 +54,7 @@ header > a > img {
   max-height: 150px;
   max-width: 100%;
 }
-.sous-menu {
+.sub-menu {
   width: 50%;
   align-items: center;
   display: flex;
@@ -62,14 +62,14 @@ header > a > img {
   justify-content: space-around;
   list-style-type: none;
 }
-.sous-menu-item {
+.sub-menu-item {
   margin: 1% 3%;
 }
-.sous-menu-item > a {
+.sub-menu-item > a {
   color: white;
   text-decoration: none;
 }
-.sous-menu-item > a:hover {
+.sub-menu-item > a:hover {
   color: #59BBA4;
 }
 .flag {
@@ -92,13 +92,13 @@ header > a > img {
   background-color: white;
   padding: 20px 15px 10px 15px;
 }
-#btnHautDePage {
+#btn-page-top {
   max-height: 26px;
 }
 /* Fin CSS Header */
 
 /* Début CSS NavBar */
-.menu_mobile {
+.menu-mobile {
   display: none;
 }
 .menu {
@@ -108,35 +108,35 @@ header > a > img {
   top: 0;
   z-index: 10;
 }
-.navBar {
+.navbar {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   list-style-type: none;
   background-color: white;
 }
-.navItem {
+.nav-item {
   height: 48px;
   width: 20%;
   text-align: center;
 }
-.navItem:nth-child(1):hover {
+.nav-item:nth-child(1):hover {
   background-color: #493389;
 }
-.navItem:nth-child(2):hover,
-.navItem:nth-child(3):hover {
+.nav-item:nth-child(2):hover,
+.nav-item:nth-child(3):hover {
   background-color: #FFD444;
 }
-.navItem:nth-child(4):hover {
+.nav-item:nth-child(4):hover {
   background-color: #59BBA4;
 }
-.navItem:nth-child(5):hover {
+.nav-item:nth-child(5):hover {
   background-color: #E72586;
 }
-.navItem:nth-child(6):hover {
+.nav-item:nth-child(6):hover {
   background-color: #493389;
 }
-.navLink {
+.nav-link {
   text-decoration: none;
   color: #000000;
   display: block;
@@ -146,7 +146,7 @@ header > a > img {
   font-size: 1.2rem;
   font-weight: normal;
 }
-.navActive {
+.nav-active {
   font-weight: bold !important;
   background-color: #f5f5f5;
 }
@@ -156,7 +156,7 @@ header > a > img {
 /* Fin CSS NavBar */
 
 /* Début CSS page d'accueil */
-.accueil {
+.home {
   background-color: #f5f5f5;
   width: 100%;
 }
@@ -246,12 +246,12 @@ header > a > img {
   padding: 2% 1%;
   margin-top: 40px;
 }
-.titreSection {
+.section-title {
   width: 100%;
   text-align: center;
   color: #493389;
 }
-.contenuSection {
+.section-content {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -265,22 +265,22 @@ header > a > img {
   justify-content: flex-start;
   padding: 5px;
 }
-.titreArticle {
+.article-title {
   width: 100%;
   color: #493389;
 }
-.contenuArticle {
+.article-content {
   width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-top: 30px;
 }
-.imageArticle {
+.article-picture {
   width: 33%;
   max-height: 100%;
 }
-.texteArticle {
+.article-text {
   width: 65%;
   margin: 2% 1%;
 }
@@ -292,20 +292,15 @@ header > a > img {
   padding: 1% 5% 2% 5%;
   width: 100%;
 }
-.titreSable, .lienFablab {
+.sable-title, .fablab-link {
   color: #FFD444;
   margin: 1% 0;
 }
-.traitSable {
+.sable-line {
   border-radius: 2px;
   border: 2px solid #FFD444;
   margin: 1% auto;
   width: 50%;
-}
-.traitSableVertical {
-  border-radius: 2px;
-  border: 2px solid #FFD444;
-  margin: 1% 1% 1% 3%;
 }
 .description {
   width: 100%;
@@ -315,23 +310,23 @@ header > a > img {
   flex-wrap: wrap;
   margin: 2% 0;
 }
-.imgDesc {
+.description-picture {
   width: 39%;
   margin-right: 1%;
 }
-.imgDesc > img {
+.description-picture > img {
   width: 100%;
 }
-.textDesc {
+.description-text {
   width: 60%;
   margin-top: 3%;
 }
-.textDesc > p, .textDesc > dl {
+.description-text > p, .description-text > dl {
   width: 100%;
   margin: 2%;
   font-size: 1.2rem;
 }
-.textDesc > dl {
+.description-text > dl {
   margin-top: 5px;
 }
 .machines {
@@ -341,14 +336,14 @@ header > a > img {
   align-items: center;
   margin-top: 50px;
 }
-.machinesTitre {
+.machines-title {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   width: 100%;
 }
-.tier {
+.third {
   width: calc(100%/3);
   text-align: center;
   margin: 0;
@@ -359,23 +354,23 @@ header > a > img {
   display: flex;
   flex-direction: row;
 }
-.imgMachine {
+.machine-picture {
   width: 35%;
 }
-.imgMachine > img {
+.machine-picture > img {
   width: 100%;
 }
-.descMachine {
+.machine-description {
   width: 55%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
 }
-.titreMachine {
+.machine-title {
   margin-bottom: 1%;
 }
-.liens-machine {
+.machine-links {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -396,48 +391,53 @@ header > a > img {
   font-style: italic;
   margin-top: 2%;
 }
-.texteInfo {
+.info-text {
   width: 95%;
 }
-.moreInfo {
+.more-info {
   margin: 0 10%;
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
 }
-.moreInfo > div > p {
+.more-info > div > p {
   padding: 20px 1%;
+}
+.vertical-sable-line {
+  border-radius: 2px;
+  border: 2px solid #FFD444;
+  margin: 1% 1% 1% 3%;
 }
 /* Fin CSS page de Co-Working */
 
 /* Début CSS page de Formations */
-.formation {
+.training {
   background-color: #f5f5f5;
   padding: 1% 5% 2% 5%;
   width: 100%;
 }
-.titreAqua {
+.aqua-title {
   width: 100%;
 }
-.logoFormation {
+.training-logo {
   width: 20%;
   margin: auto 5%;
 }
-.logoFormation > img {
+.training-logo > img {
   /*max-height: 180px;*/
   width: 100%;
 }
-.textFormation {
+.training-text {
   width: 60%;
   margin: auto 7% auto 3%;
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
 }
-.lienFormation {
+.training-link {
   color: #59BBA4;
 }
-.trait_vertical {
+.vertical-line {
   border: 2px solid #59BBA4;
   border-radius: 10px;
   margin-top: 30px;
@@ -449,16 +449,16 @@ ol {
   list-style-position: inside;
   list-style: none;
 }
-.textFormation > ol > li {
+.training-text > ol > li {
   margin-bottom: 10px;
 }
-.textFormation> ol > li > u {
+.training-text> ol > li > u {
   font-size: 1.3rem;
 }
-.textFormation > dl > dt {
+.training-text > dl > dt {
   margin-top: 15px;
 }
-.textFormation > p {
+.training-text > p {
   margin-top: 20px;
 }
 .popschool {
@@ -474,20 +474,20 @@ ol {
 /* Fin CSS page de Formations */
 
 /* Début CSS page de la Pépinière*/
-.pepiniere {
+.hive {
   background-color: #f5f5f5;
   padding: 1% 5% 2% 5%;
   width: 100%;
 }
-.titreRose {
+.pink-title {
   width: 100%;
   color: #E72586;
   margin: auto;
 }
-.gros_titre {
+.big-title {
   text-align: center;
 }
-.listeAncrePepiniere {
+.hive-anchor-list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -496,7 +496,7 @@ ol {
   list-style-type: none;
   width: 100%;
 }
-.listeAncreItem {
+.anchor-list-item {
   width: 75px;
   height: 75px;
   margin: 1% 2%;
@@ -507,28 +507,28 @@ ol {
   align-items: center;
   overflow: hidden;
 }
-.logoIcon {
+.logo-icon {
   height: 60px;
   text-align: center;
 }
-.element_pepiniere {
+.hive-item {
   width: 100%;
   display: flex;
   flex-direction: row;
   margin: 5% 0;
 }
-.logo_pepiniere {
+.hive-logo {
   width: 24%;
   margin-right: 1%;
   align-self: center;
 }
-.logo_pepiniere > img {
+.hive-logo > img {
   max-height: 120px;
 }
-.desc_pepiniere {
+.hive-description {
   width: 75%;
 }
-.TraitRose {
+.pink-line {
   border-radius: 3px;
   border: 2px solid #E72586;
   width: 50%;
@@ -561,7 +561,6 @@ ol {
 }
 .infos {
   padding: 50px;
-
 }
 /* début CSS formulaire */
 .container {
@@ -652,7 +651,7 @@ form label, form input, form textarea {
   background-color: #E72586; /* Rose */
   color: #fff;
 }
-.Envoi{
+.send{
   margin: auto;
 }
 /* Fin CSS formulaire */
@@ -781,8 +780,6 @@ footer {
   text-decoration: none;
   cursor: pointer;
 }
-
-
 .modal-reservation {
   overflow: auto;
   width: 600px;
@@ -808,7 +805,7 @@ footer {
 
 /* Début Media Queries */
 @media screen and (max-width: 768px) {
-  #toTop, .sous-menu {
+  #toTop, .sub-menu {
     display: none;
   }
   .navBar {
@@ -822,41 +819,41 @@ footer {
     position: relative;
     height: 75px;
   }
-  .titreAqua, .titreRose, .titreSable, .titreArticle, .titreSection {
+  .aqua-title, .pink-title, .sable-title, .article-title, .section-title {
     text-align: center;
   }
-  .contenuSection, .flex-form, .contenuArticle, .machine, .liens-machine, .description,
-  .element_pepiniere, .descMachine {
+  .section-content, .flex-form, .article-content, .machine, .machine-links, .description,
+  .hive-item, .machine-description {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .article, .imageArticle, .texteArticle, .imgDesc,.textDesc, .textDesc > p,
-  .textDesc > dl, .imgMachine, .descMachine, #partenaires, .cgu, .newsletter,
-  .logoFormation, .textFormation, .logo_pepiniere, .desc_pepiniere, .description,
+  .article, .article-picture, .article-text, .desecription-picture, .description-text, .description-text > p,
+  .description-text > dl, .machine-picture, .machine-description, #partenaires, .cgu, .newsletter,
+  .training-logo, .training-text, .hive-logo, .hive-description, .description,
   section {
     width: 100%;
     margin: 0;
   }
-  .logo_pepiniere, .logoFormation {
+  .hive-logo, .training-logo {
     display: flex;
     flex-direction: row;
     justify-content: center;
   }
-  .textFormation > p {
+  .training-text > p {
     text-align: justify;
     font-size: 1rem;
   }
-  .textFormation > ol {
+  .training-text > ol {
     list-style-position: inside;
   }
-  .textFormation > ol > li {
+  .training-text > ol > li {
     font-size: 1rem;
   }
-  .textFormation > dl > dt {
+  .training-text > dl > dt {
     font-size: 1rem;
   }
-  .description, .element_pepiniere, section {
+  .description, .hive-item, section {
     margin-top: 10%;
     margin-bottom: 5%;
   }
@@ -872,30 +869,30 @@ footer {
   .desccrip > p {
     font-size: 1rem;
   }
-  .textDesc > p {
+  .description-text > p {
     margin-top: 15px;
     font-size: 1rem;
   }
-  .descMachine > p {
+  .machine-description > p {
     font-size: 1rem;
   }
-  .moreInfo {
+  .more-info {
     margin: 0 2%;
   }
-  .moreInfo > p {
+  .more-info > p {
     width: 100%;
   }
-  .traitSable {
+  .sable-line {
     width: 80%;
   }
-  .trait_vertical {
+  .vertical-line {
     margin-left: 1%;
   }
   ol {
     width: 97%;
     padding: 0 0 0 30px;
   }
-  .tier {
+  .third {
     width: 100%;
   }
 }

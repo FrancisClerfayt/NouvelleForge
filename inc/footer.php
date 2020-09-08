@@ -1,6 +1,6 @@
 <footer>
   <div class="newsletter">
-    <div class="">
+    <div>
       <p> Notre Newsletter </p>
       <input type="email" name="mailNewsletter" class="mailNewsletter" placeholder="Votre adresse E-mail ici.">
       <button type="submit" name="buttonNewsletter" class="btn2">S'inscrire</button>

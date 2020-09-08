@@ -15,13 +15,13 @@
   <?php include "inc/nav.php" ?>
   <main class="coworking">
     <div class="description">
-      <div class="imgDesc">
+      <div class="description-picture">
         <img src="img/Espace_Co-working.jpg" alt="Photo de l'espace de co-working de la Nouvelle-Forge">
       </div>
-      <div class="textDesc">
-        <div class="traitSable"></div>
-        <h2 class="gros_titre">L'Espace Co-Working / Co-Design</h2>
-        <div class="traitSable"></div>
+      <div class="description-text">
+        <div class="sable-line"></div>
+        <h2 class="big-title">L'Espace Co-Working / Co-Design</h2>
+        <div class="sable-line"></div>
         <p>
           L’équipe de la Nouvelle Forge est heureuse de vous accueillir dans son espace
           de co-working d’une
@@ -38,11 +38,11 @@
             </p>
           </div>
         </div>
-        <div class="moreInfo">
-          <h3 class="titreSable citation">" Un Lieu idéal pour forger sa Start-Up! "</h3>
+        <div class="more-info">
+          <h3 class="sable-title citation">" Un Lieu idéal pour forger sa Start-Up! "</h3>
           <br>
-          <div class="traitSableVertical"></div>
-          <div class="texteInfo">
+          <div class="vertical-sable-line"></div>
+          <div class="info-text">
             <p>
               Premier pas pour le travailleur indépendant, l’étudiant, le chercheur, l’artiste
               ou le porteur de projet, l’espace de coworking de Nouvelle Forge propose bureaux,

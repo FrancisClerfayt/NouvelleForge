@@ -17,15 +17,20 @@
   <main class="InfoPrat">
 
     <!-- Partie maps et infos-->
-    <div id="contact" class="">
+    <div id="contact">
       <div class="maps">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4279.339138672386!2d3.5122859208790516!3d50.37568555896995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2edd9c1442b63%3A0x12d19ed85c800b25!2s80%20Avenue%20Roland%20Moreno%2C%2059410%20Anzin!5e0!3m2!1sfr!2sfr!4v1597737009786!5m2!1sfr!2sfr" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
       </div>
       <div class="infos">
         <h3>Notre adresse</h3>
-        <p>80 rue Roland Moreno</p>
-        <p>59410 ANZIN</p>
-        <p>Téléphone: 03 62 26 05 60</p>
+        <address>
+          <p>80 rue Roland Moreno</p>
+          <p>59410 ANZIN</p>
+        </address>
+        <p>
+          Téléphone:
+          <a href="tel:+33362260560">03 62 26 05 60</a>
+        </p>
         <br>
         <h3>Accueil</h3>
         <p>Du lundi au Vendredi de 8h30 à 17h</p>
@@ -37,7 +42,6 @@
     </div>
 
     <!-- Partie formulaire de contact-->
-
     <div id="formulairedecontact" class="container">
       <h3 id="titre">Formulaire de contact</h3>
       <form class="form" id="contactForm" action="traitement_formulaire.php"  method="post">
@@ -58,7 +62,7 @@
             <label id="user_email-error"  for="user_email"></label>
           </div>
           <div class="row">
-            <label for="msg">Message :</label>
+            <label for="user_message">Message :</label>
             <textarea id="user_message" name="user_message" rows="8" cols="80"></textarea>
           </div>
         </div>
@@ -69,7 +73,7 @@
   </main>
   <?php include "inc/footer.php" ?>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.js" charset="utf-8"></script>
-  <script src="js/controlForm.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.js"></script>
+  <script src="js/controlForm.js"></script>
 </body>
 </html>

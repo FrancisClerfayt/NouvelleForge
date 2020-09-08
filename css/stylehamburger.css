@@ -2,55 +2,44 @@
   margin: 0;
   padding: 0;
 }
-
 .header {
   display: none;
   padding: 0 20px;
   color: #fff;
 }
-
 .logo {
   line-height: 100px;
   float: left;
   text-transform: uppercase;
 }
-
-
 .menu a {
   text-decoration: none;
 }
-
 .show-menu-btn, .hide-menu-btn {
   transition: 0.4s;
   font-size: 30px;
   cursor: pointer;
   display: none;
 }
-
 .show-menu-btn {
   float: right;
 }
-
 .show-menu-btn i {
   line-height: 100px
 }
-
 #chk {
   position: absolute;
   visibility: hidden;
   z-index: 1;
 }
-
 .content {
   padding: 0 20px;
 }
-
 .content img {
   width: 100%;
   max-width: 700px;
   margin: 20px 0;
 }
-
 .content p {
   text-align: justify;
 }
@@ -71,7 +60,6 @@
     display: flex;
     justify-content: center;
   }
-
   .menu {
     position: fixed;
     width: 100%;
@@ -84,21 +72,18 @@
     line-height: normal;
     transition: 0.7s
   }
-  .sous-menu {
+  .sub-menu {
     display: none;
   }
-
   .menu a {
     display: block;
     padding: 20px;
   }
-
   .hide-menu-btn {
     position: absolute;
     top: 40px;
     right: 40px;
   }
-
   #chk:checked ~ .menu {
     right: 0;
   }

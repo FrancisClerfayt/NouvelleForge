@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-VA-Compatible" content="ie=edge">
   <link rel="icon" type="image/png" href="img/favicon.png" />
-  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="fonts/fonts.css">
   <link rel="stylesheet" href="/css/stylehamburger.css">
+  <link rel="stylesheet" href="css/style.css">
 
   <title>Nouvelle Forge - ForgeLab</title>
 </head>
@@ -19,13 +19,13 @@
   <main class="forgeLab">
     <section>
       <div class="description">
-        <div class="imgDesc">
+        <div class="description-picture">
           <img src="img/ForgeLab.jpg" alt="Photo du ForgeLab de la Nouvelle Forge">
         </div>
-        <div class="textDesc">
-          <div class="traitSable"></div>
-          <h2 class="gros_titre">Le ForgeLab.</h2>
-          <div class="traitSable"></div>
+        <div class="description-text">
+          <div class="sable-line"></div>
+          <h2 class="big-title">Le ForgeLab.</h2>
+          <div class="sable-line"></div>
           <p>
             L'équipe de la Nouvelle Forge est heureuse de vous voir accueillir dans son FabLab.
           </p>
@@ -33,11 +33,11 @@
             Le "Forge Lab", atelier de fabrication numérique, est notamment équipé de :
           </p>
           <dl>
-            <dt>&rarr; plusieurs <a class="lienFablab" href="#impr3D">imprimantes 3D</a>,</dt>
-            <dt>&rarr; d'une <a class="lienFablab" href="#laser">découpeuse laser</a>,</dt>
-            <dt>&rarr; d'une <a class="lienFablab" href="#vinyle">découpeuse vinyle</a>,</dt>
-            <dt>&rarr; d'une <a class="lienFablab" href="#fraiseuse">fraiseuse numérique</a>, </dt>
-            <dt>&rarr; d'une <a class="lienFablab" href="#brodeuse">brodeuse numérique</a>, </dt>
+            <dt>&rarr; plusieurs <a class="fablab-link" href="#impr3D">imprimantes 3D</a>,</dt>
+            <dt>&rarr; d'une <a class="fablab-link" href="#laser">découpeuse laser</a>,</dt>
+            <dt>&rarr; d'une <a class="fablab-link" href="#vinyle">découpeuse vinyle</a>,</dt>
+            <dt>&rarr; d'une <a class="fablab-link" href="#fraiseuse">fraiseuse numérique</a>, </dt>
+            <dt>&rarr; d'une <a class="fablab-link" href="#brodeuse">brodeuse numérique</a>, </dt>
             <dt>&rarr; et de modules Arduino et Raspbery Pi.</dt>
           </dl>
         </div>
@@ -45,41 +45,41 @@
     </section>
 
     <section class="machines">
-      <div class="machinesTitre">
-        <div class="traitSable tier"></div>
-        <h3 class="tier"> Nos Machines </h3>
-        <div class="traitSable tier"></div>
+      <div class="machines-title">
+        <div class="sable-line third"></div>
+        <h3 class="third"> Nos Machines </h3>
+        <div class="sable-line third"></div>
       </div>
       <div id="impr3D" class="machine">
-        <div class="imgMachine">
+        <div class="machine-picture">
           <img src="img/imprimante-3d.jpg" alt="Photo de l'imprimante 3D Zortrax M200">
         </div>
         <!-- Description imprimante 3D Zortrax M200 -->
-        <div class="descMachine">
-          <div class="texteInfo">
-            <h5 class="titreSable titreMachine">Des imprimantes 3D</h5>
+        <div class="machine-description">
+          <div class="info-text">
+            <h4 class="sable-line machine-title">Des imprimantes 3D</h4>
             <p>
               La Zortrax M200 est une imprimante 3D low-cost utilisant une technologie FDM,
               une impression par dépôt de fil avec extrusion thermoplastique.
               C'est une machine idéale pour réaliser rapidement des prototypes 3D avec des
               couleurs différentes.
             </p>
-            <div class="liens-machine">
+            <div class="machine-links">
               <a  class="btn1" href="reserver.html"> Réserver </a>
               <a  class="btn1" href="seformer.html"> Se former </a>
-              <button type="button" id="btnInfoImpr3D" class="btn1" data-toggle="modal" data-target="#infoImpr3d">Plus d'informations</button>
+              <button class="btn1" type="button" id="btnInfoImpr3D" data-toggle="modal" data-target="#infoImpr3d">Plus d'informations</button>
             </div>
           </div>
         </div>
       </div>
-      <div class="traitSable"></div>
+      <div class="sable-line"></div>
       <div id="laser" class="machine">
-        <div class="imgMachine">
+        <div class="machine-picture">
           <img src="img/decoupeuse-laser.jpg" alt="Photo de la graveuse Speedy">
         </div>
         <!-- Description graveuse Speedy -->
-        <div class="descMachine">
-          <h5 class="titreSable">Une découpeuse laser</h5>
+        <div class="machine-description">
+          <h4 class="sable-title">Une découpeuse laser</h4>
           <p>
             La Speedy est la machine de gravure laser idéale,
             soit pour démarrer une activité, ou bien afin d'améliorer et
@@ -91,22 +91,22 @@
             Notre machine de gravure laser Speedy est conçue et
             fabriquée à 100% en Autriche.
           </p>
-          <div class="liens-machine">
+          <div class="machine-links">
             <a  class="btn1" href="reserver.html"> Réserver </a>
             <a  class="btn1" href="seformer.html"> Se former </a>
             <a  class="btn1" href="plusd'informations.html"> Plus d'informations </a>
           </div>
         </div>
       </div>
-      <div class="traitSable"></div>
+      <div class="sable-line"></div>
 
       <div id="vinyle" class="machine">
-        <div class="imgMachine">
+        <div class="machine-picture">
           <img src="img/decoupeuse-vinyle.jpg" alt="Photo de la découpeuse Vinyle Graphtex CR6000-60">
         </div>
         <!-- Description découpeuse Vinyle Graphtex CR6000-60 -->
-        <div class="descMachine">
-          <h5 class="titreSable">Une Découpeuse Vinyle</h5>
+        <div class="machine-description">
+          <h4 class="sable-title">Une Découpeuse Vinyle</h4>
           <p>
             Préparation à l'utilisation de la Graphtec CE6000-60 Informations générales
             Envie de réaliser un tee shirt personnalisé ?
@@ -117,50 +117,50 @@
             Matériaux utilisés:
             Cette machine permet de découper principalement du vinyle,vinyle réfléchissant, flex.
           </p>
-          <div class="liens-machine">
+          <div class="machine-links">
             <a class="btn1" href="reserver.html"> Réserver </a>
             <a class="btn1" href="seformer.html"> Se former </a>
             <a class="btn1" href="plusd'informations.html"> Plus d'informations </a>
           </div>
         </div>
       </div>
-      <div class="traitSable"></div>
+      <div class="sable-line"></div>
 
       <div id="fraiseuse" class="machine">
-        <div class="imgMachine">
+        <div class="machine-picture">
           <img src="img/fraiseuse-numerique.jpg" alt="Photo de la fraiseuse numérique Shopbot">
         </div>
         <!-- Description fraiseuse Shopbot -->
-        <div class="descMachine">
-          <h5 class="titreSable">Une Fraiseuse Numérique</h5>
+        <div class="machine-description">
+          <h4 class="sable-title">Une Fraiseuse Numérique</h4>
           <p>
             La fraiseuse numérique Shopbot desktop Informations générales
             Cette machine est utilisée pour l'usinage de précision.
             Elle permet principalement d'usiner
             Les principaux matériaux usinables comme le bois, plâtre, résine, cire usinable.
           </p>
-          <div class="liens-machine">
+          <div class="machine-links">
             <a class="btn1" href="reserver.html"> Réserver </a>
             <a class="btn1" href="seformer.html"> Se former </a>
             <a class="btn1" href="plusd'informations.html"> Plus d'informations </a>
           </div>
         </div>
       </div>
-      <div class="traitSable"></div>
+      <div class="sable-line"></div>
 
       <div id="brodeuse" class="machine">
-        <div class="imgMachine">
+        <div class="machine-picture">
           <img src="img/brodeuse-numerique.jpg" alt="Photo de la brodeuse numérique">
         </div>
         <!-- Description brodeuse numérique -->
-        <div class="descMachine">
-          <h5 class="titreSable">Une brodeuse numérique</h5>
+        <div class="machine-description">
+          <h4 class="sable-title">Une brodeuse numérique</h4>
           <p>
             Notre brodeuse numérique permet de broder automatiquement jusqu’à 1050 points à la minute.
             Avec les différentes aiguilles de l’appareil, on peut travailler différentes 	matiéres comme
             le tissu, le textile ou le cuir.
           </p>
-          <div class="liens-machine">
+          <div class="machine-links">
             <a class="btn1" href="reserver.html"> Réserver </a>
             <a class="btn1" href="seformer.html"> Se former </a>
             <a class="btn1" href="plusd'informations.html"> Plus d'informations </a>

@@ -5,17 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-VA-Compatible" content="ie=edge">
   <link rel="icon" type="image/png" href="img/favicon.png" />
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="fonts/fonts.css">
-  <link rel="stylesheet" href="/css/stylehamburger.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="fonts/fonts.css">
+  <link rel="stylesheet" href="css/stylehamburger.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Nouvelle Forge - Accueil</title>
 
 </head>
-<body onload="position('accueil');">
+<body onload="position('home');">
   <?php include "inc/header.php" ?>
   <?php include "inc/nav.php" ?>
-  <main class="accueil">
+  <main class="home">
     <section>
       <!-- Contenant du Carousel -->
       <div class="slider-container">
@@ -73,13 +73,13 @@
     </section>
 
     <section class="news">
-      <h2 class="titreSection">Articles & Actualités</h2>
-      <div class="contenuSection">
+      <h2 class="title-section">Articles & Actualités</h2>
+      <div class="content-section">
         <div class="article">
-          <h3 class="titreArticle">Création d'une enseigne pour Le Phare de Onnaing</h3>
-          <div class="contenuArticle">
-            <img class="imageArticle" src="img/imageArticle.jpg" alt="">
-            <p class="texteArticle">
+          <h3 class="article-title">Création d'une enseigne pour Le Phare de Onnaing</h3>
+          <div class="article-content">
+            <img class="article-picture" src="img/imageArticle.jpg" alt="">
+            <p class="article-text">
               C'est en ce moment à Nouvelle Forge : création d'une enseigne pour l'espace socioculturel
               Le Phare de Onnaing ! Découverte de l'impression 3D, découpe et gravure laser,
               dessin et création de fichiers sur logiciel. Un beau projet à découvrir prochainement
@@ -88,10 +88,10 @@
           </div>
         </div>
         <div class="article">
-          <h3 class="titreArticle">Journée super héroïque à Nouvelle Forge</h3>
-          <div class="contenuArticle">
-            <img class="imageArticle" src="img/imageArticle2.jpg" alt="">
-            <p class="texteArticle">
+          <h3 class="article-title">Journée super héroïque à Nouvelle Forge</h3>
+          <div class="article-content">
+            <img class="article-picture" src="img/imageArticle2.jpg" alt="">
+            <p class="article-text">
               Très beau temps d'animation avec les jeunes de la Maison de Quartier du Centre Ville
               de Valenciennes : découpage au laser de badges, portes cléfs et plateau de jeu et
               confections 3D de pions ! A très bientôt !!

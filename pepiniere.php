@@ -11,55 +11,55 @@
 
   <title>Nouvelle Forge - Pépinière</title>
 </head>
-<body onload="position('pepiniere');">
+<body onload="position('hive');">
   <?php include "inc/header.php" ?>
   <?php include "inc/nav.php" ?>
-  <main class="pepiniere">
+  <main class="hive">
     <section>
       <div  class="description">
-        <div class="imgDesc">
+        <div class="description-picture">
           <img src="img/Locations.jpg" alt="Une des salles de réunion de la Nouvelle Forge" />
         </div>
-        <div class="textDesc">
-          <div class="TraitRose"></div>
-          <h2 class="gros_titre">La Pépinière d'entreprises</h2>
-          <div class="TraitRose"></div>
+        <div class="description-text">
+          <div class="pink-line"></div>
+          <h2 class="big-title">La Pépinière d'entreprises</h2>
+          <div class="pink-line"></div>
           <p>A la fois <strong>pépinière et hôtel d’entreprises,</strong> Nouvelle Forge accueille les entrepreneurs du numérique dans un espace dédié de 800 m² découpé en <strong>18 bureaux et 3 salles de réunion.</strong></p>
           <p>Outre l’accompagnement personnalisé apporté aux créateurs et développeurs d’entreprises, Nouvelle Forge propose toute une gamme de services : conciergerie, reprographie, gestion du courrier, accueil des visiteurs, accès à la fibre optique…</p>
-          <ul class="listeAncrePepiniere">
-            <li class="listeAncreItem">
+          <ul class="hive-anchor-list">
+            <li class="anchor-list-item">
               <a href="#BGE" title="BGE Haut-de-France">
-                <img class="logoIcon" src="img/BGE-HdF-logo.png" alt="mini logo BGE">
+                <img class="logo-icon" src="img/BGE-HdF-logo.png" alt="mini logo BGE">
               </a>
             </li>
-            <li class="listeAncreItem">
+            <li class="anchor-list-item">
               <a href="#BigMoustache" title="Agence Big Moustache">
-                <img class="logoIcon" src="img/bigmoustache-logo.png" alt="mini logo Big Moustache">
+                <img class="logo-icon" src="img/bigmoustache-logo.png" alt="mini logo Big Moustache">
               </a>
             </li>
-            <li class="listeAncreItem">
+            <li class="anchor-list-item">
               <a href="#BTP" title="BTP Consultants">
-                <img class="logoIcon" src="img/btp-consultants-icon.jpg" alt="mini logo BTP consultants">
+                <img class="logo-icon" src="img/btp-consultants-icon.jpg" alt="mini logo BTP consultants">
               </a>
             </li>
-            <li class="listeAncreItem">
+            <li class="anchor-list-item">
               <a href="#Cifea" title="CIFEA MKG">
-                <img class="logoIcon" src="img/cifea-mkg-logo.png" alt="mini logo Cifea mkg">
+                <img class="logo-icon" src="img/cifea-mkg-logo.png" alt="mini logo Cifea mkg">
               </a>
             </li>
-            <li class="listeAncreItem">
+            <li class="anchor-list-item">
               <a href="#CreoIgnem" title="CreoIgnem">
                 <img class="logoIcon" src="img/creo-ignem-icon.jpg" alt="mini logo Creoignem">
               </a>
             </li>
-            <li class="listeAncreItem">
+            <li class="anchor-list-item">
               <a href="#HDWeb" title="HD Webmarketing">
-                <img class="logoIcon" src="img/hd-webmarketing-logo.png" alt="mini logo HD webmarketing">
+                <img class="logo-icon" src="img/hd-webmarketing-logo.png" alt="mini logo HD webmarketing">
               </a>
             </li>
-            <li class="listeAncreItem">
+            <li class="anchor-list-item">
               <a href="#VSI" title="VSI Innovation">
-                <img class="logoIcon" src="img/VSI-icon.png" alt="mini logo BGE">
+                <img class="logo-icon" src="img/VSI-icon.png" alt="mini logo BGE">
               </a>
             </li>
           </ul>
@@ -68,12 +68,12 @@
     </section>
     <section>
       <h2 class="">Les entreprises de la pépinière.</h2>
-      <div id="BGE" class="element_pepiniere">
-        <div class="logo_pepiniere">
+      <div id="BGE" class="hive-item">
+        <div class="hive-logo">
           <img src="img/BGE-HdF-logo.png" alt="Logo de BGE" />
         </div>
-        <div class="desc_pepiniere">
-          <h4 class="titreRose">BGE Hauts de France :</h4>
+        <div class="hive-description">
+          <h4 class="pink-title">BGE Hauts de France :</h4>
           <p>
             BGE Hauts de France est une association de conseillers professionnels à vos côtés pour la création de votre entreprise et son développement. BGE a négocié avec les collectivités une prise en charge d’une grande majorité de ses services pour vous les rendre accessibles. Nos conseillers professionnels vous apportent une expertise neutre car ils ne dépendent d’aucun réseau commercial. BGE Hauts de France intervient dans le cadre de politiques publiques pour vous aider à réussir.
           </p>
@@ -82,13 +82,13 @@
           </p>
         </div>
       </div>
-      <div class="TraitRose"></div>
+      <div class="pink-line"></div>
       <div id="BigMoustache" class="element_pepiniere">
-        <div class="logo_pepiniere">
+        <div class="hive-logo">
           <img src="img/bigmoustache-logo.png" alt="Logo de Big Moustache" />
         </div>
-        <div class="desc_pepiniere">
-          <h4 class="titreRose">Agence Big Moustache :</h4>
+        <div class="hive-description">
+          <h4 class="pink-title">Agence Big Moustache :</h4>
           <p>
             L'Agence Big Moustache est une agence globale dite 360°, enracinée dans le
             territoire du Nord et des Hauts-de-France, tous les jours, nous construisons
@@ -109,13 +109,13 @@
           </p>
         </div>
       </div>
-      <div class="TraitRose"></div>
-      <div id="BTP" class="element_pepiniere">
-        <div class="logo_pepiniere">
+      <div class="pink-line"></div>
+      <div id="BTP" class="hive-item">
+        <div class="hive-logo">
           <img src="img/btp-consultants-logo.png" alt="Logo de BTP Consultants" />
         </div>
-        <div class="desc_pepiniere">
-          <h4 class="titreRose">BTP Consultants :</h4>
+        <div class="hive-description">
+          <h4 class="pink-title">BTP Consultants :</h4>
           <p>
             BTP Consultant c’est le référent technique au service du bien vivre dans les bâtiments.
           </p>
@@ -136,13 +136,13 @@
           </p>
         </div>
       </div>
-      <div class="TraitRose"></div>
-      <div id="Cifea" class="element_pepiniere">
-        <div class="logo_pepiniere">
+      <div class="pink-line"></div>
+      <div id="Cifea" class="hive-item">
+        <div class="hive-logo">
           <img src="img/cifea-mkg-logo.jpg" alt="Logo de Cifea MKG" />
         </div>
-        <div class="desc_pepiniere">
-          <h4 class="titreRose">CIFEA MKG :</h4>
+        <div class="hive-description">
+          <h4 class="pink-title">CIFEA MKG :</h4>
           <p>
             Garantir la confidentialité et la sécurité de vos données
             <br>
@@ -159,13 +159,13 @@
           </p>
         </div>
       </div>
-      <div class="TraitRose"></div>
-      <div id="CreoIgnem" class="element_pepiniere">
-        <div class="logo_pepiniere">
+      <div class="pink-line"></div>
+      <div id="CreoIgnem" class="hive-item">
+        <div class="hive-logo">
           <img src="img/creo-ignem-logo.png" alt="Logo de Creo Ignem" />
         </div>
-        <div class="desc_pepiniere">
-          <h4 class="titreRose">Creo Ignem :</h4>
+        <div class="hive-description">
+          <h4 class="pink-title">Creo Ignem :</h4>
           <p>
             Depuis 2004, notre équipe accompagne nos clients dans leur révolution numérique.
             <br>
@@ -176,13 +176,13 @@
           </p>
         </div>
       </div>
-      <div class="TraitRose"></div>
-      <div id="HDWeb" class="element_pepiniere">
-        <div class="logo_pepiniere">
+      <div class="pink-line"></div>
+      <div id="HDWeb" class="hive-item">
+        <div class="hive-logo">
           <img src="img/hd-webmarketing-logo.png" alt="Logo de HD Webmarketing" />
         </div>
-        <div class="desc_pepiniere">
-          <h4 class="titreRose">HD Webmarketing :</h4>
+        <div class="hive-description">
+          <h4 class="pink-title">HD Webmarketing :</h4>
           <p>
             HD Webmarketing est une agence e-commerce basée dans le Nord, à Anzin (à cinq minutes de Valenciennes, moins d’une demi-heure de Lille et Maubeuge).
             <br>
@@ -193,13 +193,13 @@
           </p>
         </div>
       </div>
-      <div class="TraitRose"></div>
+      <div class="pink-line"></div>
       <div id="VSI" class="element_pepiniere">
-        <div class="logo_pepiniere">
+        <div class="hive-logo">
           <img src="img/VSI-Innovation-logo.png" alt="logo de VSI Innovation" />
         </div>
-        <div class="desc_pepiniere">
-          <h4 class="titreRose">VSI Innovation:</h4>
+        <div class="hive-description">
+          <h4 class="pink-title">VSI Innovation:</h4>
           <p>
             Se réinventer tous les jours, bousculer les codes, relever des défis, tel est notre quotidien. Nous sommes spécialisés dans la création et le développement de solutions web innovantes, aussi bien sur l'aspect marketing que sur l'enjeu technologique. Du site sur-mesure au service en ligne, de la vente en ligne au référencement, du design à l'analyse de données bigData, nous considérons chaque nouvelle mission comme une opportunité de réinventer l'existant.
             <br>

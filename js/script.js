@@ -1,15 +1,15 @@
 function position(page) {
-  let navLinks = document.getElementsByClassName("navLink");
+  let navLinks = document.getElementsByClassName("nav-link");
   for (var i = 0; i < navLinks.length; i++) {
     navLinks[i].addEventListener("click", function(e){
       for (var i = 0; i < navLinks.length; i++) {
-        navLinks[i].className.replace(" navActive", "");
+        navLinks[i].className.replace(" nav-active", "");
       }
     });
   }
   let link = -1;
   switch (page) {
-    case "accueil":
+    case "home":
     link = 0;
     break;
     case "forgelab":
@@ -18,18 +18,18 @@ function position(page) {
     case "coworking":
     link = 2;
     break;
-    case "formation":
+    case "training":
     link = 3;
     break;
-    case "pepiniere":
+    case "hive":
     link = 4;
     break;
     case "infosprat":
     link = 5;
     break;
   }
-  navLinks[link].className += " navActive";
-  navLinks[link+6].className += " navActive";
+  navLinks[link].className += " nav-active";
+  navLinks[link+6].className += " nav-active";
 }
 
 // Get the modal

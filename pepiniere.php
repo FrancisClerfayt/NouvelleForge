@@ -49,7 +49,7 @@
             </li>
             <li class="anchor-list-item">
               <a href="#CreoIgnem" title="CreoIgnem">
-                <img class="logoIcon" src="img/creo-ignem-icon.jpg" alt="mini logo Creoignem">
+                <img class="logo-icon" src="img/creo-ignem-icon.jpg" alt="mini logo Creoignem">
               </a>
             </li>
             <li class="anchor-list-item">
@@ -83,7 +83,7 @@
         </div>
       </div>
       <div class="pink-line"></div>
-      <div id="BigMoustache" class="element_pepiniere">
+      <div id="BigMoustache" class="hive-item">
         <div class="hive-logo">
           <img src="img/bigmoustache-logo.png" alt="Logo de Big Moustache" />
         </div>
@@ -194,7 +194,7 @@
         </div>
       </div>
       <div class="pink-line"></div>
-      <div id="VSI" class="element_pepiniere">
+      <div id="VSI" class="hive-item">
         <div class="hive-logo">
           <img src="img/VSI-Innovation-logo.png" alt="logo de VSI Innovation" />
         </div>

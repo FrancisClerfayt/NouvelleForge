@@ -45,7 +45,7 @@
         </div>
 
         <!-- Bouton slide précédant -->
-        <a class="prev" id="prev"><</a> 
+        <a class="prev" id="prev"><</a>
         <!-- Bouton slide suivant -->
         <a class="next" id="next">></a>
 
@@ -73,8 +73,8 @@
     </section>
 
     <section class="news">
-      <h2 class="title-section">Articles & Actualités</h2>
-      <div class="content-section">
+      <h2 class="section-title">Articles & Actualités</h2>
+      <div class="section-content">
         <article>
           <h3 class="article-title">Création d'une enseigne pour Le Phare de Onnaing</h3>
           <div class="article-content">

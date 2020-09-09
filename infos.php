@@ -67,7 +67,7 @@
           </div>
         </div>
 
-        <button class="Envoi btn3" type="submit" name="envoi">Envoyer</button>
+        <button class="send btn3" type="submit" name="send">Envoyer</button>
       </form>
     </div>
   </main>

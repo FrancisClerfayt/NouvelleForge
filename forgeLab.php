@@ -57,7 +57,7 @@
         <!-- Description imprimante 3D Zortrax M200 -->
         <div class="machine-description">
           <div class="info-text">
-            <h4 class="sable-line machine-title">Des imprimantes 3D</h4>
+            <h4 class="sable-title machine-title">Des imprimantes 3D</h4>
             <p>
               La Zortrax M200 est une imprimante 3D low-cost utilisant une technologie FDM,
               une impression par dépôt de fil avec extrusion thermoplastique.

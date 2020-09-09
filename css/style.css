@@ -257,7 +257,7 @@ header > a > img {
   flex-direction: row;
   margin-top: 30px;
 }
-.article {
+article {
   width: 48%;
   margin: 2% 1%;
   display: flex;
@@ -828,7 +828,7 @@ footer {
     justify-content: center;
     align-items: center;
   }
-  .article, .article-picture, .article-text, .desecription-picture, .description-text, .description-text > p,
+  article, .article-picture, .article-text, .desecription-picture, .description-text, .description-text > p,
   .description-text > dl, .machine-picture, .machine-description, #partenaires, .cgu, .newsletter,
   .training-logo, .training-text, .hive-logo, .hive-description, .description,
   section {

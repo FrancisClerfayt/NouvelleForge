@@ -45,9 +45,9 @@
         </div>
 
         <!-- Bouton slide précédant -->
-        <a class="prev" onclick="plusSlide(-1)">&#10094;</a>
+        <a class="prev" id="prev"><</a> 
         <!-- Bouton slide suivant -->
-        <a class="next" onclick="plusSlide(1)">&#10095;</a>
+        <a class="next" id="next">></a>
 
       </div>
       <br>
@@ -75,7 +75,7 @@
     <section class="news">
       <h2 class="title-section">Articles & Actualités</h2>
       <div class="content-section">
-        <div class="article">
+        <article>
           <h3 class="article-title">Création d'une enseigne pour Le Phare de Onnaing</h3>
           <div class="article-content">
             <img class="article-picture" src="img/imageArticle.jpg" alt="">
@@ -86,8 +86,8 @@
               sur la façade du Phare !
             </p>
           </div>
-        </div>
-        <div class="article">
+        </article>
+        <article>
           <h3 class="article-title">Journée super héroïque à Nouvelle Forge</h3>
           <div class="article-content">
             <img class="article-picture" src="img/imageArticle2.jpg" alt="">
@@ -97,7 +97,7 @@
               confections 3D de pions ! A très bientôt !!
             </p>
           </div>
-        </div>
+        </article>
       </div>
     </section>
   </main>

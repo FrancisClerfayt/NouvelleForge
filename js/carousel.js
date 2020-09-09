@@ -80,4 +80,9 @@ function showSlides(n) {
   // on donne la classe "active" à l'indicateur correspondant.
   dots[slideIndex-1].className += " active";
 }
+
+let prev = document.getElementById("prev");
+prev.addEventListener("click", plusSlide(-1));
+let next = document.getElementById("next");
+next.addEventListener("click", plusSlide(1));
 // Fin Carousel page d'accueil
